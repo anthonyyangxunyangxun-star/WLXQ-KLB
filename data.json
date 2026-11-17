@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "revision": "2026-11-17-v5.3",
+  "revision": "2026-11-17-v5.6",
   "meta": {
     "title": "蔚蓝星球知识库",
     "updatedAt": "2026-11-16",
@@ -78,7 +78,7 @@
       "id": "recruit",
       "name": "招募冲刺",
       "category": "sprint",
-      "intro": "每三周轮到一次的七天冲刺。通过对应材料的消耗完成轮次目标，另有排行榜结算。",
+      "intro": "消耗招募券完成招募目标。第5期起奖励改为至尊元神，合区前后的轮数与奖单分开查看。",
       "resource": "招募券",
       "steps": [
         "在活动中招募英雄，累计招募次数。",
@@ -87,40 +87,664 @@
       ],
       "rewards": [
         {
-          "title": "末轮完成奖",
-          "text": "早期第 4 轮为 30 红色英雄碎片，前四轮合计 70。后续期与跨服阶段待本区奖单确认。"
+          "title": "轮次完成奖",
+          "text": "按当前期次查看四轮或五轮参考奖单；合区后的本区轮数：暂未获取到明细信息。"
         },
         {
           "title": "排名奖励",
-          "text": "与轮次完成奖分开结算；通常包含碎片、宝锤、星珀。"
+          "text": "排名奖励按排行榜单独结算，具体名次奖品与数量：暂未获取到明细信息。"
         }
       ],
       "refs": [
         "sprint",
         "early",
         "cross",
-        "sprint-oct"
+        "sprint-oct",
+        "sprint-day92",
+        "sprint-five-overview",
+        "sprint-nov7-gate",
+        "sprint-oct29-costs",
+        "sprint-recruit-five",
+        "rank-recruit-early",
+        "rank-recruit-totem-late"
       ],
-      "notes": [
-        "招募→图腾→晶矿，每期 7 天。首轮晶矿使用连续周期的 D22 方案；另有旧攻略记为 D21。",
-        "满 92 天后的跨服分组、奖励升级以本区活动入口为准。"
-      ],
+      "notes": [],
       "videos": [
         {
           "sourceId": "sprint-oct",
-          "title": "招募冲刺：轮数奖励领取技巧"
+          "title": "招募冲刺 · 奖励领取技巧"
+        },
+        {
+          "sourceId": "sprint-day92",
+          "title": "第5期 · 元神四轮奖励",
+          "meta": "2026-02-20"
+        },
+        {
+          "sourceId": "sprint-five-overview",
+          "title": "新版五轮 · 首轮奖励",
+          "meta": "2026-09-02"
+        },
+        {
+          "sourceId": "sprint-nov7-gate",
+          "title": "三类冲刺 · 第五轮开启日参考",
+          "meta": "2026-11-07"
+        },
+        {
+          "sourceId": "sprint-oct29-costs",
+          "title": "三类冲刺 · 五轮资源门槛",
+          "meta": "2026-10-29"
+        },
+        {
+          "sourceId": "sprint-recruit-five",
+          "title": "招募五轮 · 奖励与资源规划",
+          "meta": "2026-09-03"
+        },
+        {
+          "sourceId": "rank-recruit-early",
+          "title": "招募冲刺 · 红色碎片排名奖励",
+          "meta": "2026-06-07",
+          "rankingPeriods": [
+            "first-four"
+          ]
+        },
+        {
+          "sourceId": "rank-recruit-totem-late",
+          "title": "招募与图腾冲刺 · 后期排名奖励",
+          "meta": "2026-10-15",
+          "rankingPeriods": [
+            "fifth-plus"
+          ]
         }
       ],
       "knowledgeTags": [
         "hero",
-        "resource"
-      ]
+        "resource",
+        "collectible"
+      ],
+      "sprintDetail": {
+        "version": 1,
+        "counting": "same-activity",
+        "changePeriod": 5,
+        "mergeTransitionPeriods": [
+          8,
+          9
+        ],
+        "localFiveRoundPeriod": null,
+        "costName": "招募次数",
+        "costUnit": "次",
+        "earlyProfile": "early-four",
+        "changedProfile": "soul-four",
+        "mergedProfile": "merged-five",
+        "fiveRoundReferenceDay": 155,
+        "fiveRoundDateRefs": [
+          "sprint-nov7-gate"
+        ],
+        "changeNote": "第5期起，红色英雄碎片奖励变为至尊英雄元神；元神四轮与五轮奖单分别列出。",
+        "profiles": [
+          {
+            "id": "early-four",
+            "title": "第1—4期 · 红色碎片四轮参考",
+            "roundCount": 4,
+            "version": "2026-01-03",
+            "rounds": [
+              {
+                "round": 1,
+                "cost": null,
+                "items": [
+                  {
+                    "name": "红色英雄碎片",
+                    "quantity": 10
+                  }
+                ],
+                "refs": [
+                  "early"
+                ],
+                "media": [],
+                "missing": "其他完成奖及本轮消耗：暂未获取到明细信息。"
+              },
+              {
+                "round": 2,
+                "cost": null,
+                "items": [
+                  {
+                    "name": "红色英雄碎片",
+                    "quantity": 10
+                  }
+                ],
+                "refs": [
+                  "early"
+                ],
+                "media": [],
+                "missing": "其他完成奖及本轮消耗：暂未获取到明细信息。"
+              },
+              {
+                "round": 3,
+                "cost": null,
+                "items": [
+                  {
+                    "name": "红色英雄碎片",
+                    "quantity": 20
+                  }
+                ],
+                "refs": [
+                  "early"
+                ],
+                "media": [],
+                "missing": "其他完成奖及本轮消耗：暂未获取到明细信息。"
+              },
+              {
+                "round": 4,
+                "cost": null,
+                "items": [
+                  {
+                    "name": "红色英雄碎片",
+                    "quantity": 30
+                  }
+                ],
+                "refs": [
+                  "early"
+                ],
+                "media": [],
+                "missing": "其他完成奖及本轮消耗：暂未获取到明细信息。"
+              }
+            ],
+            "note": "四轮红色英雄碎片合计70个；属于早期奖单。",
+            "refs": [
+              "early"
+            ]
+          },
+          {
+            "id": "soul-four",
+            "title": "第5期起 · 元神四轮参考",
+            "roundCount": 4,
+            "version": "2026-02-20",
+            "rounds": [
+              {
+                "round": 1,
+                "cost": null,
+                "items": [
+                  {
+                    "name": "钻石",
+                    "quantity": 100
+                  },
+                  {
+                    "name": "随机至尊英雄元神",
+                    "quantity": 3
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 300
+                  }
+                ],
+                "refs": [
+                  "sprint-day92"
+                ],
+                "media": [
+                  "sprint-day92-r1"
+                ],
+                "missing": "本轮消耗：暂未获取到明细信息。"
+              },
+              {
+                "round": 2,
+                "cost": null,
+                "items": [],
+                "refs": [],
+                "media": [],
+                "missing": "本轮奖品、数量及消耗：暂未获取到明细信息。"
+              },
+              {
+                "round": 3,
+                "cost": null,
+                "items": [],
+                "refs": [],
+                "media": [],
+                "missing": "本轮奖品、数量及消耗：暂未获取到明细信息。"
+              },
+              {
+                "round": 4,
+                "cost": null,
+                "items": [],
+                "refs": [],
+                "media": [],
+                "missing": "本轮奖品、数量及消耗：暂未获取到明细信息。"
+              }
+            ],
+            "note": "第92天的招募冲刺为四轮，完成奖由红色英雄碎片改为至尊元神。",
+            "refs": [
+              "sprint-day92"
+            ]
+          },
+          {
+            "id": "merged-five",
+            "title": "合区后 · 招募五轮参考",
+            "roundCount": 5,
+            "version": "2026-09-02 / 2026-09-03",
+            "rounds": [
+              {
+                "round": 1,
+                "cost": 400,
+                "items": [
+                  {
+                    "name": "钻石",
+                    "quantity": 100
+                  },
+                  {
+                    "name": "随机至尊英雄元神",
+                    "quantity": 2
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 300
+                  }
+                ],
+                "refs": [
+                  "sprint-five-overview",
+                  "sprint-recruit-five"
+                ],
+                "media": [
+                  "sprint-recruit-five-r1"
+                ],
+                "taskReturns": [
+                  {
+                    "name": "招募券",
+                    "quantity": 45
+                  }
+                ]
+              },
+              {
+                "round": 2,
+                "cost": 600,
+                "items": [
+                  {
+                    "name": "钻石",
+                    "quantity": 150
+                  },
+                  {
+                    "name": "随机至尊英雄元神",
+                    "quantity": 3
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 500
+                  }
+                ],
+                "refs": [
+                  "sprint-recruit-five"
+                ],
+                "media": [
+                  "sprint-recruit-five-r2"
+                ],
+                "taskReturns": [
+                  {
+                    "name": "招募券",
+                    "quantity": 45
+                  }
+                ]
+              },
+              {
+                "round": 3,
+                "cost": 800,
+                "items": [
+                  {
+                    "name": "随机至尊英雄元神",
+                    "quantity": 4
+                  },
+                  {
+                    "name": "星珀",
+                    "quantity": 50
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 800
+                  }
+                ],
+                "refs": [
+                  "sprint-recruit-five"
+                ],
+                "media": [
+                  "sprint-recruit-five-r3"
+                ],
+                "taskReturns": [
+                  {
+                    "name": "招募券",
+                    "quantity": 75
+                  }
+                ]
+              },
+              {
+                "round": 4,
+                "cost": 1200,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 80
+                  },
+                  {
+                    "name": "电视机碎片",
+                    "quantity": 5
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 1000
+                  }
+                ],
+                "refs": [
+                  "sprint-recruit-five"
+                ],
+                "media": [
+                  "sprint-recruit-five-r4"
+                ],
+                "taskReturns": [
+                  {
+                    "name": "招募券",
+                    "quantity": 105
+                  }
+                ]
+              },
+              {
+                "round": 5,
+                "cost": 1200,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 100
+                  },
+                  {
+                    "name": "电视机碎片",
+                    "quantity": 5
+                  },
+                  {
+                    "name": "星象天仪碎片",
+                    "quantity": 5
+                  }
+                ],
+                "refs": [
+                  "sprint-recruit-five"
+                ],
+                "media": [
+                  "sprint-recruit-five-r5"
+                ],
+                "taskReturns": [
+                  {
+                    "name": "招募券",
+                    "quantity": 135
+                  }
+                ]
+              }
+            ],
+            "note": "五轮合计4200次招募；任务返还招募券合计405张，与完成奖分别领取。",
+            "refs": [
+              "sprint-five-overview",
+              "sprint-recruit-five"
+            ]
+          }
+        ],
+        "itemFacts": [
+          {
+            "title": "随机至尊英雄元神",
+            "kind": "英雄养成",
+            "text": "随机获得至尊英雄元神，用于对应英雄培养。"
+          },
+          {
+            "title": "电视机碎片",
+            "kind": "藏品碎片",
+            "text": "各等级效果：暂未获取到明细信息。"
+          },
+          {
+            "title": "星象天仪碎片",
+            "kind": "藏品碎片",
+            "text": "可在国王的藏品界面合成或升星星象天仪；各等级效果：暂未获取到明细信息。"
+          }
+        ],
+        "itemMedia": [
+          "sprint-astral-fragment"
+        ],
+        "rankingStages": [
+          {
+            "id": "first-four",
+            "fromPeriod": 1,
+            "toPeriod": 4,
+            "title": "第1—4期",
+            "version": "2026-06-07",
+            "scope": "reference",
+            "note": "参考奖单；本区对应排名奖单：暂未获取到明细信息。",
+            "refs": [
+              "rank-recruit-early"
+            ],
+            "media": [
+              "rank-recruit-early-board"
+            ],
+            "rows": [
+              {
+                "fromRank": 1,
+                "toRank": 1,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 300
+                  },
+                  {
+                    "name": "红色英雄碎片",
+                    "quantity": 30
+                  },
+                  {
+                    "name": "超凡宝锤",
+                    "quantity": 20
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 900
+                  }
+                ],
+                "refs": [
+                  "rank-recruit-early"
+                ],
+                "media": [
+                  "rank-recruit-early-board"
+                ]
+              },
+              {
+                "fromRank": 2,
+                "toRank": 2,
+                "items": [],
+                "refs": [],
+                "media": [],
+                "missing": "本档奖品与数量：暂未获取到明细信息。"
+              },
+              {
+                "fromRank": 3,
+                "toRank": 3,
+                "items": [],
+                "refs": [],
+                "media": [],
+                "missing": "本档奖品与数量：暂未获取到明细信息。"
+              },
+              {
+                "fromRank": 4,
+                "toRank": 5,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 150
+                  },
+                  {
+                    "name": "红色英雄碎片",
+                    "quantity": 12
+                  },
+                  {
+                    "name": "超凡宝锤",
+                    "quantity": 10
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 300
+                  }
+                ],
+                "refs": [
+                  "rank-recruit-early"
+                ],
+                "media": [
+                  "rank-recruit-early-board"
+                ]
+              },
+              {
+                "fromRank": 6,
+                "toRank": 10,
+                "items": [],
+                "refs": [],
+                "media": [],
+                "missing": "本档奖品与数量：暂未获取到明细信息。"
+              }
+            ],
+            "itemNotes": []
+          },
+          {
+            "id": "fifth-plus",
+            "fromPeriod": 5,
+            "toPeriod": null,
+            "title": "第5期起",
+            "version": "2026-10-15",
+            "scope": "reference",
+            "note": "参考奖单；本区对应排名奖单：暂未获取到明细信息。",
+            "refs": [
+              "rank-recruit-totem-late"
+            ],
+            "media": [
+              "rank-recruit-late-board"
+            ],
+            "rows": [
+              {
+                "fromRank": 1,
+                "toRank": 1,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 300
+                  },
+                  {
+                    "name": "随机至尊英雄元神",
+                    "quantity": 15
+                  },
+                  {
+                    "name": "超凡宝锤",
+                    "quantity": 25
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": null
+                  }
+                ],
+                "refs": [
+                  "rank-recruit-totem-late"
+                ],
+                "media": [
+                  "rank-recruit-late-board"
+                ],
+                "missing": "经验数量及额外称号的名称、期限：暂未获取到明细信息。"
+              },
+              {
+                "fromRank": 2,
+                "toRank": 2,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 240
+                  },
+                  {
+                    "name": "随机至尊英雄元神",
+                    "quantity": 12
+                  },
+                  {
+                    "name": "超凡宝锤",
+                    "quantity": 20
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 1800
+                  }
+                ],
+                "refs": [
+                  "rank-recruit-totem-late"
+                ],
+                "media": [
+                  "rank-recruit-late-board"
+                ]
+              },
+              {
+                "fromRank": 3,
+                "toRank": 3,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 200
+                  },
+                  {
+                    "name": "随机至尊英雄元神",
+                    "quantity": 10
+                  },
+                  {
+                    "name": "超凡宝锤",
+                    "quantity": 18
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 1600
+                  }
+                ],
+                "refs": [
+                  "rank-recruit-totem-late"
+                ],
+                "media": [
+                  "rank-recruit-late-board"
+                ]
+              },
+              {
+                "fromRank": 4,
+                "toRank": 5,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 180
+                  },
+                  {
+                    "name": "随机至尊英雄元神",
+                    "quantity": 8
+                  },
+                  {
+                    "name": "超凡宝锤",
+                    "quantity": 15
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 1000
+                  }
+                ],
+                "refs": [
+                  "rank-recruit-totem-late"
+                ],
+                "media": [
+                  "rank-recruit-late-board"
+                ]
+              },
+              {
+                "fromRank": 6,
+                "toRank": 10,
+                "items": [],
+                "refs": [],
+                "media": [],
+                "missing": "本档奖品与数量：暂未获取到明细信息。"
+              }
+            ],
+            "itemNotes": []
+          }
+        ]
+      }
     },
     {
       "id": "totem",
       "name": "图腾冲刺",
       "category": "sprint",
-      "intro": "每三周轮到一次的七天冲刺。通过对应材料的消耗完成轮次目标，另有排行榜结算。",
+      "intro": "使用宝锤积累冲刺积分，领取轮次完成奖；四轮与五轮版的末轮奖品不同。",
       "resource": "图腾宝锤、超凡宝锤",
       "steps": [
         "使用宝锤完成图腾寻宝，累计冲刺积分。",
@@ -130,35 +754,711 @@
       "rewards": [
         {
           "title": "轮次完成奖",
-          "text": "含图腾养成资源，第四轮完整物品与数量尚未取得可靠本区奖单。"
+          "text": "按当前期次查看四轮或五轮参考奖单；合区后的本区轮数：暂未获取到明细信息。"
         },
         {
           "title": "排名奖励",
-          "text": "晶石、星珀、英雄碎片等属于公开攻略的排名奖描述，不能当成末轮完成奖。"
+          "text": "排名奖励按排行榜单独结算，具体名次奖品与数量：暂未获取到明细信息。"
         }
       ],
       "refs": [
         "sprint",
         "early",
         "cross",
-        "totem-cost"
+        "totem-cost",
+        "sprint-nov7-gate",
+        "sprint-oct29-costs",
+        "sprint-totem-five",
+        "sprint-totem-four",
+        "sprint-totem-four-june12",
+        "rank-totem-early",
+        "rank-recruit-totem-late"
       ],
-      "notes": [
-        "招募→图腾→晶矿，每期 7 天。首轮晶矿使用连续周期的 D22 方案；另有旧攻略记为 D21。",
-        "满 92 天后的跨服分组、奖励升级以本区活动入口为准。"
+      "notes": [],
+      "videos": [
+        {
+          "sourceId": "sprint-nov7-gate",
+          "title": "三类冲刺 · 第五轮开启日参考",
+          "meta": "2026-11-07"
+        },
+        {
+          "sourceId": "sprint-oct29-costs",
+          "title": "三类冲刺 · 五轮资源门槛",
+          "meta": "2026-10-29"
+        },
+        {
+          "sourceId": "sprint-totem-five",
+          "title": "图腾五轮 · 奖励与资源规划",
+          "meta": "2026-09-04"
+        },
+        {
+          "sourceId": "sprint-totem-four",
+          "title": "图腾四轮 · 末轮奖励与排名技巧",
+          "meta": "2026-11-06"
+        },
+        {
+          "sourceId": "sprint-totem-four-june12",
+          "title": "图腾四轮 · 完成奖与积分",
+          "meta": "2026-06-12"
+        },
+        {
+          "sourceId": "rank-totem-early",
+          "title": "第二期图腾冲刺 · 排名奖励",
+          "meta": "2026-09-19",
+          "rankingPeriods": [
+            "first-four"
+          ]
+        },
+        {
+          "sourceId": "rank-recruit-totem-late",
+          "title": "招募与图腾冲刺 · 后期排名奖励",
+          "meta": "2026-10-15",
+          "rankingPeriods": [
+            "fifth-plus"
+          ]
+        }
       ],
-      "videos": [],
       "knowledgeTags": [
         "totem",
         "hero",
-        "resource"
-      ]
+        "resource",
+        "collectible"
+      ],
+      "sprintDetail": {
+        "version": 1,
+        "counting": "same-activity",
+        "changePeriod": 5,
+        "mergeTransitionPeriods": [
+          8,
+          9
+        ],
+        "localFiveRoundPeriod": null,
+        "costName": "冲刺积分",
+        "costUnit": "分",
+        "earlyProfile": "four-reference",
+        "changedProfile": "four-reference",
+        "mergedProfile": "merged-five",
+        "fiveRoundReferenceDay": 162,
+        "fiveRoundDateRefs": [
+          "sprint-nov7-gate"
+        ],
+        "changeNote": "第5期起的本区奖励变化：暂未获取到明细信息。",
+        "profiles": [
+          {
+            "id": "four-reference",
+            "title": "图腾四轮参考",
+            "roundCount": 4,
+            "version": "2026-06-12 / 2026-11-06",
+            "rounds": [
+              {
+                "round": 1,
+                "cost": 200,
+                "items": [
+                  {
+                    "name": "钻石",
+                    "quantity": 100
+                  },
+                  {
+                    "name": "洗炼石",
+                    "quantity": 12
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 300
+                  }
+                ],
+                "refs": [
+                  "sprint-totem-four-june12"
+                ],
+                "media": [
+                  "sprint-totem-four-r1-june"
+                ]
+              },
+              {
+                "round": 2,
+                "cost": 400,
+                "items": [
+                  {
+                    "name": "钻石",
+                    "quantity": 150
+                  },
+                  {
+                    "name": "洗炼石",
+                    "quantity": 12
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 500
+                  }
+                ],
+                "refs": [
+                  "sprint-totem-four-june12"
+                ],
+                "media": [
+                  "sprint-totem-four-r2-june"
+                ]
+              },
+              {
+                "round": 3,
+                "cost": 700,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 50
+                  },
+                  {
+                    "name": "洗炼石",
+                    "quantity": 24
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 800
+                  }
+                ],
+                "refs": [
+                  "sprint-totem-four-june12"
+                ],
+                "media": [
+                  "sprint-totem-four-r3-june"
+                ]
+              },
+              {
+                "round": 4,
+                "cost": 1000,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 50
+                  },
+                  {
+                    "name": "洗炼石",
+                    "quantity": 36
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 1000
+                  }
+                ],
+                "refs": [
+                  "sprint-totem-four-june12",
+                  "sprint-totem-four"
+                ],
+                "media": [
+                  "sprint-totem-four-r4-june",
+                  "sprint-totem-four-r4"
+                ]
+              }
+            ],
+            "note": "四轮合计2300积分。第1—4轮为2026-06-12版本，第4轮另有2026-11-06版本。本区当前奖单是否一致：暂未获取到明细信息。",
+            "refs": [
+              "sprint-totem-four",
+              "sprint-totem-four-june12"
+            ]
+          },
+          {
+            "id": "merged-five",
+            "title": "合区后 · 图腾五轮参考",
+            "roundCount": 5,
+            "version": "2026-09-04",
+            "rounds": [
+              {
+                "round": 1,
+                "cost": 200,
+                "items": [
+                  {
+                    "name": "钻石",
+                    "quantity": 100
+                  },
+                  {
+                    "name": "洗炼石",
+                    "quantity": 12
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 300
+                  }
+                ],
+                "refs": [
+                  "sprint-totem-five"
+                ],
+                "media": [
+                  "sprint-totem-five-r1"
+                ]
+              },
+              {
+                "round": 2,
+                "cost": 400,
+                "items": [
+                  {
+                    "name": "钻石",
+                    "quantity": 150
+                  },
+                  {
+                    "name": "洗炼石",
+                    "quantity": 18
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 500
+                  }
+                ],
+                "refs": [
+                  "sprint-totem-five"
+                ],
+                "media": [
+                  "sprint-totem-five-r2"
+                ]
+              },
+              {
+                "round": 3,
+                "cost": 700,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 50
+                  },
+                  {
+                    "name": "洗炼石",
+                    "quantity": 30
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 800
+                  }
+                ],
+                "refs": [
+                  "sprint-totem-five"
+                ],
+                "media": [
+                  "sprint-totem-five-r3"
+                ]
+              },
+              {
+                "round": 4,
+                "cost": 1000,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 80
+                  },
+                  {
+                    "name": "电视机碎片",
+                    "quantity": 5
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 1000
+                  }
+                ],
+                "refs": [
+                  "sprint-totem-five"
+                ],
+                "media": [
+                  "sprint-totem-five-r4"
+                ]
+              },
+              {
+                "round": 5,
+                "cost": 1400,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 100
+                  },
+                  {
+                    "name": "电视机碎片",
+                    "quantity": 5
+                  },
+                  {
+                    "name": "星象天仪碎片",
+                    "quantity": 5
+                  }
+                ],
+                "refs": [
+                  "sprint-totem-five"
+                ],
+                "media": [
+                  "sprint-totem-five-r5"
+                ]
+              }
+            ],
+            "note": "五轮合计3700积分；图腾宝锤每个1分，超凡宝锤每个5分。",
+            "refs": [
+              "sprint-totem-five"
+            ]
+          }
+        ],
+        "itemFacts": [
+          {
+            "title": "电视机碎片",
+            "kind": "藏品碎片",
+            "text": "各等级效果：暂未获取到明细信息。"
+          },
+          {
+            "title": "星象天仪碎片",
+            "kind": "藏品碎片",
+            "text": "可在国王的藏品界面合成或升星星象天仪；各等级效果：暂未获取到明细信息。"
+          }
+        ],
+        "itemMedia": [
+          "sprint-astral-fragment"
+        ],
+        "rankingStages": [
+          {
+            "id": "first-four",
+            "fromPeriod": 1,
+            "toPeriod": 4,
+            "title": "第1—4期",
+            "version": "2026-09-19 · 第二期",
+            "scope": "reference",
+            "note": "参考奖单；本区对应排名奖单：暂未获取到明细信息。",
+            "refs": [
+              "rank-totem-early"
+            ],
+            "media": [
+              "rank-totem-early-board"
+            ],
+            "rows": [
+              {
+                "fromRank": 1,
+                "toRank": 1,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 300
+                  },
+                  {
+                    "name": "图腾宝箱",
+                    "quantity": null,
+                    "nameMissing": true
+                  },
+                  {
+                    "name": "黄金罗盘",
+                    "quantity": 15
+                  },
+                  {
+                    "name": "道具",
+                    "quantity": 50,
+                    "nameMissing": true
+                  }
+                ],
+                "refs": [
+                  "rank-totem-early"
+                ],
+                "media": [
+                  "rank-totem-early-board"
+                ],
+                "missing": "图腾宝箱名称、发放数量及该道具名称：暂未获取到明细信息。"
+              },
+              {
+                "fromRank": 2,
+                "toRank": 2,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 250
+                  },
+                  {
+                    "name": "图腾宝箱",
+                    "quantity": null,
+                    "nameMissing": true
+                  },
+                  {
+                    "name": "黄金罗盘",
+                    "quantity": 12
+                  },
+                  {
+                    "name": "道具",
+                    "quantity": 40,
+                    "nameMissing": true
+                  }
+                ],
+                "refs": [
+                  "rank-totem-early"
+                ],
+                "media": [
+                  "rank-totem-early-board"
+                ],
+                "missing": "图腾宝箱名称、发放数量及该道具名称：暂未获取到明细信息。"
+              },
+              {
+                "fromRank": 3,
+                "toRank": 3,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 200
+                  },
+                  {
+                    "name": "图腾宝箱",
+                    "quantity": null,
+                    "nameMissing": true
+                  },
+                  {
+                    "name": "黄金罗盘",
+                    "quantity": 10
+                  },
+                  {
+                    "name": "道具",
+                    "quantity": 30,
+                    "nameMissing": true
+                  }
+                ],
+                "refs": [
+                  "rank-totem-early"
+                ],
+                "media": [
+                  "rank-totem-early-board"
+                ],
+                "missing": "图腾宝箱名称、发放数量及该道具名称：暂未获取到明细信息。"
+              },
+              {
+                "fromRank": 4,
+                "toRank": 5,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 150
+                  },
+                  {
+                    "name": "图腾宝箱",
+                    "quantity": null,
+                    "nameMissing": true
+                  },
+                  {
+                    "name": "黄金罗盘",
+                    "quantity": 8
+                  },
+                  {
+                    "name": "道具",
+                    "quantity": 30,
+                    "nameMissing": true
+                  }
+                ],
+                "refs": [
+                  "rank-totem-early"
+                ],
+                "media": [
+                  "rank-totem-early-board"
+                ],
+                "missing": "图腾宝箱名称、发放数量及该道具名称：暂未获取到明细信息。"
+              },
+              {
+                "fromRank": 6,
+                "toRank": 10,
+                "items": [],
+                "refs": [],
+                "media": [],
+                "missing": "本档奖品与数量：暂未获取到明细信息。"
+              }
+            ],
+            "itemNotes": []
+          },
+          {
+            "id": "fifth-plus",
+            "fromPeriod": 5,
+            "toPeriod": null,
+            "title": "第5期起",
+            "version": "2026-10-15",
+            "scope": "reference",
+            "note": "参考奖单；本区对应排名奖单：暂未获取到明细信息。",
+            "refs": [
+              "rank-recruit-totem-late"
+            ],
+            "media": [
+              "rank-totem-late-top",
+              "rank-totem-late-bottom",
+              "rank-totem-pink-box",
+              "rank-totem-peerless-box"
+            ],
+            "rows": [
+              {
+                "fromRank": 1,
+                "toRank": 1,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 300
+                  },
+                  {
+                    "name": "粉色稀有图腾",
+                    "quantity": null
+                  },
+                  {
+                    "name": "黄金罗盘",
+                    "quantity": 18
+                  },
+                  {
+                    "name": "道具",
+                    "quantity": null,
+                    "nameMissing": true
+                  }
+                ],
+                "refs": [
+                  "rank-recruit-totem-late"
+                ],
+                "media": [
+                  "rank-totem-late-top",
+                  "rank-totem-pink-box"
+                ],
+                "missing": "图腾发放数量、该道具名称及数量、额外称号名称与期限：暂未获取到明细信息。"
+              },
+              {
+                "fromRank": 2,
+                "toRank": 2,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 240
+                  },
+                  {
+                    "name": "粉色稀有图腾",
+                    "quantity": null
+                  },
+                  {
+                    "name": "黄金罗盘",
+                    "quantity": 15
+                  },
+                  {
+                    "name": "道具",
+                    "quantity": 90,
+                    "nameMissing": true
+                  }
+                ],
+                "refs": [
+                  "rank-recruit-totem-late"
+                ],
+                "media": [
+                  "rank-totem-late-top",
+                  "rank-totem-pink-box"
+                ],
+                "missing": "图腾发放数量及该道具名称：暂未获取到明细信息。"
+              },
+              {
+                "fromRank": 3,
+                "toRank": 3,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 200
+                  },
+                  {
+                    "name": "粉色稀有图腾",
+                    "quantity": null
+                  },
+                  {
+                    "name": "黄金罗盘",
+                    "quantity": 12
+                  },
+                  {
+                    "name": "道具",
+                    "quantity": 80,
+                    "nameMissing": true
+                  }
+                ],
+                "refs": [
+                  "rank-recruit-totem-late"
+                ],
+                "media": [
+                  "rank-totem-late-top",
+                  "rank-totem-pink-box"
+                ],
+                "missing": "图腾发放数量及该道具名称：暂未获取到明细信息。"
+              },
+              {
+                "fromRank": 4,
+                "toRank": 5,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 180
+                  },
+                  {
+                    "name": "随机绝世图腾",
+                    "quantity": null
+                  },
+                  {
+                    "name": "黄金罗盘",
+                    "quantity": 10
+                  },
+                  {
+                    "name": "道具",
+                    "quantity": 60,
+                    "nameMissing": true
+                  }
+                ],
+                "refs": [
+                  "rank-recruit-totem-late"
+                ],
+                "media": [
+                  "rank-totem-late-bottom",
+                  "rank-totem-peerless-box"
+                ],
+                "missing": "图腾发放数量及该道具名称：暂未获取到明细信息。"
+              },
+              {
+                "fromRank": 6,
+                "toRank": 10,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 150
+                  },
+                  {
+                    "name": "随机绝世图腾",
+                    "quantity": null
+                  },
+                  {
+                    "name": "黄金罗盘",
+                    "quantity": 8
+                  },
+                  {
+                    "name": "道具",
+                    "quantity": 50,
+                    "nameMissing": true
+                  }
+                ],
+                "refs": [
+                  "rank-recruit-totem-late"
+                ],
+                "media": [
+                  "rank-totem-late-bottom",
+                  "rank-totem-peerless-box"
+                ],
+                "missing": "图腾发放数量及该道具名称：暂未获取到明细信息。"
+              }
+            ],
+            "itemNotes": [
+              {
+                "title": "粉色稀有图腾",
+                "text": "每次打开随机获得其中1个粉色稀有图腾。",
+                "refs": [
+                  "rank-recruit-totem-late"
+                ],
+                "media": [
+                  "rank-totem-pink-box"
+                ]
+              },
+              {
+                "title": "随机绝世图腾",
+                "text": "每次打开随机获得1件绝世品质图腾。",
+                "refs": [
+                  "rank-recruit-totem-late"
+                ],
+                "media": [
+                  "rank-totem-peerless-box"
+                ]
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "crystal",
       "name": "晶矿冲刺",
       "category": "sprint",
-      "intro": "每三周轮到一次的七天冲刺。通过对应材料的消耗完成轮次目标，另有排行榜结算。",
+      "intro": "消耗晶石洗炼披风，完成逐轮目标；五轮版总消耗38万晶石，末轮包含两种藏品碎片。",
       "resource": "晶石",
       "steps": [
         "在活动期间洗炼披风，累计晶石消耗。",
@@ -168,27 +1468,635 @@
       "rewards": [
         {
           "title": "轮次完成奖",
-          "text": "公开记录有洗炼石、星珀等；第 4 轮准确数量待核。"
+          "text": "按当前期次查看四轮或五轮参考奖单；合区后的本区轮数：暂未获取到明细信息。"
         },
         {
-          "title": "跨服阶段",
-          "text": "官方称跨服招募、晶矿增加至尊元神，不能据此确定末轮数量。"
+          "title": "排名奖励",
+          "text": "排名奖励按排行榜单独结算，具体名次奖品与数量：暂未获取到明细信息。"
         }
       ],
       "refs": [
         "sprint",
         "early",
-        "cross"
+        "cross",
+        "sprint-crystal-five",
+        "sprint-nov7-gate",
+        "sprint-oct29-costs",
+        "sprint-crystal-four-oct23",
+        "sprint-crystal-five-sept13",
+        "rank-crystal-early",
+        "rank-crystal-late"
       ],
-      "notes": [
-        "招募→图腾→晶矿，每期 7 天。首轮晶矿使用连续周期的 D22 方案；另有旧攻略记为 D21。",
-        "满 92 天后的跨服分组、奖励升级以本区活动入口为准。"
+      "notes": [],
+      "videos": [
+        {
+          "sourceId": "sprint-crystal-five",
+          "title": "晶矿五轮 · 奖励与资源规划",
+          "meta": "2026-08-29"
+        },
+        {
+          "sourceId": "sprint-nov7-gate",
+          "title": "三类冲刺 · 第五轮开启日参考",
+          "meta": "2026-11-07"
+        },
+        {
+          "sourceId": "sprint-oct29-costs",
+          "title": "三类冲刺 · 五轮资源门槛",
+          "meta": "2026-10-29"
+        },
+        {
+          "sourceId": "sprint-crystal-four-oct23",
+          "title": "晶矿四轮 · 完成奖与消耗",
+          "meta": "2026-10-23"
+        },
+        {
+          "sourceId": "sprint-crystal-five-sept13",
+          "title": "晶矿五轮 · 第二轮完成奖",
+          "meta": "2026-09-13"
+        },
+        {
+          "sourceId": "rank-crystal-early",
+          "title": "晶矿冲刺 · 红色碎片排名奖励",
+          "meta": "2026-06-04",
+          "rankingPeriods": [
+            "first-four"
+          ]
+        },
+        {
+          "sourceId": "rank-crystal-late",
+          "title": "晶矿冲刺 · 排名奖与榜首结算",
+          "meta": "2026-09-17",
+          "rankingPeriods": [
+            "fifth-plus"
+          ]
+        }
       ],
-      "videos": [],
       "knowledgeTags": [
         "hero",
-        "resource"
-      ]
+        "resource",
+        "collectible"
+      ],
+      "sprintDetail": {
+        "version": 1,
+        "counting": "same-activity",
+        "changePeriod": 5,
+        "mergeTransitionPeriods": [
+          8,
+          9
+        ],
+        "localFiveRoundPeriod": null,
+        "costName": "晶石消耗",
+        "costUnit": "晶石",
+        "earlyProfile": "four-reference",
+        "changedProfile": "four-reference",
+        "mergedProfile": "merged-five",
+        "fiveRoundReferenceDay": null,
+        "fiveRoundDateRefs": [],
+        "changeNote": "第5期起的本区奖励变化：暂未获取到明细信息。",
+        "profiles": [
+          {
+            "id": "four-reference",
+            "title": "晶矿四轮参考",
+            "roundCount": 4,
+            "version": "2026-10-23",
+            "rounds": [
+              {
+                "round": 1,
+                "cost": 20000,
+                "items": [
+                  {
+                    "name": "钻石",
+                    "quantity": 100
+                  },
+                  {
+                    "name": "招募券",
+                    "quantity": 20
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 300
+                  }
+                ],
+                "refs": [
+                  "sprint-crystal-four-oct23"
+                ],
+                "media": [
+                  "sprint-crystal-four-r1"
+                ]
+              },
+              {
+                "round": 2,
+                "cost": 40000,
+                "items": [
+                  {
+                    "name": "钻石",
+                    "quantity": 150
+                  },
+                  {
+                    "name": "招募券",
+                    "quantity": 30
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 500
+                  }
+                ],
+                "refs": [
+                  "sprint-crystal-four-oct23"
+                ],
+                "media": [
+                  "sprint-crystal-four-r2"
+                ]
+              },
+              {
+                "round": 3,
+                "cost": 70000,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 50
+                  },
+                  {
+                    "name": "洗炼石",
+                    "quantity": 24
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 800
+                  }
+                ],
+                "refs": [
+                  "sprint-crystal-four-oct23"
+                ],
+                "media": [
+                  "sprint-crystal-four-r3"
+                ]
+              },
+              {
+                "round": 4,
+                "cost": 110000,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 50
+                  },
+                  {
+                    "name": "洗炼石",
+                    "quantity": 36
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 1000
+                  }
+                ],
+                "refs": [
+                  "sprint-crystal-four-oct23"
+                ],
+                "media": [
+                  "sprint-crystal-four-r4"
+                ]
+              }
+            ],
+            "note": "四轮合计消耗240000晶石；任务返还的晶石与罗盘另行领取。该奖单为开服第43天的第二期参考，本区第5期起是否一致：暂未获取到明细信息。",
+            "refs": [
+              "sprint-crystal-four-oct23"
+            ]
+          },
+          {
+            "id": "merged-five",
+            "title": "合区后 · 晶矿五轮参考",
+            "roundCount": 5,
+            "version": "2026-08-29 / 2026-09-13",
+            "rounds": [
+              {
+                "round": 1,
+                "cost": 20000,
+                "items": [
+                  {
+                    "name": "钻石",
+                    "quantity": 100
+                  },
+                  {
+                    "name": "招募券",
+                    "quantity": 20
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 300
+                  }
+                ],
+                "refs": [
+                  "sprint-crystal-five"
+                ],
+                "media": [
+                  "sprint-crystal-five-r1"
+                ]
+              },
+              {
+                "round": 2,
+                "cost": 40000,
+                "items": [
+                  {
+                    "name": "钻石",
+                    "quantity": 150
+                  },
+                  {
+                    "name": "招募券",
+                    "quantity": 30
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 500
+                  }
+                ],
+                "refs": [
+                  "sprint-crystal-five-sept13"
+                ],
+                "media": [
+                  "sprint-crystal-five-r2"
+                ]
+              },
+              {
+                "round": 3,
+                "cost": 70000,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 50
+                  },
+                  {
+                    "name": "洗炼石",
+                    "quantity": 24
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 800
+                  }
+                ],
+                "refs": [
+                  "sprint-crystal-five"
+                ],
+                "media": [
+                  "sprint-crystal-five-r3"
+                ]
+              },
+              {
+                "round": 4,
+                "cost": 110000,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 80
+                  },
+                  {
+                    "name": "电视机碎片",
+                    "quantity": 5
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 1000
+                  }
+                ],
+                "refs": [
+                  "sprint-crystal-five"
+                ],
+                "media": [
+                  "sprint-crystal-five-r4"
+                ]
+              },
+              {
+                "round": 5,
+                "cost": 140000,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 100
+                  },
+                  {
+                    "name": "电视机碎片",
+                    "quantity": 5
+                  },
+                  {
+                    "name": "星象天仪碎片",
+                    "quantity": 5
+                  }
+                ],
+                "refs": [
+                  "sprint-crystal-five"
+                ],
+                "media": [
+                  "sprint-crystal-five-r5"
+                ]
+              }
+            ],
+            "note": "五轮合计消耗380000晶石；任务返还的晶石、罗盘与完成奖分别领取。",
+            "refs": [
+              "sprint-crystal-five",
+              "sprint-crystal-five-sept13"
+            ]
+          }
+        ],
+        "itemFacts": [
+          {
+            "title": "电视机碎片",
+            "kind": "藏品碎片",
+            "text": "各等级效果：暂未获取到明细信息。"
+          },
+          {
+            "title": "星象天仪碎片",
+            "kind": "藏品碎片",
+            "text": "可在国王的藏品界面合成或升星星象天仪；各等级效果：暂未获取到明细信息。"
+          }
+        ],
+        "itemMedia": [
+          "sprint-astral-fragment"
+        ],
+        "rankingStages": [
+          {
+            "id": "first-four",
+            "fromPeriod": 1,
+            "toPeriod": 4,
+            "title": "第1—4期",
+            "version": "2026-06-04",
+            "scope": "reference",
+            "note": "参考奖单；本区对应排名奖单：暂未获取到明细信息。",
+            "refs": [
+              "rank-crystal-early"
+            ],
+            "media": [
+              "rank-crystal-early-board"
+            ],
+            "rows": [
+              {
+                "fromRank": 1,
+                "toRank": 1,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 300
+                  },
+                  {
+                    "name": "红色英雄碎片",
+                    "quantity": 30
+                  },
+                  {
+                    "name": "招募券",
+                    "quantity": 120
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 900
+                  }
+                ],
+                "refs": [
+                  "rank-crystal-early"
+                ],
+                "media": [
+                  "rank-crystal-early-board"
+                ]
+              },
+              {
+                "fromRank": 2,
+                "toRank": 2,
+                "items": [
+                  {
+                    "name": "全职业经验",
+                    "quantity": 750
+                  }
+                ],
+                "refs": [
+                  "rank-crystal-early"
+                ],
+                "media": [
+                  "rank-crystal-early-board"
+                ],
+                "missing": "其余奖品与数量：暂未获取到明细信息。"
+              },
+              {
+                "fromRank": 3,
+                "toRank": 3,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 200
+                  },
+                  {
+                    "name": "红色英雄碎片",
+                    "quantity": 15
+                  },
+                  {
+                    "name": "招募券",
+                    "quantity": 100
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 600
+                  }
+                ],
+                "refs": [
+                  "rank-crystal-early"
+                ],
+                "media": [
+                  "rank-crystal-early-board"
+                ]
+              },
+              {
+                "fromRank": 4,
+                "toRank": 5,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 150
+                  },
+                  {
+                    "name": "红色英雄碎片",
+                    "quantity": 12
+                  },
+                  {
+                    "name": "招募券",
+                    "quantity": 80
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 300
+                  }
+                ],
+                "refs": [
+                  "rank-crystal-early"
+                ],
+                "media": [
+                  "rank-crystal-early-board"
+                ]
+              },
+              {
+                "fromRank": 6,
+                "toRank": 10,
+                "items": [],
+                "refs": [],
+                "media": [],
+                "missing": "本档奖品与数量：暂未获取到明细信息。"
+              }
+            ],
+            "itemNotes": []
+          },
+          {
+            "id": "fifth-plus",
+            "fromPeriod": 5,
+            "toPeriod": null,
+            "title": "第5期起",
+            "version": "2026-09-17",
+            "scope": "reference",
+            "note": "参考奖单；本区对应排名奖单：暂未获取到明细信息。",
+            "refs": [
+              "rank-crystal-late"
+            ],
+            "media": [
+              "rank-crystal-late-board",
+              "rank-crystal-late-mail",
+              "rank-crystal-late-claim"
+            ],
+            "rows": [
+              {
+                "fromRank": 1,
+                "toRank": 1,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 400
+                  },
+                  {
+                    "name": "随机至尊英雄元神",
+                    "quantity": 15
+                  },
+                  {
+                    "name": "招募券",
+                    "quantity": 150
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 1000
+                  },
+                  {
+                    "name": "电视机碎片",
+                    "quantity": 10
+                  }
+                ],
+                "refs": [
+                  "rank-crystal-late"
+                ],
+                "media": [
+                  "rank-crystal-late-board",
+                  "rank-crystal-late-mail",
+                  "rank-crystal-late-claim"
+                ]
+              },
+              {
+                "fromRank": 2,
+                "toRank": 2,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 350
+                  },
+                  {
+                    "name": "随机至尊英雄元神",
+                    "quantity": 10
+                  },
+                  {
+                    "name": "招募券",
+                    "quantity": 120
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": null
+                  },
+                  {
+                    "name": "电视机碎片",
+                    "quantity": 5
+                  }
+                ],
+                "refs": [
+                  "rank-crystal-late"
+                ],
+                "media": [
+                  "rank-crystal-late-board"
+                ],
+                "missing": "经验数量：暂未获取到明细信息。"
+              },
+              {
+                "fromRank": 3,
+                "toRank": 3,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 300
+                  },
+                  {
+                    "name": "随机至尊英雄元神",
+                    "quantity": 8
+                  },
+                  {
+                    "name": "招募券",
+                    "quantity": 110
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": null
+                  },
+                  {
+                    "name": "电视机碎片",
+                    "quantity": 3
+                  }
+                ],
+                "refs": [
+                  "rank-crystal-late"
+                ],
+                "media": [
+                  "rank-crystal-late-board"
+                ],
+                "missing": "经验数量：暂未获取到明细信息。"
+              },
+              {
+                "fromRank": 4,
+                "toRank": 5,
+                "items": [
+                  {
+                    "name": "星珀",
+                    "quantity": 250
+                  },
+                  {
+                    "name": "随机至尊英雄元神",
+                    "quantity": 6
+                  },
+                  {
+                    "name": "招募券",
+                    "quantity": 100
+                  },
+                  {
+                    "name": "全职业经验",
+                    "quantity": 400
+                  }
+                ],
+                "refs": [
+                  "rank-crystal-late"
+                ],
+                "media": [
+                  "rank-crystal-late-board"
+                ]
+              },
+              {
+                "fromRank": 6,
+                "toRank": 10,
+                "items": [],
+                "refs": [],
+                "media": [],
+                "missing": "本档奖品与数量：暂未获取到明细信息。"
+              }
+            ],
+            "itemNotes": []
+          }
+        ]
+      }
     },
     {
       "id": "up-哪吒",
@@ -7026,6 +8934,150 @@
       "url": "https://www.taptap.cn/moment/715216705541901495",
       "kind": "英雄词条",
       "note": "原始资料日期：2025-09-11；读取日期：2026-11-17。"
+    },
+    {
+      "id": "sprint-day92",
+      "url": "https://www.douyin.com/video/7608808316176715023",
+      "title": "开服第92天 · 招募冲刺元神奖励",
+      "kind": "抖音攻略",
+      "author": "波比大王的蔚蓝星球游戏日记",
+      "publishedAt": "2026-02-20",
+      "note": "游戏1/4轮第一轮显示随机至尊英雄元神3；未展示末轮完整数量。"
+    },
+    {
+      "id": "sprint-recruit-five",
+      "url": "https://www.douyin.com/video/7681159544580174966",
+      "title": "招募冲刺 · 五轮奖励与消耗",
+      "kind": "抖音攻略",
+      "author": "永远的蔚蓝星球-柠檬",
+      "publishedAt": "2026-09-03",
+      "note": "五轮400/600/800/1200/1200；任务返券与轮次完成奖分开记录。"
+    },
+    {
+      "id": "sprint-five-overview",
+      "url": "https://www.douyin.com/video/7680846802408935823",
+      "title": "新版五轮冲刺 · 招募首轮奖励",
+      "kind": "抖音攻略",
+      "author": "波比大王",
+      "publishedAt": "2026-09-02",
+      "note": "第一轮1/5完成奖显示钻石100、随机至尊英雄元神2、全职业经验300。"
+    },
+    {
+      "id": "sprint-totem-five",
+      "url": "https://www.douyin.com/video/7681470482780048667",
+      "title": "图腾冲刺 · 五轮奖励",
+      "kind": "抖音攻略",
+      "author": "小孔丞相（永远的蔚蓝星球）",
+      "publishedAt": "2026-09-04",
+      "note": "逐轮读取游戏顶部完成奖；蓝锤1分、金锤5分；200/400/700/1000/1400分。"
+    },
+    {
+      "id": "sprint-crystal-five",
+      "url": "https://www.douyin.com/video/7679382107314990250",
+      "title": "晶矿冲刺 · 五轮奖励与消耗",
+      "kind": "抖音攻略",
+      "author": "永远的蔚蓝星球-柠檬",
+      "publishedAt": "2026-08-29",
+      "note": "五轮消耗2/4/7/11/14万；第二轮完成奖未出现；第五轮领取弹窗中的晶石5400和黄金罗盘9是任务奖励，不并入完成奖。"
+    },
+    {
+      "id": "sprint-totem-four",
+      "url": "https://www.douyin.com/video/7704993332528066987",
+      "title": "图腾冲刺 · 四轮奖单与排名技巧",
+      "kind": "抖音攻略",
+      "author": "沐泽（永远的蔚蓝星球）",
+      "publishedAt": "2026-11-06",
+      "note": "3:40游戏4/4显示星珀50、洗炼石36、全职业经验1000；未确认该账号活动期次。"
+    },
+    {
+      "id": "sprint-nov7-gate",
+      "url": "https://www.douyin.com/video/7705392964889271167",
+      "title": "冲刺资源门槛与第五轮开启日",
+      "kind": "抖音攻略",
+      "author": "努力的蓝莓",
+      "publishedAt": "2026-11-07",
+      "note": "作者图文记招募D155、图腾D162开启第五轮；非本区合区公告，不据此确定本区轮数。"
+    },
+    {
+      "id": "sprint-oct29-costs",
+      "url": "https://www.douyin.com/video/7701988185363104979",
+      "title": "三种冲刺 · 五轮资源门槛",
+      "kind": "抖音攻略",
+      "author": "永远的蔚蓝星球-柠檬",
+      "publishedAt": "2026-10-29",
+      "note": "近期攻略给出招募4200、图腾3700、晶石38万；日期与奖品仍使用对应游戏画面。"
+    },
+    {
+      "id": "sprint-crystal-four-oct23",
+      "url": "https://www.douyin.com/video/7699852106139716904",
+      "title": "晶矿四轮 · 完成奖与消耗",
+      "kind": "抖音攻略",
+      "author": "永远的蔚蓝星球-无敌",
+      "publishedAt": "2026-10-23",
+      "note": "直接作品页2026-10-23 21:18。标题明确开区第43天；四轮分别读取游戏顶部完成奖。第三轮文字稿误写20洗炼石，实际游戏显示24，以画面为准。"
+    },
+    {
+      "id": "sprint-totem-four-june12",
+      "url": "https://www.douyin.com/video/7650532198463219648",
+      "title": "图腾四轮 · 完成奖与积分",
+      "kind": "抖音攻略",
+      "author": "拉面游戏",
+      "publishedAt": "2026-06-12",
+      "note": "直接作品页2026-06-12 23:32。游戏1/4至4/4，积分200/400/700/1000，洗炼石12/12/24/36。与五轮版分开。"
+    },
+    {
+      "id": "sprint-crystal-five-sept13",
+      "url": "https://www.douyin.com/video/7684845665465257259",
+      "title": "晶矿五轮 · 第二轮完成奖",
+      "kind": "抖音攻略",
+      "author": "永远的蔚蓝星球花车",
+      "publishedAt": "2026-09-13",
+      "note": "直接作品页2026-09-13 10:46。00:07游戏2/5明确钻石150、招募券30、全职业经验500及末档消耗40000。"
+    },
+    {
+      "id": "rank-recruit-early",
+      "url": "https://www.douyin.com/video/7648632876489814415",
+      "title": "招募冲刺 · 红色碎片排名奖励",
+      "kind": "抖音攻略",
+      "author": "拉面游戏",
+      "publishedAt": "2026-06-07",
+      "note": "00:31。第1、4—5名可读；第2、3名被字幕遮挡，第6—10名被底栏挡住，不填推定值。"
+    },
+    {
+      "id": "rank-crystal-early",
+      "url": "https://www.douyin.com/video/7647525779446624872",
+      "title": "晶矿冲刺 · 红色碎片排名奖励",
+      "kind": "抖音攻略",
+      "author": "拉面游戏",
+      "publishedAt": "2026-06-04",
+      "note": "00:36—39。第2名仅经验750可读；第6—10名被底栏遮挡。"
+    },
+    {
+      "id": "rank-totem-early",
+      "url": "https://www.douyin.com/video/7687066237028969317",
+      "title": "第二期图腾冲刺 · 排名奖励",
+      "kind": "抖音攻略",
+      "author": "欧皇零氪→蔚蓝星球新区最强零氪",
+      "publishedAt": "2026-09-19",
+      "note": "标题开区第四十二天、视频字幕第二期已跨服。00:08—09排名前四档可读；图腾箱无名称弹窗、无发放数量，食物篮形道具名称未知。不得据此改写本区日期或认定合区。"
+    },
+    {
+      "id": "rank-recruit-totem-late",
+      "url": "https://www.douyin.com/video/7696568222846301049",
+      "title": "招募与图腾冲刺 · 后期排名奖励",
+      "kind": "抖音攻略",
+      "author": "听风细雨（永远的蔚蓝星球）",
+      "publishedAt": "2026-10-15",
+      "note": "作品页2026-10-15 00:55。招募01:15；图腾01:20、02:26；粉色稀有图腾01:22、随机绝世图腾02:13。图腾宝箱每次开出1件不代表排名发放1箱。11—30名随机珍稀图腾不属于4—10档。"
+    },
+    {
+      "id": "rank-crystal-late",
+      "url": "https://www.douyin.com/video/7686439324061521059",
+      "title": "晶矿冲刺 · 排名奖与榜首结算",
+      "kind": "抖音攻略",
+      "author": "永远的蔚蓝星球阿月",
+      "publishedAt": "2026-09-17",
+      "note": "00:08排行榜、00:14榜首结算邮件、00:19实际领取。榜首电视机碎片10、经验1000；第2/3名经验横向裁切，第6—10名未展示。"
     }
   ],
   "excludedActivities": [
@@ -11728,6 +13780,635 @@
       "role": "局内词条",
       "layout": "fit",
       "originalUrl": "https://uploadspt.chuangyuejoy.com/upload/2026/0416/177632116469e0828c1d9a8.png"
+    },
+    {
+      "id": "sprint-day92-r1",
+      "path": "assets/sprint-day92-r1.jpg",
+      "sourceId": "sprint-day92",
+      "caption": "招募四轮 · 至尊元神奖励",
+      "version": "2026-02-20",
+      "role": "活动奖励",
+      "videoTime": "00:08",
+      "focus": {
+        "x": 590,
+        "y": 70,
+        "width": 332,
+        "height": 589,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "sprint-recruit-five-r1",
+      "path": "assets/sprint-recruit-five-r1.jpg",
+      "sourceId": "sprint-five-overview",
+      "caption": "招募五轮 · 第1轮完成奖",
+      "version": "2026-09-02",
+      "role": "活动奖励",
+      "videoTime": "00:04",
+      "focus": {
+        "x": 578,
+        "y": 67,
+        "width": 355,
+        "height": 646,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "sprint-recruit-five-r2",
+      "path": "assets/sprint-recruit-five-r2.jpg",
+      "sourceId": "sprint-recruit-five",
+      "caption": "招募五轮 · 第2轮完成奖",
+      "version": "2026-09-03",
+      "role": "活动奖励",
+      "videoTime": "00:11",
+      "focus": {
+        "x": 589,
+        "y": 60,
+        "width": 333,
+        "height": 593,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "sprint-recruit-five-r3",
+      "path": "assets/sprint-recruit-five-r3.jpg",
+      "sourceId": "sprint-recruit-five",
+      "caption": "招募五轮 · 第3轮完成奖",
+      "version": "2026-09-03",
+      "role": "活动奖励",
+      "videoTime": "00:17",
+      "focus": {
+        "x": 589,
+        "y": 60,
+        "width": 333,
+        "height": 593,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "sprint-recruit-five-r4",
+      "path": "assets/sprint-recruit-five-r4.jpg",
+      "sourceId": "sprint-recruit-five",
+      "caption": "招募五轮 · 第4轮领奖",
+      "version": "2026-09-03",
+      "role": "活动奖励",
+      "videoTime": "00:30",
+      "focus": {
+        "x": 589,
+        "y": 60,
+        "width": 333,
+        "height": 593,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "sprint-recruit-five-r5",
+      "path": "assets/sprint-recruit-five-r5.jpg",
+      "sourceId": "sprint-recruit-five",
+      "caption": "招募五轮 · 第5轮完成奖",
+      "version": "2026-09-03",
+      "role": "活动奖励",
+      "videoTime": "00:35",
+      "focus": {
+        "x": 589,
+        "y": 60,
+        "width": 333,
+        "height": 593,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "sprint-totem-five-r1",
+      "path": "assets/sprint-totem-five-r1.jpg",
+      "sourceId": "sprint-totem-five",
+      "caption": "图腾五轮 · 第1轮完成奖",
+      "version": "2026-09-04",
+      "role": "活动奖励",
+      "videoTime": "01:00",
+      "focus": {
+        "x": 585,
+        "y": 147,
+        "width": 347,
+        "height": 443,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "sprint-totem-five-r2",
+      "path": "assets/sprint-totem-five-r2.jpg",
+      "sourceId": "sprint-totem-five",
+      "caption": "图腾五轮 · 第2轮完成奖",
+      "version": "2026-09-04",
+      "role": "活动奖励",
+      "videoTime": "01:02",
+      "focus": {
+        "x": 585,
+        "y": 147,
+        "width": 347,
+        "height": 443,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "sprint-totem-five-r3",
+      "path": "assets/sprint-totem-five-r3.jpg",
+      "sourceId": "sprint-totem-five",
+      "caption": "图腾五轮 · 第3轮完成奖",
+      "version": "2026-09-04",
+      "role": "活动奖励",
+      "videoTime": "01:06",
+      "focus": {
+        "x": 585,
+        "y": 147,
+        "width": 347,
+        "height": 443,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "sprint-totem-five-r4",
+      "path": "assets/sprint-totem-five-r4.jpg",
+      "sourceId": "sprint-totem-five",
+      "caption": "图腾五轮 · 第4轮完成奖",
+      "version": "2026-09-04",
+      "role": "活动奖励",
+      "videoTime": "01:13",
+      "focus": {
+        "x": 585,
+        "y": 147,
+        "width": 347,
+        "height": 443,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "sprint-totem-five-r5",
+      "path": "assets/sprint-totem-five-r5.jpg",
+      "sourceId": "sprint-totem-five",
+      "caption": "图腾五轮 · 第5轮完成奖",
+      "version": "2026-09-04",
+      "role": "活动奖励",
+      "videoTime": "01:20",
+      "focus": {
+        "x": 585,
+        "y": 147,
+        "width": 347,
+        "height": 443,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "sprint-totem-four-r4",
+      "path": "assets/sprint-totem-four-r4.jpg",
+      "sourceId": "sprint-totem-four",
+      "caption": "图腾四轮 · 第4轮完成奖",
+      "version": "2026-11-06",
+      "role": "活动奖励",
+      "videoTime": "03:40",
+      "focus": {
+        "x": 553,
+        "y": 0,
+        "width": 406,
+        "height": 710,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "sprint-astral-fragment",
+      "path": "assets/sprint-astral-fragment.jpg",
+      "sourceId": "sprint-totem-five",
+      "caption": "星象天仪碎片 · 道具说明",
+      "version": "2026-09-04",
+      "role": "活动奖励",
+      "videoTime": "01:25",
+      "focus": {
+        "x": 585,
+        "y": 147,
+        "width": 347,
+        "height": 443,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "sprint-crystal-five-r1",
+      "path": "assets/sprint-crystal-five-r1.jpg",
+      "sourceId": "sprint-crystal-five",
+      "caption": "晶矿五轮 · 第1轮完成奖",
+      "version": "2026-08-29",
+      "role": "活动奖励",
+      "videoTime": "00:12",
+      "focus": {
+        "x": 589,
+        "y": 60,
+        "width": 333,
+        "height": 593,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "sprint-crystal-five-r3",
+      "path": "assets/sprint-crystal-five-r3.jpg",
+      "sourceId": "sprint-crystal-five",
+      "caption": "晶矿五轮 · 第3轮完成奖",
+      "version": "2026-08-29",
+      "role": "活动奖励",
+      "videoTime": "00:18",
+      "focus": {
+        "x": 589,
+        "y": 60,
+        "width": 333,
+        "height": 593,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "sprint-crystal-five-r4",
+      "path": "assets/sprint-crystal-five-r4.jpg",
+      "sourceId": "sprint-crystal-five",
+      "caption": "晶矿五轮 · 第4轮完成奖",
+      "version": "2026-08-29",
+      "role": "活动奖励",
+      "videoTime": "00:27",
+      "focus": {
+        "x": 589,
+        "y": 60,
+        "width": 333,
+        "height": 593,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "sprint-crystal-five-r5",
+      "path": "assets/sprint-crystal-five-r5.jpg",
+      "sourceId": "sprint-crystal-five",
+      "caption": "晶矿五轮 · 第5轮领奖",
+      "version": "2026-08-29",
+      "role": "活动奖励",
+      "videoTime": "00:00",
+      "focus": {
+        "x": 589,
+        "y": 60,
+        "width": 333,
+        "height": 593,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "sprint-crystal-four-r1",
+      "path": "assets/sprint-crystal-four-r1.jpg",
+      "sourceId": "sprint-crystal-four-oct23",
+      "caption": "晶矿四轮 · 第1轮完成奖",
+      "version": "2026-10-23",
+      "videoTime": "00:25",
+      "role": "活动奖励",
+      "focus": {
+        "x": 537,
+        "y": 0,
+        "width": 438,
+        "height": 690,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "sprint-crystal-four-r2",
+      "path": "assets/sprint-crystal-four-r2.jpg",
+      "sourceId": "sprint-crystal-four-oct23",
+      "caption": "晶矿四轮 · 第2轮完成奖",
+      "version": "2026-10-23",
+      "videoTime": "00:35",
+      "role": "活动奖励",
+      "focus": {
+        "x": 537,
+        "y": 0,
+        "width": 438,
+        "height": 690,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "sprint-crystal-four-r3",
+      "path": "assets/sprint-crystal-four-r3.jpg",
+      "sourceId": "sprint-crystal-four-oct23",
+      "caption": "晶矿四轮 · 第3轮完成奖",
+      "version": "2026-10-23",
+      "videoTime": "00:55",
+      "role": "活动奖励",
+      "focus": {
+        "x": 537,
+        "y": 0,
+        "width": 438,
+        "height": 690,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "sprint-crystal-four-r4",
+      "path": "assets/sprint-crystal-four-r4.jpg",
+      "sourceId": "sprint-crystal-four-oct23",
+      "caption": "晶矿四轮 · 第4轮完成奖",
+      "version": "2026-10-23",
+      "videoTime": "01:02",
+      "role": "活动奖励",
+      "focus": {
+        "x": 537,
+        "y": 0,
+        "width": 438,
+        "height": 690,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "sprint-totem-four-r1-june",
+      "path": "assets/sprint-totem-four-r1-june.jpg",
+      "sourceId": "sprint-totem-four-june12",
+      "caption": "图腾四轮 · 第1轮完成奖",
+      "version": "2026-06-12",
+      "videoTime": "00:21",
+      "role": "活动奖励",
+      "focus": {
+        "x": 592,
+        "y": 60,
+        "width": 328,
+        "height": 593,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "sprint-totem-four-r2-june",
+      "path": "assets/sprint-totem-four-r2-june.jpg",
+      "sourceId": "sprint-totem-four-june12",
+      "caption": "图腾四轮 · 第2轮完成奖",
+      "version": "2026-06-12",
+      "videoTime": "00:29",
+      "role": "活动奖励",
+      "focus": {
+        "x": 592,
+        "y": 60,
+        "width": 328,
+        "height": 593,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "sprint-totem-four-r3-june",
+      "path": "assets/sprint-totem-four-r3-june.jpg",
+      "sourceId": "sprint-totem-four-june12",
+      "caption": "图腾四轮 · 第3轮完成奖",
+      "version": "2026-06-12",
+      "videoTime": "00:36",
+      "role": "活动奖励",
+      "focus": {
+        "x": 592,
+        "y": 60,
+        "width": 328,
+        "height": 593,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "sprint-totem-four-r4-june",
+      "path": "assets/sprint-totem-four-r4-june.jpg",
+      "sourceId": "sprint-totem-four-june12",
+      "caption": "图腾四轮 · 第4轮完成奖",
+      "version": "2026-06-12",
+      "videoTime": "00:45",
+      "role": "活动奖励",
+      "focus": {
+        "x": 592,
+        "y": 60,
+        "width": 328,
+        "height": 593,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "sprint-crystal-five-r2",
+      "path": "assets/sprint-crystal-five-r2.jpg",
+      "sourceId": "sprint-crystal-five-sept13",
+      "caption": "晶矿五轮 · 第2轮完成奖",
+      "version": "2026-09-13",
+      "videoTime": "00:07",
+      "role": "活动奖励",
+      "focus": {
+        "x": 581,
+        "y": 60,
+        "width": 351,
+        "height": 647,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "rank-recruit-early-board",
+      "path": "assets/rank-recruit-early-board.jpg",
+      "sourceId": "rank-recruit-early",
+      "caption": "招募第1—4期参考 · 排名奖励",
+      "version": "2026-06-07",
+      "videoTime": "00:31",
+      "role": "排名奖励",
+      "focus": {
+        "x": 592,
+        "y": 0,
+        "width": 328,
+        "height": 726,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "rank-recruit-late-board",
+      "path": "assets/rank-recruit-late-board.jpg",
+      "sourceId": "rank-recruit-totem-late",
+      "caption": "招募第5期起参考 · 排名奖励",
+      "version": "2026-10-15",
+      "videoTime": "01:15",
+      "role": "排名奖励",
+      "focus": {
+        "x": 567,
+        "y": 0,
+        "width": 377,
+        "height": 726,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "rank-totem-early-board",
+      "path": "assets/rank-totem-early-board.jpg",
+      "sourceId": "rank-totem-early",
+      "caption": "图腾第二期参考 · 排名奖励",
+      "version": "2026-09-19",
+      "videoTime": "00:07",
+      "role": "排名奖励",
+      "focus": {
+        "x": 592,
+        "y": 0,
+        "width": 328,
+        "height": 726,
+        "sourceWidth": 1512,
+        "sourceHeight": 772
+      }
+    },
+    {
+      "id": "rank-totem-late-top",
+      "path": "assets/rank-totem-late-top.jpg",
+      "sourceId": "rank-recruit-totem-late",
+      "caption": "图腾第5期起参考 · 第1—5名",
+      "version": "2026-10-15",
+      "videoTime": "01:20",
+      "role": "排名奖励",
+      "focus": {
+        "x": 731,
+        "y": 0,
+        "width": 459,
+        "height": 883,
+        "sourceWidth": 1920,
+        "sourceHeight": 929
+      }
+    },
+    {
+      "id": "rank-totem-late-bottom",
+      "path": "assets/rank-totem-late-bottom.jpg",
+      "sourceId": "rank-recruit-totem-late",
+      "caption": "图腾第5期起参考 · 第4—10名",
+      "version": "2026-10-15",
+      "videoTime": "02:26",
+      "role": "排名奖励",
+      "focus": {
+        "x": 731,
+        "y": 0,
+        "width": 459,
+        "height": 883,
+        "sourceWidth": 1920,
+        "sourceHeight": 929
+      }
+    },
+    {
+      "id": "rank-totem-pink-box",
+      "path": "assets/rank-totem-pink-box.jpg",
+      "sourceId": "rank-recruit-totem-late",
+      "caption": "粉色稀有图腾 · 道具说明",
+      "version": "2026-10-15",
+      "videoTime": "01:22",
+      "role": "排名奖励",
+      "focus": {
+        "x": 731,
+        "y": 0,
+        "width": 459,
+        "height": 883,
+        "sourceWidth": 1920,
+        "sourceHeight": 929
+      }
+    },
+    {
+      "id": "rank-totem-peerless-box",
+      "path": "assets/rank-totem-peerless-box.jpg",
+      "sourceId": "rank-recruit-totem-late",
+      "caption": "随机绝世图腾 · 道具说明",
+      "version": "2026-10-15",
+      "videoTime": "02:13",
+      "role": "排名奖励",
+      "focus": {
+        "x": 731,
+        "y": 0,
+        "width": 459,
+        "height": 883,
+        "sourceWidth": 1920,
+        "sourceHeight": 929
+      }
+    },
+    {
+      "id": "rank-crystal-early-board",
+      "path": "assets/rank-crystal-early-board.jpg",
+      "sourceId": "rank-crystal-early",
+      "caption": "晶矿第1—4期参考 · 排名奖励",
+      "version": "2026-06-04",
+      "videoTime": "00:36",
+      "role": "排名奖励",
+      "focus": {
+        "x": 773,
+        "y": 0,
+        "width": 375,
+        "height": 827,
+        "sourceWidth": 1920,
+        "sourceHeight": 873
+      }
+    },
+    {
+      "id": "rank-crystal-late-board",
+      "path": "assets/rank-crystal-late-board.jpg",
+      "sourceId": "rank-crystal-late",
+      "caption": "晶矿第5期起参考 · 排名奖励",
+      "version": "2026-09-17",
+      "videoTime": "00:08",
+      "role": "排名奖励",
+      "focus": {
+        "x": 773,
+        "y": 0,
+        "width": 375,
+        "height": 827,
+        "sourceWidth": 1920,
+        "sourceHeight": 873
+      }
+    },
+    {
+      "id": "rank-crystal-late-mail",
+      "path": "assets/rank-crystal-late-mail.jpg",
+      "sourceId": "rank-crystal-late",
+      "caption": "晶矿榜首 · 排名结算邮件",
+      "version": "2026-09-17",
+      "videoTime": "00:14",
+      "role": "排名奖励",
+      "focus": {
+        "x": 773,
+        "y": 0,
+        "width": 375,
+        "height": 827,
+        "sourceWidth": 1920,
+        "sourceHeight": 873
+      }
+    },
+    {
+      "id": "rank-crystal-late-claim",
+      "path": "assets/rank-crystal-late-claim.jpg",
+      "sourceId": "rank-crystal-late",
+      "caption": "晶矿榜首 · 实际领取奖励",
+      "version": "2026-09-17",
+      "videoTime": "00:19",
+      "role": "排名奖励",
+      "focus": {
+        "x": 773,
+        "y": 0,
+        "width": 375,
+        "height": 827,
+        "sourceWidth": 1920,
+        "sourceHeight": 873
+      }
     }
   ],
   "rewardCatalog": [
@@ -23542,5 +26223,7 @@
         "condition": "预算和自选箱名单不同，兑换目标需相应调整。"
       }
     ]
-  }
+  },
+  "sprintKnowledgeVersion": 1,
+  "sprintRankingVersion": 1
 }
