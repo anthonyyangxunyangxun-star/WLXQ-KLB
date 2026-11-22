@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "revision": "2026-11-22-v5.9",
+  "revision": "2026-11-22-v6.6",
   "meta": {
     "title": "蔚蓝星球知识库",
     "updatedAt": "2026-11-16",
@@ -32433,5 +32433,1606 @@
     ],
     "unavailableText": "暂未获取到明细信息。",
     "poolNote": "未列出的词条与品质明细：暂未获取到明细信息。"
-  }
+  },
+  "battleKnowledge": {
+    "version": 1,
+    "updatedAt": "2026-11-22",
+    "model": "normalized-clear-cost-v1",
+    "rules": {
+      "criticalDamage": "additional_bonus",
+      "criticalRate": "per_attack_probability",
+      "eliteBonuses": "additive",
+      "ignoreResistanceSources": "additive",
+      "firstWaveAndHighHealth": "general_additive",
+      "highHealthDamageWeight": 0.5,
+      "negativeDamageWeight": 0.7,
+      "firstThreeDamageWeight": 0.8,
+      "oneTraitPerSlot": true,
+      "recommendationObjective": "minimum_normalized_clear_cost",
+      "kingSkinCastCount": 8,
+      "resistanceReduction": "proportional"
+    },
+    "totemOptions": [
+      {
+        "id": "crown-crit:purple",
+        "traitId": "crown-crit",
+        "slotId": "crown",
+        "quality": "purple",
+        "name": "英雄暴击率",
+        "value": 4.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+4%。",
+        "refs": [
+          "totem57-rabbit"
+        ],
+        "media": [
+          "totem57-purple-rabbit-46"
+        ]
+      },
+      {
+        "id": "crown-crit:red",
+        "traitId": "crown-crit",
+        "slotId": "crown",
+        "quality": "red",
+        "name": "英雄暴击率",
+        "value": 6.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+6%。",
+        "refs": [
+          "totem57-crown"
+        ],
+        "media": [
+          "totem57-crown-official-2"
+        ]
+      },
+      {
+        "id": "crown-crit:pink",
+        "traitId": "crown-crit",
+        "slotId": "crown",
+        "quality": "pink",
+        "name": "英雄暴击率",
+        "value": 7.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+7%。",
+        "refs": [
+          "totem57-crit",
+          "totem59-crown-wake"
+        ],
+        "media": [
+          "totem59-crown-wake-025"
+        ]
+      },
+      {
+        "id": "crown-resistance:purple",
+        "traitId": "crown-resistance",
+        "slotId": "crown",
+        "quality": "purple",
+        "name": "无视抗性",
+        "value": 25.0,
+        "metric": "ignore_all_resistance",
+        "effect": "无视怪物所有类型25%的抗性。",
+        "refs": [
+          "totem57-rabbit"
+        ],
+        "media": [
+          "totem57-purple-rabbit-11"
+        ]
+      },
+      {
+        "id": "crown-resistance:red",
+        "traitId": "crown-resistance",
+        "slotId": "crown",
+        "quality": "red",
+        "name": "无视抗性",
+        "value": 35.0,
+        "metric": "ignore_all_resistance",
+        "effect": "无视怪物所有类型35%的抗性。",
+        "refs": [
+          "totem57-crown"
+        ],
+        "media": [
+          "totem57-crown-official-4"
+        ]
+      },
+      {
+        "id": "crown-resistance:pink",
+        "traitId": "crown-resistance",
+        "slotId": "crown",
+        "quality": "pink",
+        "name": "无视抗性",
+        "value": 40.0,
+        "metric": "ignore_all_resistance",
+        "effect": "无视怪物所有类型40%的抗性。",
+        "refs": [
+          "totem57-rabbit"
+        ],
+        "media": [
+          "totem57-purple-rabbit-11"
+        ]
+      },
+      {
+        "id": "crown-debuff:red",
+        "traitId": "crown-debuff",
+        "slotId": "crown",
+        "quality": "red",
+        "name": "负面状态增伤",
+        "value": 25.0,
+        "metric": "negative_status_damage",
+        "effect": "对有负面状态的怪物伤害+25%。",
+        "refs": [
+          "totem57-crown"
+        ],
+        "media": [
+          "totem57-crown-official-6"
+        ]
+      },
+      {
+        "id": "crown-debuff:pink",
+        "traitId": "crown-debuff",
+        "slotId": "crown",
+        "quality": "pink",
+        "name": "负面状态增伤",
+        "value": 31.0,
+        "metric": "negative_status_damage",
+        "effect": "对有负面状态的怪物伤害+31%。",
+        "refs": [
+          "totem59-crown-wake"
+        ],
+        "media": [
+          "totem59-crown-wake-500"
+        ]
+      },
+      {
+        "id": "crown-high-hp:red",
+        "traitId": "crown-high-hp",
+        "slotId": "crown",
+        "quality": "red",
+        "name": "高血量怪物增伤",
+        "value": 40.0,
+        "metric": "high_health_damage",
+        "effect": "对血量高于70%的怪物伤害+40%。",
+        "refs": [
+          "totem57-crown"
+        ],
+        "media": [
+          "totem57-crown-official-9"
+        ]
+      },
+      {
+        "id": "crown-tank:red",
+        "traitId": "crown-tank",
+        "slotId": "crown",
+        "quality": "red",
+        "name": "肉盾怪物增伤",
+        "value": 40.0,
+        "metric": "tank_monster_damage",
+        "effect": "对肉盾怪物伤害+40%。",
+        "refs": [
+          "totem57-crown"
+        ],
+        "media": [
+          "totem57-crown-official-10"
+        ]
+      },
+      {
+        "id": "crown-ranged:red",
+        "traitId": "crown-ranged",
+        "slotId": "crown",
+        "quality": "red",
+        "name": "远程怪物增伤",
+        "value": 40.0,
+        "metric": "ranged_monster_damage",
+        "effect": "对远程怪物伤害+40%。",
+        "refs": [
+          "totem57-crown"
+        ],
+        "media": [
+          "totem57-crown-official-16"
+        ]
+      },
+      {
+        "id": "horn-elite:pink",
+        "traitId": "horn-elite",
+        "slotId": "horn",
+        "quality": "pink",
+        "name": "精英首领增伤",
+        "value": 50.0,
+        "metric": "elite_boss_damage",
+        "effect": "对精英和首领伤害+50%。",
+        "refs": [
+          "totem57-horn"
+        ],
+        "media": [
+          "totem57-horn-official-10"
+        ]
+      },
+      {
+        "id": "horn-high-hp:pink",
+        "traitId": "horn-high-hp",
+        "slotId": "horn",
+        "quality": "pink",
+        "name": "高血量怪物增伤",
+        "value": 50.0,
+        "metric": "high_health_damage",
+        "effect": "对血量高于70%的怪物伤害+50%。",
+        "refs": [
+          "totem57-horn"
+        ],
+        "media": [
+          "totem57-horn-official-13"
+        ]
+      },
+      {
+        "id": "armor-elite:red",
+        "traitId": "armor-elite",
+        "slotId": "armor",
+        "quality": "red",
+        "name": "精英首领增伤",
+        "value": 40.0,
+        "metric": "elite_boss_damage",
+        "effect": "对精英和首领伤害+40%。",
+        "refs": [
+          "totem57-armor"
+        ],
+        "media": [
+          "totem57-armor-official-6"
+        ]
+      },
+      {
+        "id": "armor-high-hp:red",
+        "traitId": "armor-high-hp",
+        "slotId": "armor",
+        "quality": "red",
+        "name": "高血量怪物增伤",
+        "value": 40.0,
+        "metric": "high_health_damage",
+        "effect": "对血量高于70%的怪物伤害+40%。",
+        "refs": [
+          "totem57-armor"
+        ],
+        "media": [
+          "totem57-armor-official-7"
+        ]
+      },
+      {
+        "id": "armor-tank:red",
+        "traitId": "armor-tank",
+        "slotId": "armor",
+        "quality": "red",
+        "name": "肉盾怪物增伤",
+        "value": 40.0,
+        "metric": "tank_monster_damage",
+        "effect": "对肉盾怪物伤害+40%。",
+        "refs": [
+          "totem57-armor"
+        ],
+        "media": [
+          "totem57-armor-official-9"
+        ]
+      },
+      {
+        "id": "boots-high-hp:red",
+        "traitId": "boots-high-hp",
+        "slotId": "boots",
+        "quality": "red",
+        "name": "高血量怪物增伤",
+        "value": 40.0,
+        "metric": "high_health_damage",
+        "effect": "对血量高于70%的怪物伤害+40%。",
+        "refs": [
+          "totem57-boots"
+        ],
+        "media": [
+          "totem57-boots-official-6"
+        ]
+      },
+      {
+        "id": "boots-high-hp:pink",
+        "traitId": "boots-high-hp",
+        "slotId": "boots",
+        "quality": "pink",
+        "name": "高血量怪物增伤",
+        "value": 50.0,
+        "metric": "high_health_damage",
+        "effect": "对血量高于70%的怪物伤害+50%。",
+        "refs": [
+          "totem59-boots-wake"
+        ],
+        "media": [
+          "totem59-boots-wake-200"
+        ]
+      },
+      {
+        "id": "boots-elite:red",
+        "traitId": "boots-elite",
+        "slotId": "boots",
+        "quality": "red",
+        "name": "精英首领增伤",
+        "value": 40.0,
+        "metric": "elite_boss_damage",
+        "effect": "对精英和首领伤害+40%。",
+        "refs": [
+          "totem57-boots"
+        ],
+        "media": [
+          "totem57-boots-official-7"
+        ]
+      },
+      {
+        "id": "boots-elite:pink",
+        "traitId": "boots-elite",
+        "slotId": "boots",
+        "quality": "pink",
+        "name": "精英首领增伤",
+        "value": 50.0,
+        "metric": "elite_boss_damage",
+        "effect": "对精英和首领伤害+50%。",
+        "refs": [
+          "totem59-boots-wake"
+        ],
+        "media": [
+          "totem59-boots-wake-200"
+        ]
+      },
+      {
+        "id": "boots-tank:red",
+        "traitId": "boots-tank",
+        "slotId": "boots",
+        "quality": "red",
+        "name": "肉盾怪物增伤",
+        "value": 40.0,
+        "metric": "tank_monster_damage",
+        "effect": "对肉盾怪物伤害+40%。",
+        "refs": [
+          "totem57-boots"
+        ],
+        "media": [
+          "totem57-boots-official-8"
+        ]
+      },
+      {
+        "id": "boots-tank:pink",
+        "traitId": "boots-tank",
+        "slotId": "boots",
+        "quality": "pink",
+        "name": "肉盾怪物增伤",
+        "value": 50.0,
+        "metric": "tank_monster_damage",
+        "effect": "对肉盾怪物伤害+50%。",
+        "refs": [
+          "totem59-boots-wake"
+        ],
+        "media": [
+          "totem59-boots-wake-200"
+        ]
+      },
+      {
+        "id": "boots-ranged:red",
+        "traitId": "boots-ranged",
+        "slotId": "boots",
+        "quality": "red",
+        "name": "远程怪物增伤",
+        "value": 40.0,
+        "metric": "ranged_monster_damage",
+        "effect": "对远程怪物伤害+40%。",
+        "refs": [
+          "totem57-boots"
+        ],
+        "media": [
+          "totem57-boots-official-22"
+        ]
+      },
+      {
+        "id": "boots-ranged:pink",
+        "traitId": "boots-ranged",
+        "slotId": "boots",
+        "quality": "pink",
+        "name": "远程怪物增伤",
+        "value": 50.0,
+        "metric": "ranged_monster_damage",
+        "effect": "对远程怪物伤害+50%。",
+        "refs": [
+          "totem59-boots-wake"
+        ],
+        "media": [
+          "totem59-boots-wake-200"
+        ]
+      },
+      {
+        "id": "ring-high-hp:red",
+        "traitId": "ring-high-hp",
+        "slotId": "ring",
+        "quality": "red",
+        "name": "高血量怪物增伤",
+        "value": 40.0,
+        "metric": "high_health_damage",
+        "effect": "对血量高于70%的怪物伤害+40%。",
+        "refs": [
+          "totem57-ring"
+        ],
+        "media": [
+          "totem57-ring-luosheng-1"
+        ]
+      },
+      {
+        "id": "ring-high-hp:pink",
+        "traitId": "ring-high-hp",
+        "slotId": "ring",
+        "quality": "pink",
+        "name": "高血量怪物增伤",
+        "value": 50.0,
+        "metric": "high_health_damage",
+        "effect": "对血量高于70%的怪物伤害+50%。",
+        "refs": [
+          "totem57-ring-pink"
+        ],
+        "media": [
+          "totem57-ring-pink-official-13"
+        ]
+      },
+      {
+        "id": "ring-ranged:red",
+        "traitId": "ring-ranged",
+        "slotId": "ring",
+        "quality": "red",
+        "name": "远程怪物增伤",
+        "value": 40.0,
+        "metric": "ranged_monster_damage",
+        "effect": "对远程怪物伤害+40%。",
+        "refs": [
+          "totem57-ring"
+        ],
+        "media": [
+          "totem57-ring-luosheng-1"
+        ]
+      },
+      {
+        "id": "ring-ranged:pink",
+        "traitId": "ring-ranged",
+        "slotId": "ring",
+        "quality": "pink",
+        "name": "远程怪物增伤",
+        "value": 50.0,
+        "metric": "ranged_monster_damage",
+        "effect": "对远程怪物伤害+50%。",
+        "refs": [
+          "totem57-ring-pink"
+        ],
+        "media": [
+          "totem57-ring-pink-official-17"
+        ]
+      },
+      {
+        "id": "ring-tank:red",
+        "traitId": "ring-tank",
+        "slotId": "ring",
+        "quality": "red",
+        "name": "肉盾怪物增伤",
+        "value": 40.0,
+        "metric": "tank_monster_damage",
+        "effect": "对肉盾怪物伤害+40%。",
+        "refs": [
+          "totem57-ring"
+        ],
+        "media": [
+          "totem57-ring-luosheng-1"
+        ]
+      },
+      {
+        "id": "ring-tank:pink",
+        "traitId": "ring-tank",
+        "slotId": "ring",
+        "quality": "pink",
+        "name": "肉盾怪物增伤",
+        "value": 50.0,
+        "metric": "tank_monster_damage",
+        "effect": "对肉盾怪物伤害+50%。",
+        "refs": [
+          "totem57-ring-pink"
+        ],
+        "media": [
+          "totem57-ring-pink-official-17"
+        ]
+      },
+      {
+        "id": "ring-debuff:red",
+        "traitId": "ring-debuff",
+        "slotId": "ring",
+        "quality": "red",
+        "name": "负面状态增伤",
+        "value": 25.0,
+        "metric": "negative_status_damage",
+        "effect": "对有负面状态的怪物伤害+25%。",
+        "refs": [
+          "totem57-ring"
+        ],
+        "media": [
+          "totem57-ring-luosheng-1"
+        ]
+      },
+      {
+        "id": "ring-debuff:pink",
+        "traitId": "ring-debuff",
+        "slotId": "ring",
+        "quality": "pink",
+        "name": "负面状态增伤",
+        "value": 31.0,
+        "metric": "negative_status_damage",
+        "effect": "对有负面状态的怪物伤害+31%。",
+        "refs": [
+          "totem57-ring-pink"
+        ],
+        "media": [
+          "totem57-ring-pink-official-15"
+        ]
+      },
+      {
+        "id": "ring-first-waves:red",
+        "traitId": "ring-first-waves",
+        "slotId": "ring",
+        "quality": "red",
+        "name": "前三波增伤",
+        "value": 40.0,
+        "metric": "first_three_waves_damage",
+        "effect": "对前三波出现的怪物伤害+40%。",
+        "refs": [
+          "totem57-ring"
+        ],
+        "media": [
+          "totem57-ring-luosheng-2"
+        ]
+      },
+      {
+        "id": "ring-first-waves:pink",
+        "traitId": "ring-first-waves",
+        "slotId": "ring",
+        "quality": "pink",
+        "name": "前三波增伤",
+        "value": 50.0,
+        "metric": "first_three_waves_damage",
+        "effect": "对前三波出现的怪物伤害+50%。",
+        "refs": [
+          "totem57-ring-pink"
+        ],
+        "media": [
+          "totem57-ring-pink-official-14"
+        ]
+      },
+      {
+        "id": "necklace-debuff:red",
+        "traitId": "necklace-debuff",
+        "slotId": "necklace",
+        "quality": "red",
+        "name": "负面状态增伤",
+        "value": 25.0,
+        "metric": "negative_status_damage",
+        "effect": "对有负面状态的怪物伤害+25%。",
+        "refs": [
+          "totem57-necklace"
+        ],
+        "media": [
+          "totem57-necklace-official-11"
+        ]
+      },
+      {
+        "id": "necklace-high-hp:red",
+        "traitId": "necklace-high-hp",
+        "slotId": "necklace",
+        "quality": "red",
+        "name": "高血量怪物增伤",
+        "value": 40.0,
+        "metric": "high_health_damage",
+        "effect": "对血量高于70%的怪物伤害+40%。",
+        "refs": [
+          "totem57-necklace"
+        ],
+        "media": [
+          "totem57-necklace-official-13"
+        ]
+      },
+      {
+        "id": "necklace-tank:red",
+        "traitId": "necklace-tank",
+        "slotId": "necklace",
+        "quality": "red",
+        "name": "肉盾怪物增伤",
+        "value": 40.0,
+        "metric": "tank_monster_damage",
+        "effect": "对肉盾怪物伤害+40%。",
+        "refs": [
+          "totem57-necklace"
+        ],
+        "media": [
+          "totem57-necklace-official-14"
+        ]
+      },
+      {
+        "id": "horn-tank:pink",
+        "traitId": "horn-tank",
+        "slotId": "horn",
+        "quality": "pink",
+        "name": "肉盾怪物增伤",
+        "value": 50.0,
+        "metric": "tank_monster_damage",
+        "effect": "对肉盾怪物伤害+50%。",
+        "refs": [
+          "hero-percent-totems-ayue"
+        ],
+        "media": [
+          "hero-v51-strike-totem"
+        ]
+      },
+      {
+        "id": "horn-crit:purple",
+        "traitId": "horn-crit",
+        "slotId": "horn",
+        "quality": "purple",
+        "name": "英雄暴击率",
+        "value": 4.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+4%。",
+        "refs": [
+          "totem57-all-slots"
+        ],
+        "media": []
+      },
+      {
+        "id": "horn-crit:red",
+        "traitId": "horn-crit",
+        "slotId": "horn",
+        "quality": "red",
+        "name": "英雄暴击率",
+        "value": 6.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+6%。",
+        "refs": [
+          "totem57-crit"
+        ],
+        "media": []
+      },
+      {
+        "id": "horn-crit:pink",
+        "traitId": "horn-crit",
+        "slotId": "horn",
+        "quality": "pink",
+        "name": "英雄暴击率",
+        "value": 7.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+7%。",
+        "refs": [
+          "totem57-horn"
+        ],
+        "media": [
+          "totem57-horn-official-2"
+        ]
+      },
+      {
+        "id": "armor-crit:purple",
+        "traitId": "armor-crit",
+        "slotId": "armor",
+        "quality": "purple",
+        "name": "英雄暴击率",
+        "value": 4.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+4%。",
+        "refs": [
+          "totem57-all-slots"
+        ],
+        "media": []
+      },
+      {
+        "id": "armor-crit:red",
+        "traitId": "armor-crit",
+        "slotId": "armor",
+        "quality": "red",
+        "name": "英雄暴击率",
+        "value": 6.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+6%。",
+        "refs": [
+          "totem57-armor"
+        ],
+        "media": [
+          "totem57-armor-official-2"
+        ]
+      },
+      {
+        "id": "armor-crit:pink",
+        "traitId": "armor-crit",
+        "slotId": "armor",
+        "quality": "pink",
+        "name": "英雄暴击率",
+        "value": 7.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+7%。",
+        "refs": [
+          "totem57-crit",
+          "totem59-armor-wake"
+        ],
+        "media": [
+          "totem59-armor-wake-065"
+        ]
+      },
+      {
+        "id": "boots-crit:purple",
+        "traitId": "boots-crit",
+        "slotId": "boots",
+        "quality": "purple",
+        "name": "英雄暴击率",
+        "value": 4.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+4%。",
+        "refs": [
+          "totem57-all-slots"
+        ],
+        "media": []
+      },
+      {
+        "id": "boots-crit:red",
+        "traitId": "boots-crit",
+        "slotId": "boots",
+        "quality": "red",
+        "name": "英雄暴击率",
+        "value": 6.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+6%。",
+        "refs": [
+          "totem57-boots"
+        ],
+        "media": [
+          "totem57-boots-official-3"
+        ]
+      },
+      {
+        "id": "boots-crit:pink",
+        "traitId": "boots-crit",
+        "slotId": "boots",
+        "quality": "pink",
+        "name": "英雄暴击率",
+        "value": 7.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+7%。",
+        "refs": [
+          "totem57-crit",
+          "totem59-boots-wake"
+        ],
+        "media": [
+          "totem59-boots-wake-070"
+        ]
+      },
+      {
+        "id": "ring-crit:purple",
+        "traitId": "ring-crit",
+        "slotId": "ring",
+        "quality": "purple",
+        "name": "英雄暴击率",
+        "value": 4.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+4%。",
+        "refs": [
+          "totem57-all-slots"
+        ],
+        "media": []
+      },
+      {
+        "id": "ring-crit:red",
+        "traitId": "ring-crit",
+        "slotId": "ring",
+        "quality": "red",
+        "name": "英雄暴击率",
+        "value": 6.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+6%。",
+        "refs": [
+          "totem57-ring"
+        ],
+        "media": [
+          "totem57-ring-luosheng-2"
+        ]
+      },
+      {
+        "id": "ring-crit:pink",
+        "traitId": "ring-crit",
+        "slotId": "ring",
+        "quality": "pink",
+        "name": "英雄暴击率",
+        "value": 7.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+7%。",
+        "refs": [
+          "totem57-ring-pink"
+        ],
+        "media": [
+          "totem57-ring-pink-official-3"
+        ]
+      },
+      {
+        "id": "necklace-crit:purple",
+        "traitId": "necklace-crit",
+        "slotId": "necklace",
+        "quality": "purple",
+        "name": "英雄暴击率",
+        "value": 4.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+4%。",
+        "refs": [
+          "totem57-all-slots"
+        ],
+        "media": []
+      },
+      {
+        "id": "necklace-crit:red",
+        "traitId": "necklace-crit",
+        "slotId": "necklace",
+        "quality": "red",
+        "name": "英雄暴击率",
+        "value": 6.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+6%。",
+        "refs": [
+          "totem57-necklace"
+        ],
+        "media": [
+          "totem57-necklace-official-3"
+        ]
+      },
+      {
+        "id": "necklace-crit:pink",
+        "traitId": "necklace-crit",
+        "slotId": "necklace",
+        "quality": "pink",
+        "name": "英雄暴击率",
+        "value": 7.0,
+        "metric": "crit_rate",
+        "effect": "英雄暴击率+7%。",
+        "refs": [
+          "totem57-crit"
+        ],
+        "media": []
+      },
+      {
+        "id": "crown-flying:red",
+        "traitId": "crown-flying",
+        "slotId": "crown",
+        "quality": "red",
+        "name": "飞行怪物增伤",
+        "value": 40.0,
+        "metric": "flying_monster_damage",
+        "effect": "对飞行怪物伤害+40%。",
+        "refs": [
+          "totem57-crown"
+        ],
+        "media": [
+          "totem57-crown-official-11"
+        ]
+      },
+      {
+        "id": "crown-fast:red",
+        "traitId": "crown-fast",
+        "slotId": "crown",
+        "quality": "red",
+        "name": "高速怪物增伤",
+        "value": 40.0,
+        "metric": "fast_monster_damage",
+        "effect": "对高速怪物伤害+40%。",
+        "refs": [
+          "totem57-crown"
+        ],
+        "media": [
+          "totem57-crown-official-15"
+        ]
+      },
+      {
+        "id": "crown-job-毒系:red",
+        "traitId": "crown-job-毒系",
+        "slotId": "crown",
+        "quality": "red",
+        "name": "毒系职业增伤",
+        "value": 16.0,
+        "metric": "poison_hero_damage",
+        "effect": "毒系职业伤害+16%。",
+        "refs": [
+          "totem57-crown"
+        ],
+        "media": [
+          "totem57-crown-official-17"
+        ]
+      },
+      {
+        "id": "crown-job-召唤:red",
+        "traitId": "crown-job-召唤",
+        "slotId": "crown",
+        "quality": "red",
+        "name": "召唤职业增伤",
+        "value": 16.0,
+        "metric": "summon_profession_damage",
+        "effect": "召唤职业伤害+16%。",
+        "refs": [
+          "totem57-crown"
+        ],
+        "media": [
+          "totem57-crown-official-17"
+        ]
+      },
+      {
+        "id": "crown-job-法师:red",
+        "traitId": "crown-job-法师",
+        "slotId": "crown",
+        "quality": "red",
+        "name": "法师职业增伤",
+        "value": 16.0,
+        "metric": "mage_hero_damage",
+        "effect": "法师职业伤害+16%。",
+        "refs": [
+          "totem57-crown"
+        ],
+        "media": [
+          "totem57-crown-official-17"
+        ]
+      },
+      {
+        "id": "crown-job-战士:red",
+        "traitId": "crown-job-战士",
+        "slotId": "crown",
+        "quality": "red",
+        "name": "战士职业增伤",
+        "value": 16.0,
+        "metric": "warrior_hero_damage",
+        "effect": "战士职业伤害+16%。",
+        "refs": [
+          "totem57-crown"
+        ],
+        "media": [
+          "totem57-crown-official-17"
+        ]
+      },
+      {
+        "id": "crown-job-射手:red",
+        "traitId": "crown-job-射手",
+        "slotId": "crown",
+        "quality": "red",
+        "name": "射手职业增伤",
+        "value": 16.0,
+        "metric": "shooter_hero_damage",
+        "effect": "射手职业伤害+16%。",
+        "refs": [
+          "totem57-crown"
+        ],
+        "media": [
+          "totem57-crown-official-18"
+        ]
+      },
+      {
+        "id": "armor-flying:red",
+        "traitId": "armor-flying",
+        "slotId": "armor",
+        "quality": "red",
+        "name": "飞行怪物增伤",
+        "value": 40.0,
+        "metric": "flying_monster_damage",
+        "effect": "对飞行怪物伤害+40%。",
+        "refs": [
+          "totem57-armor"
+        ],
+        "media": [
+          "totem57-armor-official-9"
+        ]
+      },
+      {
+        "id": "armor-all-damage:red",
+        "traitId": "armor-all-damage",
+        "slotId": "armor",
+        "quality": "red",
+        "name": "国王与英雄增伤",
+        "value": 10.0,
+        "metric": "all_profession_damage_total",
+        "effect": "国王和英雄伤害+10%。",
+        "refs": [
+          "totem57-armor"
+        ],
+        "media": [
+          "totem57-armor-official-10"
+        ]
+      },
+      {
+        "id": "armor-job-毒系:red",
+        "traitId": "armor-job-毒系",
+        "slotId": "armor",
+        "quality": "red",
+        "name": "毒系职业增伤",
+        "value": 16.0,
+        "metric": "poison_hero_damage",
+        "effect": "毒系职业伤害+16%。",
+        "refs": [
+          "totem57-armor"
+        ],
+        "media": [
+          "totem57-armor-official-10"
+        ]
+      },
+      {
+        "id": "armor-job-召唤:red",
+        "traitId": "armor-job-召唤",
+        "slotId": "armor",
+        "quality": "red",
+        "name": "召唤职业增伤",
+        "value": 16.0,
+        "metric": "summon_profession_damage",
+        "effect": "召唤职业伤害+16%。",
+        "refs": [
+          "totem57-armor"
+        ],
+        "media": [
+          "totem57-armor-official-10"
+        ]
+      },
+      {
+        "id": "armor-job-法师:red",
+        "traitId": "armor-job-法师",
+        "slotId": "armor",
+        "quality": "red",
+        "name": "法师职业增伤",
+        "value": 16.0,
+        "metric": "mage_hero_damage",
+        "effect": "法师职业伤害+16%。",
+        "refs": [
+          "totem57-armor"
+        ],
+        "media": [
+          "totem57-armor-official-10"
+        ]
+      },
+      {
+        "id": "armor-job-战士:red",
+        "traitId": "armor-job-战士",
+        "slotId": "armor",
+        "quality": "red",
+        "name": "战士职业增伤",
+        "value": 16.0,
+        "metric": "warrior_hero_damage",
+        "effect": "战士职业伤害+16%。",
+        "refs": [
+          "totem57-armor"
+        ],
+        "media": [
+          "totem57-armor-official-10"
+        ]
+      },
+      {
+        "id": "boots-full-crit:red",
+        "traitId": "boots-full-crit",
+        "slotId": "boots",
+        "quality": "red",
+        "name": "攻击满血怪物暴击",
+        "value": 40.0,
+        "metric": "full_health_crit_rate_bonus",
+        "effect": "攻击满血怪物时，暴击率+40%。",
+        "refs": [
+          "totem57-boots"
+        ],
+        "media": [
+          "totem57-boots-official-9"
+        ]
+      },
+      {
+        "id": "boots-full-crit:pink",
+        "traitId": "boots-full-crit",
+        "slotId": "boots",
+        "quality": "pink",
+        "name": "攻击满血怪物暴击",
+        "value": 50.0,
+        "metric": "full_health_crit_rate_bonus",
+        "effect": "攻击满血怪物时，暴击率+50%。",
+        "refs": [
+          "totem59-boots-wake"
+        ],
+        "media": [
+          "totem59-boots-wake-200"
+        ]
+      },
+      {
+        "id": "boots-flying:red",
+        "traitId": "boots-flying",
+        "slotId": "boots",
+        "quality": "red",
+        "name": "飞行怪物增伤",
+        "value": 40.0,
+        "metric": "flying_monster_damage",
+        "effect": "对飞行怪物伤害+40%。",
+        "refs": [
+          "totem57-boots"
+        ],
+        "media": [
+          "totem57-boots-official-11"
+        ]
+      },
+      {
+        "id": "boots-flying:pink",
+        "traitId": "boots-flying",
+        "slotId": "boots",
+        "quality": "pink",
+        "name": "飞行怪物增伤",
+        "value": 50.0,
+        "metric": "flying_monster_damage",
+        "effect": "对飞行怪物伤害+50%。",
+        "refs": [
+          "totem59-boots-wake"
+        ],
+        "media": [
+          "totem59-boots-wake-200"
+        ]
+      },
+      {
+        "id": "boots-all-damage:red",
+        "traitId": "boots-all-damage",
+        "slotId": "boots",
+        "quality": "red",
+        "name": "国王与英雄增伤",
+        "value": 10.0,
+        "metric": "all_profession_damage_total",
+        "effect": "国王和英雄伤害+10%。",
+        "refs": [
+          "totem57-boots"
+        ],
+        "media": [
+          "totem57-boots-official-14"
+        ]
+      },
+      {
+        "id": "boots-fast:red",
+        "traitId": "boots-fast",
+        "slotId": "boots",
+        "quality": "red",
+        "name": "高速怪物增伤",
+        "value": 40.0,
+        "metric": "fast_monster_damage",
+        "effect": "对高速怪物伤害+40%。",
+        "refs": [
+          "totem57-boots"
+        ],
+        "media": [
+          "totem57-boots-official-22"
+        ]
+      },
+      {
+        "id": "boots-fast:pink",
+        "traitId": "boots-fast",
+        "slotId": "boots",
+        "quality": "pink",
+        "name": "高速怪物增伤",
+        "value": 50.0,
+        "metric": "fast_monster_damage",
+        "effect": "对高速怪物伤害+50%。",
+        "refs": [
+          "totem59-boots-wake"
+        ],
+        "media": [
+          "totem59-boots-wake-200"
+        ]
+      },
+      {
+        "id": "boots-job-毒系:red",
+        "traitId": "boots-job-毒系",
+        "slotId": "boots",
+        "quality": "red",
+        "name": "毒系职业增伤",
+        "value": 16.0,
+        "metric": "poison_hero_damage",
+        "effect": "毒系职业伤害+16%。",
+        "refs": [
+          "totem57-boots"
+        ],
+        "media": [
+          "totem57-boots-official-13"
+        ]
+      },
+      {
+        "id": "boots-job-射手:red",
+        "traitId": "boots-job-射手",
+        "slotId": "boots",
+        "quality": "red",
+        "name": "射手职业增伤",
+        "value": 16.0,
+        "metric": "shooter_hero_damage",
+        "effect": "射手职业伤害+16%。",
+        "refs": [
+          "totem57-boots"
+        ],
+        "media": [
+          "totem57-boots-official-13"
+        ]
+      },
+      {
+        "id": "boots-job-法师:red",
+        "traitId": "boots-job-法师",
+        "slotId": "boots",
+        "quality": "red",
+        "name": "法师职业增伤",
+        "value": 16.0,
+        "metric": "mage_hero_damage",
+        "effect": "法师职业伤害+16%。",
+        "refs": [
+          "totem57-boots"
+        ],
+        "media": [
+          "totem57-boots-official-13"
+        ]
+      },
+      {
+        "id": "boots-job-战士:red",
+        "traitId": "boots-job-战士",
+        "slotId": "boots",
+        "quality": "red",
+        "name": "战士职业增伤",
+        "value": 16.0,
+        "metric": "warrior_hero_damage",
+        "effect": "战士职业伤害+16%。",
+        "refs": [
+          "totem57-boots"
+        ],
+        "media": [
+          "totem57-boots-official-13"
+        ]
+      },
+      {
+        "id": "boots-job-召唤:red",
+        "traitId": "boots-job-召唤",
+        "slotId": "boots",
+        "quality": "red",
+        "name": "召唤职业增伤",
+        "value": 16.0,
+        "metric": "summon_profession_damage",
+        "effect": "召唤职业伤害+16%。",
+        "refs": [
+          "totem57-boots"
+        ],
+        "media": [
+          "totem57-boots-official-25"
+        ]
+      },
+      {
+        "id": "ring-all-damage:red",
+        "traitId": "ring-all-damage",
+        "slotId": "ring",
+        "quality": "red",
+        "name": "国王与英雄增伤",
+        "value": 10.0,
+        "metric": "all_profession_damage_total",
+        "effect": "国王和英雄伤害+10%。",
+        "refs": [
+          "totem57-ring"
+        ],
+        "media": [
+          "totem57-ring-luosheng-1"
+        ]
+      },
+      {
+        "id": "ring-all-damage:pink",
+        "traitId": "ring-all-damage",
+        "slotId": "ring",
+        "quality": "pink",
+        "name": "国王与英雄增伤",
+        "value": 12.5,
+        "metric": "all_profession_damage_total",
+        "effect": "国王和英雄伤害+12.5%。",
+        "refs": [
+          "totem57-ring-pink"
+        ],
+        "media": [
+          "totem57-ring-pink-official-20"
+        ]
+      },
+      {
+        "id": "ring-flying:red",
+        "traitId": "ring-flying",
+        "slotId": "ring",
+        "quality": "red",
+        "name": "飞行怪物增伤",
+        "value": 40.0,
+        "metric": "flying_monster_damage",
+        "effect": "对飞行怪物伤害+40%。",
+        "refs": [
+          "totem57-ring"
+        ],
+        "media": [
+          "totem57-ring-luosheng-1"
+        ]
+      },
+      {
+        "id": "ring-flying:pink",
+        "traitId": "ring-flying",
+        "slotId": "ring",
+        "quality": "pink",
+        "name": "飞行怪物增伤",
+        "value": 50.0,
+        "metric": "flying_monster_damage",
+        "effect": "对飞行怪物伤害+50%。",
+        "refs": [
+          "totem57-ring-pink"
+        ],
+        "media": [
+          "totem57-ring-pink-official-17"
+        ]
+      },
+      {
+        "id": "ring-fast:red",
+        "traitId": "ring-fast",
+        "slotId": "ring",
+        "quality": "red",
+        "name": "高速怪物增伤",
+        "value": 40.0,
+        "metric": "fast_monster_damage",
+        "effect": "对高速怪物伤害+40%。",
+        "refs": [
+          "totem57-ring"
+        ],
+        "media": [
+          "totem57-ring-luosheng-1"
+        ]
+      },
+      {
+        "id": "ring-fast:pink",
+        "traitId": "ring-fast",
+        "slotId": "ring",
+        "quality": "pink",
+        "name": "高速怪物增伤",
+        "value": 50.0,
+        "metric": "fast_monster_damage",
+        "effect": "对高速怪物伤害+50%。",
+        "refs": [
+          "totem57-ring-pink"
+        ],
+        "media": [
+          "totem57-ring-pink-official-17"
+        ]
+      },
+      {
+        "id": "ring-job-召唤:red",
+        "traitId": "ring-job-召唤",
+        "slotId": "ring",
+        "quality": "red",
+        "name": "召唤职业增伤",
+        "value": 16.0,
+        "metric": "summon_profession_damage",
+        "effect": "召唤职业伤害+16%。",
+        "refs": [
+          "totem57-ring"
+        ],
+        "media": [
+          "totem57-ring-luosheng-4"
+        ]
+      },
+      {
+        "id": "ring-job-召唤:pink",
+        "traitId": "ring-job-召唤",
+        "slotId": "ring",
+        "quality": "pink",
+        "name": "召唤职业增伤",
+        "value": 20.0,
+        "metric": "summon_profession_damage",
+        "effect": "召唤职业伤害+20%。",
+        "refs": [
+          "totem57-ring-pink"
+        ],
+        "media": [
+          "totem57-ring-pink-official-16"
+        ]
+      },
+      {
+        "id": "ring-job-毒系:red",
+        "traitId": "ring-job-毒系",
+        "slotId": "ring",
+        "quality": "red",
+        "name": "毒系职业增伤",
+        "value": 16.0,
+        "metric": "poison_hero_damage",
+        "effect": "毒系职业伤害+16%。",
+        "refs": [
+          "totem57-ring"
+        ],
+        "media": [
+          "totem57-ring-luosheng-4"
+        ]
+      },
+      {
+        "id": "ring-job-毒系:pink",
+        "traitId": "ring-job-毒系",
+        "slotId": "ring",
+        "quality": "pink",
+        "name": "毒系职业增伤",
+        "value": 20.0,
+        "metric": "poison_hero_damage",
+        "effect": "毒系职业伤害+20%。",
+        "refs": [
+          "totem57-ring-pink"
+        ],
+        "media": [
+          "totem57-ring-pink-official-16"
+        ]
+      },
+      {
+        "id": "ring-job-射手:red",
+        "traitId": "ring-job-射手",
+        "slotId": "ring",
+        "quality": "red",
+        "name": "射手职业增伤",
+        "value": 16.0,
+        "metric": "shooter_hero_damage",
+        "effect": "射手职业伤害+16%。",
+        "refs": [
+          "totem57-ring"
+        ],
+        "media": [
+          "totem57-ring-luosheng-4"
+        ]
+      },
+      {
+        "id": "ring-job-射手:pink",
+        "traitId": "ring-job-射手",
+        "slotId": "ring",
+        "quality": "pink",
+        "name": "射手职业增伤",
+        "value": 20.0,
+        "metric": "shooter_hero_damage",
+        "effect": "射手职业伤害+20%。",
+        "refs": [
+          "totem57-ring-pink"
+        ],
+        "media": [
+          "totem57-ring-pink-official-16"
+        ]
+      },
+      {
+        "id": "ring-job-法师:pink",
+        "traitId": "ring-job-法师",
+        "slotId": "ring",
+        "quality": "pink",
+        "name": "法师职业增伤",
+        "value": 20.0,
+        "metric": "mage_hero_damage",
+        "effect": "法师职业伤害+20%。",
+        "refs": [
+          "totem57-ring-pink"
+        ],
+        "media": [
+          "totem57-ring-pink-official-16"
+        ]
+      },
+      {
+        "id": "ring-job-战士:pink",
+        "traitId": "ring-job-战士",
+        "slotId": "ring",
+        "quality": "pink",
+        "name": "战士职业增伤",
+        "value": 20.0,
+        "metric": "warrior_hero_damage",
+        "effect": "战士职业伤害+20%。",
+        "refs": [
+          "totem57-ring-pink"
+        ],
+        "media": [
+          "totem57-ring-pink-official-16"
+        ]
+      },
+      {
+        "id": "necklace-flying:red",
+        "traitId": "necklace-flying",
+        "slotId": "necklace",
+        "quality": "red",
+        "name": "飞行怪物增伤",
+        "value": 40.0,
+        "metric": "flying_monster_damage",
+        "effect": "对飞行怪物伤害+40%。",
+        "refs": [
+          "totem57-necklace"
+        ],
+        "media": [
+          "totem57-necklace-official-14"
+        ]
+      },
+      {
+        "id": "necklace-all-damage:red",
+        "traitId": "necklace-all-damage",
+        "slotId": "necklace",
+        "quality": "red",
+        "name": "国王与英雄增伤",
+        "value": 10.0,
+        "metric": "all_profession_damage_total",
+        "effect": "国王和英雄伤害+10%。",
+        "refs": [
+          "totem57-necklace"
+        ],
+        "media": [
+          "totem57-necklace-official-17"
+        ]
+      },
+      {
+        "id": "necklace-job-毒系:red",
+        "traitId": "necklace-job-毒系",
+        "slotId": "necklace",
+        "quality": "red",
+        "name": "毒系职业增伤",
+        "value": 16.0,
+        "metric": "poison_hero_damage",
+        "effect": "毒系职业伤害+16%。",
+        "refs": [
+          "totem57-necklace"
+        ],
+        "media": [
+          "totem57-necklace-official-17"
+        ]
+      },
+      {
+        "id": "necklace-job-召唤:red",
+        "traitId": "necklace-job-召唤",
+        "slotId": "necklace",
+        "quality": "red",
+        "name": "召唤职业增伤",
+        "value": 16.0,
+        "metric": "summon_profession_damage",
+        "effect": "召唤职业伤害+16%。",
+        "refs": [
+          "totem57-necklace"
+        ],
+        "media": [
+          "totem57-necklace-official-17"
+        ]
+      },
+      {
+        "id": "necklace-job-法师:red",
+        "traitId": "necklace-job-法师",
+        "slotId": "necklace",
+        "quality": "red",
+        "name": "法师职业增伤",
+        "value": 16.0,
+        "metric": "mage_hero_damage",
+        "effect": "法师职业伤害+16%。",
+        "refs": [
+          "totem57-necklace"
+        ],
+        "media": [
+          "totem57-necklace-official-17"
+        ]
+      },
+      {
+        "id": "necklace-job-战士:red",
+        "traitId": "necklace-job-战士",
+        "slotId": "necklace",
+        "quality": "red",
+        "name": "战士职业增伤",
+        "value": 16.0,
+        "metric": "warrior_hero_damage",
+        "effect": "战士职业伤害+16%。",
+        "refs": [
+          "totem57-necklace"
+        ],
+        "media": [
+          "totem57-necklace-official-17"
+        ]
+      }
+    ],
+    "guides": [
+      {
+        "title": "伤害逻辑与增伤乘区",
+        "url": "https://www.douyin.com/video/7641754587502270632"
+      },
+      {
+        "title": "全体增伤与图腾选择",
+        "url": "https://www.douyin.com/video/7642519113482857103"
+      }
+    ],
+    "scope": "同一部位每类图腾仅佩戴一个，品质不区分；推荐以归一化清怪成本最低为目标。高血、负面、前三波系数默认0.5、0.7、0.8，账号可修改；国王皮肤全体英雄增伤按8次计入。"
+  },
+  "products": [
+    {
+      "id": "knowledge",
+      "title": "知识库",
+      "entry": "#activities"
+    },
+    {
+      "id": "simulator",
+      "title": "模拟器",
+      "entry": "#simulator/profile"
+    }
+  ]
 }
