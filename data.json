@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "revision": "2026-11-17-v5.6",
+  "revision": "2026-11-22-v5.9",
   "meta": {
     "title": "蔚蓝星球知识库",
     "updatedAt": "2026-11-16",
@@ -9078,6 +9078,221 @@
       "author": "永远的蔚蓝星球阿月",
       "publishedAt": "2026-09-17",
       "note": "00:08排行榜、00:14榜首结算邮件、00:19实际领取。榜首电视机碎片10、经验1000；第2/3名经验横向裁切，第6—10名未展示。"
+    },
+    {
+      "id": "totem57-crown",
+      "url": "https://www.taptap.cn/moment/738731276298618064",
+      "title": "皇冠图腾属性",
+      "publishedAt": "2025-11-15",
+      "author": "蔚蓝球球",
+      "kind": "图腾攻略",
+      "note": ""
+    },
+    {
+      "id": "totem57-armor",
+      "url": "https://www.taptap.cn/moment/749925909527529945",
+      "title": "铠甲图腾属性",
+      "publishedAt": "2025-12-16",
+      "author": "蔚蓝球球",
+      "kind": "图腾攻略",
+      "note": ""
+    },
+    {
+      "id": "totem57-boots",
+      "url": "https://www.taptap.cn/moment/754639971863759829",
+      "title": "靴子图腾属性",
+      "publishedAt": "2025-12-29",
+      "author": "蔚蓝球球",
+      "kind": "图腾攻略",
+      "note": ""
+    },
+    {
+      "id": "totem57-necklace",
+      "url": "https://www.taptap.cn/moment/765884847443936814",
+      "title": "项链图腾属性",
+      "publishedAt": "2026-01-29",
+      "author": "蔚蓝球球",
+      "kind": "图腾攻略",
+      "note": ""
+    },
+    {
+      "id": "totem57-horn",
+      "url": "https://www.wlxq.cn/article/212/",
+      "title": "号角图腾属性",
+      "publishedAt": "2025-11-26",
+      "author": "蔚蓝球球",
+      "kind": "图腾攻略",
+      "note": ""
+    },
+    {
+      "id": "totem57-ring-pink",
+      "url": "https://www.taptap.cn/moment/779063809812728381",
+      "title": "戒指图腾属性",
+      "publishedAt": "2026-03-06",
+      "author": "蔚蓝球球",
+      "kind": "图腾攻略",
+      "note": "末尾传说英雄专属仅为红色，不能归入粉色。"
+    },
+    {
+      "id": "totem57-ring",
+      "url": "https://www.taptap.cn/moment/720589759566580521",
+      "title": "戒指图腾总览",
+      "publishedAt": "2025-09-26",
+      "author": "洛笙",
+      "kind": "图腾攻略",
+      "note": ""
+    },
+    {
+      "id": "totem57-crit",
+      "url": "https://www.9game.cn/yongyuandeyulanxingqiu/11477050.html",
+      "title": "各品质英雄暴击率",
+      "publishedAt": "2025-10-27",
+      "author": "九游",
+      "kind": "图腾攻略",
+      "note": "文字明确紫4%、红6%、粉7%；全部位暴击池见精灵木攻略。"
+    },
+    {
+      "id": "totem57-all-slots",
+      "url": "https://news.17173.com/content/05062026/190046800.shtml",
+      "title": "六部位紫色暴击率",
+      "publishedAt": "2026-05-06",
+      "author": "17173",
+      "kind": "图腾攻略",
+      "note": "全身六个装备位置都有暴击率，紫色暴击率加成4%。"
+    },
+    {
+      "id": "totem57-rabbit",
+      "url": "https://www.douyin.com/video/7686771348312456869",
+      "title": "紫色图腾的选择",
+      "publishedAt": "2026-09-18",
+      "author": "永远蔚蓝星球-兔兔",
+      "kind": "抖音攻略",
+      "note": ""
+    },
+    {
+      "id": "totem57-blueberry",
+      "url": "https://www.douyin.com/video/7707162937726602539",
+      "title": "图腾洗炼常见问题解答",
+      "publishedAt": "2026-11-12",
+      "author": "努力的蓝莓",
+      "kind": "抖音攻略",
+      "note": ""
+    },
+    {
+      "id": "totem57-planning",
+      "url": "https://www.douyin.com/video/7699413266032558443",
+      "title": "新区图腾洗练规划",
+      "publishedAt": "2026-10-22",
+      "author": "欧一点怎么了",
+      "kind": "抖音攻略",
+      "note": ""
+    },
+    {
+      "id": "totem57-pairing",
+      "url": "https://www.douyin.com/video/7687192913020816655",
+      "title": "图腾搭配与增伤选择",
+      "publishedAt": "2026-09-20",
+      "author": "冷鸟大叔",
+      "kind": "抖音攻略",
+      "note": ""
+    },
+    {
+      "id": "gear58-ningyao-panel",
+      "title": "宁姚兑换建议与逐级技能 · 小孔丞相",
+      "url": "https://www.douyin.com/video/7705427962060950784",
+      "kind": "装备与外观资料",
+      "note": "2026-11-07 21:56。02:30/03:38宁姚1—3级；06:50宁姚2—5级；05:20白剑1—4级。3级每词条3%、5级6%，均最多5条；4级共斩200%；白剑4级每星10%。使用通用输出英雄版面板，不由星级差值推算。"
+    },
+    {
+      "id": "gear58-tuantu-panel",
+      "title": "鸿运团团技能与打钱配合 · 河豚鱼",
+      "url": "https://www.douyin.com/video/7678350111483608168",
+      "kind": "装备与外观资料",
+      "note": "2026-08-26 22:39。00:01可读1级；00:08可读2—5级。每次弹跳最多12只怪物，团子9秒，3级爆炸70%，4级团子期间受伤+20%，5级额外3次砸击。与10月12日培养攻略明确叙述的2—4级交叉核对，不采用3月2日前的旧版BUG结论。"
+    },
+    {
+      "id": "gear58-electric-panel",
+      "title": "电音盛典满星效果与兑换分析 · 林子蔚蓝星球",
+      "url": "https://www.douyin.com/video/7691544544962236523",
+      "kind": "装备与外观资料",
+      "note": "2026-10-01 12:01。00:08可读1—4级，00:16/00:24可读3—5级。1级120%、2级180%；5级首次低于50%血量触发30秒90%终伤，期间永久灯仍生效，结束后永久灯提升至原本150%。不录入作者按回血组合推算的45%总值。"
+    },
+    {
+      "id": "gear58-horses-panel",
+      "title": "万马奔腾分级机制与星级选择 · 蔚蓝星球阿爆",
+      "url": "https://www.douyin.com/video/7672300038132352454",
+      "kind": "装备与外观资料",
+      "note": "2026-08-10 15:22。00:30/00:40可读1—3级；00:48/01:10可读2—5级部分面板。4级1200%与2秒；5级每4000血量上限额外1匹小马、击退2格、240%伤害。5级数量上限持续被字幕遮挡，未录入。近期11月11日攻略另给3星补星建议。"
+    },
+    {
+      "id": "gear58-ningyao-shop",
+      "title": "剑来二期兑换商店 · 牧歌",
+      "url": "https://www.taptap.cn/moment/870435301212817117",
+      "kind": "装备与外观资料",
+      "note": "2026-11-13。只采用实际商店截图：宁姚1件消耗20枚静心印章，白剑1件消耗14枚静心印章；截图限购总数均为5。剩余可购数量是截图账号状态，不作为通用规则。文章笼统升星叙述不替代实际分级面板。"
+    },
+    {
+      "id": "totem59-red-choice",
+      "url": "https://www.douyin.com/video/7607348539451184762",
+      "title": "绝世自选图腾选择推荐",
+      "author": "土豆不是马铃薯🥔",
+      "publishedAt": "2026-02-16",
+      "kind": "抖音图腾攻略",
+      "note": "00:05战士距离+1、伤害+7%；00:52每词条+4%；01:10同职业三词条+21%。三个弹窗均直接显示绝世品质。"
+    },
+    {
+      "id": "totem59-crown-wake",
+      "url": "https://www.douyin.com/video/7622289299412684082",
+      "title": "图腾详细讲解之皇冠篇",
+      "author": "醒醒（永远的蔚蓝星球）",
+      "publishedAt": "2026-03-28",
+      "kind": "抖音图腾攻略",
+      "note": "00:25至尊80%—170%伤害浮动；05:00至尊满血+50%；08:20至尊负面状态+31%。"
+    },
+    {
+      "id": "totem59-armor-wake",
+      "url": "https://www.douyin.com/video/7630330135207578934",
+      "title": "图腾详细讲解之铠甲篇",
+      "author": "醒醒（永远的蔚蓝星球）",
+      "publishedAt": "2026-04-19",
+      "kind": "抖音图腾攻略",
+      "note": "01:05/03:50/04:25粉色图腾总览，分别核对幻天使、国王技能叠层、冷却、中毒成长和毒液联动。"
+    },
+    {
+      "id": "totem59-boots-wake",
+      "url": "https://www.douyin.com/video/7632235793720954131",
+      "title": "图腾详细讲解之靴子篇",
+      "author": "醒醒（永远的蔚蓝星球）",
+      "publishedAt": "2026-04-24",
+      "kind": "抖音图腾攻略",
+      "note": "01:10国王暴击10.4%最多8层、掉血10%增伤7%；01:35不被抗性克制+28%；03:20满血暴击50%、攻速台子20%概率/45%攻速及怪物增伤。"
+    },
+    {
+      "id": "totem59-necklace-wake",
+      "url": "https://www.douyin.com/video/7633357059345435931",
+      "title": "图腾详细讲解之项链篇",
+      "author": "醒醒（永远的蔚蓝星球）",
+      "publishedAt": "2026-04-27",
+      "kind": "抖音图腾攻略",
+      "note": "00:08粉色天使12%、满血50%、射手攻速-50%伤害+120%、三星暴击1.5%生命值伤害（400%攻击力上限）；03:00哪吒15%、剑仙12%、国王冷却35%、英雄冷却10%。"
+    },
+    {
+      "id": "totem59-general",
+      "url": "https://www.douyin.com/video/7709800388739763490",
+      "title": "顶级通用图腾排行榜",
+      "author": "努力的蓝莓",
+      "publishedAt": "2026-11-19",
+      "kind": "抖音图腾攻略",
+      "note": "近期通用图腾搭配建议；仅用于攻略，不凭无品质标识的剪辑属性条推定品质。"
+    },
+    {
+      "id": "totem59-horn-recent",
+      "url": "https://www.douyin.com/video/7705917090099776787",
+      "title": "图腾解析号角篇",
+      "author": "冷鸟大叔",
+      "publishedAt": "2026-11-09",
+      "kind": "抖音图腾攻略",
+      "note": "近期号角搭配建议。01:38必带、06:15可选、07:37保留；汇总榜单不替代红色道具弹窗。"
     }
   ],
   "excludedActivities": [
@@ -14409,6 +14624,1469 @@
         "sourceWidth": 1920,
         "sourceHeight": 873
       }
+    },
+    {
+      "id": "totem57-crown-official-2",
+      "path": "assets/totem57-crown-official-2.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 英雄暴击率",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-3",
+      "path": "assets/totem57-crown-official-3.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 伤害浮动",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-4",
+      "path": "assets/totem57-crown-official-4.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 无视抗性",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-5",
+      "path": "assets/totem57-crown-official-5.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 城墙满血增伤",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-6",
+      "path": "assets/totem57-crown-official-6.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 负面状态增伤",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-7",
+      "path": "assets/totem57-crown-official-7.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 雪姬额外冰核",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-8",
+      "path": "assets/totem57-crown-official-8.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 哪吒乾坤圈",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-9",
+      "path": "assets/totem57-crown-official-9.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 高血量怪物增伤",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-10",
+      "path": "assets/totem57-crown-official-10.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 肉盾怪物增伤",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-11",
+      "path": "assets/totem57-crown-official-11.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 飞行怪物增伤",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-12",
+      "path": "assets/totem57-crown-official-12.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 法师技能冷却",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-13",
+      "path": "assets/totem57-crown-official-13.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 攻击无视冷却",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-14",
+      "path": "assets/totem57-crown-official-14.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 三星英雄追加伤害",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-15",
+      "path": "assets/totem57-crown-official-15.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 高速怪物增伤",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-16",
+      "path": "assets/totem57-crown-official-16.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 远程怪物增伤",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-17",
+      "path": "assets/totem57-crown-official-17.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 毒系职业增伤、召唤职业增伤、法师职业增伤等",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-18",
+      "path": "assets/totem57-crown-official-18.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 射手职业增伤",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-crown-official-19",
+      "path": "assets/totem57-crown-official-19.jpg",
+      "sourceId": "totem57-crown",
+      "caption": "皇冠 · 召唤职业攻击力、法师职业攻击力、战士职业攻击力等",
+      "version": "2025-11-15",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-armor-official-2",
+      "path": "assets/totem57-armor-official-2.jpg",
+      "sourceId": "totem57-armor",
+      "caption": "铠甲 · 英雄暴击率",
+      "version": "2025-12-16",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-armor-official-3",
+      "path": "assets/totem57-armor-official-3.jpg",
+      "sourceId": "totem57-armor",
+      "caption": "铠甲 · 国王皮肤技能增伤",
+      "version": "2025-12-16",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-armor-official-4",
+      "path": "assets/totem57-armor-official-4.jpg",
+      "sourceId": "totem57-armor",
+      "caption": "铠甲 · 城墙低血增伤",
+      "version": "2025-12-16",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-armor-official-5",
+      "path": "assets/totem57-armor-official-5.jpg",
+      "sourceId": "totem57-armor",
+      "caption": "铠甲 · 幻天使概率",
+      "version": "2025-12-16",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-armor-official-6",
+      "path": "assets/totem57-armor-official-6.jpg",
+      "sourceId": "totem57-armor",
+      "caption": "铠甲 · 精英首领增伤",
+      "version": "2025-12-16",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-armor-official-7",
+      "path": "assets/totem57-armor-official-7.jpg",
+      "sourceId": "totem57-armor",
+      "caption": "铠甲 · 高血量怪物增伤",
+      "version": "2025-12-16",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-armor-official-8",
+      "path": "assets/totem57-armor-official-8.jpg",
+      "sourceId": "totem57-armor",
+      "caption": "铠甲 · 国王技能冷却",
+      "version": "2025-12-16",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-armor-official-9",
+      "path": "assets/totem57-armor-official-9.jpg",
+      "sourceId": "totem57-armor",
+      "caption": "铠甲 · 肉盾怪物增伤、飞行怪物增伤",
+      "version": "2025-12-16",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-armor-official-10",
+      "path": "assets/totem57-armor-official-10.jpg",
+      "sourceId": "totem57-armor",
+      "caption": "铠甲 · 国王与英雄增伤、国王增伤、毒系职业增伤等",
+      "version": "2025-12-16",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-armor-official-11",
+      "path": "assets/totem57-armor-official-11.jpg",
+      "sourceId": "totem57-armor",
+      "caption": "铠甲 · 海王初始护盾",
+      "version": "2025-12-16",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-armor-official-12",
+      "path": "assets/totem57-armor-official-12.jpg",
+      "sourceId": "totem57-armor",
+      "caption": "铠甲 · 中毒伤害成长",
+      "version": "2025-12-16",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-armor-official-13",
+      "path": "assets/totem57-armor-official-13.jpg",
+      "sourceId": "totem57-armor",
+      "caption": "铠甲 · 钢铁汪爆炸暴击、黑百合银线盘丝、暴风旋风持续",
+      "version": "2025-12-16",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-3",
+      "path": "assets/totem57-boots-official-3.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 英雄暴击率",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-4",
+      "path": "assets/totem57-boots-official-4.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 国王暴击增伤",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-5",
+      "path": "assets/totem57-boots-official-5.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 不被抗性克制增伤",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-6",
+      "path": "assets/totem57-boots-official-6.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 高血量怪物增伤",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-7",
+      "path": "assets/totem57-boots-official-7.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 精英首领增伤",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-8",
+      "path": "assets/totem57-boots-official-8.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 肉盾怪物增伤",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-9",
+      "path": "assets/totem57-boots-official-9.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 攻击满血怪物暴击",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-10",
+      "path": "assets/totem57-boots-official-10.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 城墙掉血增伤",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-11",
+      "path": "assets/totem57-boots-official-11.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 飞行怪物增伤",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-12",
+      "path": "assets/totem57-boots-official-12.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 城墙低血增伤",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-13",
+      "path": "assets/totem57-boots-official-13.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 毒系职业增伤、射手职业增伤、法师职业增伤等",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-14",
+      "path": "assets/totem57-boots-official-14.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 国王与英雄增伤",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-15",
+      "path": "assets/totem57-boots-official-15.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 国王技能冷却",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-16",
+      "path": "assets/totem57-boots-official-16.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 城墙免伤次数",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-17",
+      "path": "assets/totem57-boots-official-17.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 暴风旋风追加伤害",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-18",
+      "path": "assets/totem57-boots-official-18.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 赵云近墙增伤",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-19",
+      "path": "assets/totem57-boots-official-19.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 闪电之子暴击",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-20",
+      "path": "assets/totem57-boots-official-20.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 传送怪物",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-21",
+      "path": "assets/totem57-boots-official-21.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 建造攻速台子",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-22",
+      "path": "assets/totem57-boots-official-22.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 远程怪物增伤、高速怪物增伤",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-23",
+      "path": "assets/totem57-boots-official-23.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 召唤物低血恢复、安妮熊生命值",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-24",
+      "path": "assets/totem57-boots-official-24.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 国王增伤",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-25",
+      "path": "assets/totem57-boots-official-25.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 控制英雄词条增伤、雪姬冰冻暴击、召唤职业增伤",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-26",
+      "path": "assets/totem57-boots-official-26.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 河掌柜冰渣、海王受击海浪",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-boots-official-27",
+      "path": "assets/totem57-boots-official-27.jpg",
+      "sourceId": "totem57-boots",
+      "caption": "鞋子 · 城墙减伤、城墙护盾、英雄攻击力等",
+      "version": "2025-12-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-3",
+      "path": "assets/totem57-necklace-official-3.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 英雄暴击率",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-4",
+      "path": "assets/totem57-necklace-official-4.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 天使赐福暴击",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-5",
+      "path": "assets/totem57-necklace-official-5.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 毒液吞噬暴击",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-6",
+      "path": "assets/totem57-necklace-official-6.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 城墙满血增伤",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-7",
+      "path": "assets/totem57-necklace-official-7.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 哪吒控制暴击",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-8",
+      "path": "assets/totem57-necklace-official-8.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 剑仙负面暴击",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-9",
+      "path": "assets/totem57-necklace-official-9.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 射手攻速换伤害",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-10",
+      "path": "assets/totem57-necklace-official-10.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 中毒追加伤害",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-11",
+      "path": "assets/totem57-necklace-official-11.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 负面状态增伤",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-12",
+      "path": "assets/totem57-necklace-official-12.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 技能立即叠毒",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-13",
+      "path": "assets/totem57-necklace-official-13.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 高血量怪物增伤",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-14",
+      "path": "assets/totem57-necklace-official-14.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 肉盾怪物增伤、飞行怪物增伤",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-15",
+      "path": "assets/totem57-necklace-official-15.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 国王技能冷却",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-16",
+      "path": "assets/totem57-necklace-official-16.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 三星英雄暴击追加伤害",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-17",
+      "path": "assets/totem57-necklace-official-17.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 国王与英雄增伤、毒系职业增伤、召唤职业增伤等",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-18",
+      "path": "assets/totem57-necklace-official-18.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 剑圣残血增伤、钢铁汪额外激光、赵云龙魂等",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-necklace-official-19",
+      "path": "assets/totem57-necklace-official-19.jpg",
+      "sourceId": "totem57-necklace",
+      "caption": "项链 · 爆炸伤害",
+      "version": "2026-01-29",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-horn-official-2",
+      "path": "assets/totem57-horn-official-2.png",
+      "sourceId": "totem57-horn",
+      "caption": "号角 · 英雄暴击率",
+      "version": "2025-11-26",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-horn-official-3",
+      "path": "assets/totem57-horn-official-3.png",
+      "sourceId": "totem57-horn",
+      "caption": "号角 · 巨剑斩击增伤",
+      "version": "2025-11-26",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-horn-official-4",
+      "path": "assets/totem57-horn-official-4.png",
+      "sourceId": "totem57-horn",
+      "caption": "号角 · 职业词条增伤",
+      "version": "2025-11-26",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-horn-official-5",
+      "path": "assets/totem57-horn-official-5.png",
+      "sourceId": "totem57-horn",
+      "caption": "号角 · 选择词条增伤",
+      "version": "2025-11-26",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-horn-official-6",
+      "path": "assets/totem57-horn-official-6.png",
+      "sourceId": "totem57-horn",
+      "caption": "号角 · 城墙低血增伤",
+      "version": "2025-11-26",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-horn-official-7",
+      "path": "assets/totem57-horn-official-7.png",
+      "sourceId": "totem57-horn",
+      "caption": "号角 · 射手弹道穿透",
+      "version": "2025-11-26",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-horn-official-8",
+      "path": "assets/totem57-horn-official-8.png",
+      "sourceId": "totem57-horn",
+      "caption": "号角 · 剑仙生命值伤害",
+      "version": "2025-11-26",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-horn-official-9",
+      "path": "assets/totem57-horn-official-9.png",
+      "sourceId": "totem57-horn",
+      "caption": "号角 · 战士攻击距离",
+      "version": "2025-11-26",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-horn-official-10",
+      "path": "assets/totem57-horn-official-10.png",
+      "sourceId": "totem57-horn",
+      "caption": "号角 · 精英首领增伤",
+      "version": "2025-11-26",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-horn-official-11",
+      "path": "assets/totem57-horn-official-11.png",
+      "sourceId": "totem57-horn",
+      "caption": "号角 · 建造暴击台子",
+      "version": "2025-11-26",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-horn-official-12",
+      "path": "assets/totem57-horn-official-12.png",
+      "sourceId": "totem57-horn",
+      "caption": "号角 · 控制时间延长",
+      "version": "2025-11-26",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-horn-official-13",
+      "path": "assets/totem57-horn-official-13.png",
+      "sourceId": "totem57-horn",
+      "caption": "号角 · 高血量怪物增伤",
+      "version": "2025-11-26",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-horn-official-14",
+      "path": "assets/totem57-horn-official-14.png",
+      "sourceId": "totem57-horn",
+      "caption": "号角 · 国王技能冷却",
+      "version": "2025-11-26",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-3",
+      "path": "assets/totem57-ring-pink-official-3.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 英雄暴击率",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-4",
+      "path": "assets/totem57-ring-pink-official-4.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 冒险家",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-5",
+      "path": "assets/totem57-ring-pink-official-5.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 开局选择词条",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-6",
+      "path": "assets/totem57-ring-pink-official-6.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 孙悟空秒杀",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-7",
+      "path": "assets/totem57-ring-pink-official-7.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 哪吒秒杀",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-8",
+      "path": "assets/totem57-ring-pink-official-8.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 法师暴击伤害浮动",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-9",
+      "path": "assets/totem57-ring-pink-official-9.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 战士低血增伤",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-10",
+      "path": "assets/totem57-ring-pink-official-10.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 剑仙初始飞剑",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-11",
+      "path": "assets/totem57-ring-pink-official-11.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 国王技能冷却",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-12",
+      "path": "assets/totem57-ring-pink-official-12.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 英雄技能冷却",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-13",
+      "path": "assets/totem57-ring-pink-official-13.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 高血量怪物增伤",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-14",
+      "path": "assets/totem57-ring-pink-official-14.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 前三波增伤",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-15",
+      "path": "assets/totem57-ring-pink-official-15.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 负面状态增伤",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-16",
+      "path": "assets/totem57-ring-pink-official-16.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 召唤职业增伤、毒系职业增伤、射手职业增伤等",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-17",
+      "path": "assets/totem57-ring-pink-official-17.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 飞行怪物增伤、远程怪物增伤、肉盾怪物增伤等",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-18",
+      "path": "assets/totem57-ring-pink-official-18.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 每波城墙回血",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-19",
+      "path": "assets/totem57-ring-pink-official-19.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 城墙免伤次数",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-20",
+      "path": "assets/totem57-ring-pink-official-20.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 国王与英雄增伤",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-21",
+      "path": "assets/totem57-ring-pink-official-21.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 钢铁汪激光攻速",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-22",
+      "path": "assets/totem57-ring-pink-official-22.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 中毒伤害成长",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-23",
+      "path": "assets/totem57-ring-pink-official-23.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 城墙护盾",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-pink-official-24",
+      "path": "assets/totem57-ring-pink-official-24.jpg",
+      "sourceId": "totem57-ring-pink",
+      "caption": "戒指 · 图腾属性",
+      "version": "2026-03-06",
+      "role": "图腾属性",
+      "layout": "wide"
+    },
+    {
+      "id": "totem57-ring-luosheng-1",
+      "path": "assets/totem57-ring-luosheng-1.jpg",
+      "sourceId": "totem57-ring",
+      "caption": "戒指 · 红色图腾总览",
+      "version": "2025-09-26",
+      "role": "图腾属性"
+    },
+    {
+      "id": "totem57-ring-luosheng-2",
+      "path": "assets/totem57-ring-luosheng-2.jpg",
+      "sourceId": "totem57-ring",
+      "caption": "戒指 · 红色图腾总览",
+      "version": "2025-09-26",
+      "role": "图腾属性"
+    },
+    {
+      "id": "totem57-ring-luosheng-3",
+      "path": "assets/totem57-ring-luosheng-3.jpg",
+      "sourceId": "totem57-ring",
+      "caption": "戒指 · 红色图腾总览",
+      "version": "2025-09-26",
+      "role": "图腾属性"
+    },
+    {
+      "id": "totem57-ring-luosheng-4",
+      "path": "assets/totem57-ring-luosheng-4.jpg",
+      "sourceId": "totem57-ring",
+      "caption": "戒指 · 红色图腾总览",
+      "version": "2025-09-26",
+      "role": "图腾属性"
+    },
+    {
+      "id": "totem57-purple-rabbit-11",
+      "path": "assets/totem57-purple-rabbit-11.jpg",
+      "sourceId": "totem57-rabbit",
+      "caption": "紫色与粉色图腾 · 无视抗性",
+      "version": "2026-09-18",
+      "role": "图腾属性",
+      "videoTime": "00:11",
+      "focus": {
+        "x": 552,
+        "y": 95,
+        "width": 410,
+        "height": 550,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "totem57-purple-rabbit-21",
+      "path": "assets/totem57-purple-rabbit-21.jpg",
+      "sourceId": "totem57-rabbit",
+      "caption": "紫色与粉色图腾 · 法师冷却",
+      "version": "2026-09-18",
+      "role": "图腾属性",
+      "videoTime": "00:21",
+      "focus": {
+        "x": 552,
+        "y": 95,
+        "width": 410,
+        "height": 550,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "totem57-purple-rabbit-26",
+      "path": "assets/totem57-purple-rabbit-26.jpg",
+      "sourceId": "totem57-rabbit",
+      "caption": "紫色与粉色图腾 · 射手穿透",
+      "version": "2026-09-18",
+      "role": "图腾属性",
+      "videoTime": "00:26",
+      "focus": {
+        "x": 552,
+        "y": 95,
+        "width": 410,
+        "height": 550,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "totem57-purple-rabbit-36",
+      "path": "assets/totem57-purple-rabbit-36.jpg",
+      "sourceId": "totem57-rabbit",
+      "caption": "紫色与粉色图腾 · 冒险家",
+      "version": "2026-09-18",
+      "role": "图腾属性",
+      "videoTime": "00:36",
+      "focus": {
+        "x": 552,
+        "y": 95,
+        "width": 410,
+        "height": 550,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "totem57-purple-rabbit-46",
+      "path": "assets/totem57-purple-rabbit-46.jpg",
+      "sourceId": "totem57-rabbit",
+      "caption": "紫色与粉色图腾 · 英雄暴击率",
+      "version": "2026-09-18",
+      "role": "图腾属性",
+      "videoTime": "00:46",
+      "focus": {
+        "x": 552,
+        "y": 95,
+        "width": 410,
+        "height": 550,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "totem57-blueberry-ring-23",
+      "path": "assets/totem57-blueberry-ring-23.jpg",
+      "sourceId": "totem57-blueberry",
+      "caption": "戒指 · 粉色图腾",
+      "version": "2026-11-12",
+      "role": "图腾属性",
+      "videoTime": "00:23",
+      "focus": {
+        "x": 546,
+        "y": 100,
+        "width": 418,
+        "height": 555,
+        "sourceWidth": 1512,
+        "sourceHeight": 828
+      }
+    },
+    {
+      "id": "gear58-ningyao-lv1-3",
+      "path": "assets/gear58-ningyao-lv1-3.jpg",
+      "caption": "宁姚 · 1—3级技能",
+      "sourceId": "gear58-ningyao-panel",
+      "version": "2026-11-07",
+      "role": "装备与外观",
+      "layout": "fit",
+      "focus": {
+        "x": 62,
+        "y": 109,
+        "width": 457,
+        "height": 648,
+        "sourceWidth": 576,
+        "sourceHeight": 1024
+      }
+    },
+    {
+      "id": "gear58-ningyao-lv2-5",
+      "path": "assets/gear58-ningyao-lv2-5.jpg",
+      "caption": "宁姚 · 2—5级技能",
+      "sourceId": "gear58-ningyao-panel",
+      "version": "2026-11-07",
+      "role": "装备与外观",
+      "layout": "fit",
+      "focus": {
+        "x": 62,
+        "y": 109,
+        "width": 457,
+        "height": 648,
+        "sourceWidth": 576,
+        "sourceHeight": 1024
+      }
+    },
+    {
+      "id": "gear58-white-sword-lv1-4",
+      "path": "assets/gear58-white-sword-lv1-4.jpg",
+      "caption": "宁姚白剑 · 1—4级技能",
+      "sourceId": "gear58-ningyao-panel",
+      "version": "2026-11-07",
+      "role": "装备与外观",
+      "layout": "fit",
+      "focus": {
+        "x": 62,
+        "y": 109,
+        "width": 457,
+        "height": 648,
+        "sourceWidth": 576,
+        "sourceHeight": 1024
+      }
+    },
+    {
+      "id": "gear58-ningyao-shop",
+      "path": "assets/gear58-ningyao-shop.jpg",
+      "caption": "八剑问心 · 宁姚与宁姚白剑兑换商店",
+      "sourceId": "gear58-ningyao-shop",
+      "version": "2026-11-13",
+      "role": "装备与外观",
+      "layout": "fit"
+    },
+    {
+      "id": "gear58-tuantu-lv1",
+      "path": "assets/gear58-tuantu-lv1.jpg",
+      "caption": "鸿运团团 · 1级技能",
+      "sourceId": "gear58-tuantu-panel",
+      "version": "2026-08-26",
+      "role": "装备与外观",
+      "layout": "fit"
+    },
+    {
+      "id": "gear58-tuantu-lv2-5",
+      "path": "assets/gear58-tuantu-lv2-5.jpg",
+      "caption": "鸿运团团 · 2—5级技能",
+      "sourceId": "gear58-tuantu-panel",
+      "version": "2026-08-26",
+      "role": "装备与外观",
+      "layout": "fit"
+    },
+    {
+      "id": "gear58-electric-lv1-4",
+      "path": "assets/gear58-electric-lv1-4.jpg",
+      "caption": "电音盛典 · 1—4级技能",
+      "sourceId": "gear58-electric-panel",
+      "version": "2026-10-01",
+      "role": "装备与外观",
+      "layout": "fit"
+    },
+    {
+      "id": "gear58-electric-lv3-5",
+      "path": "assets/gear58-electric-lv3-5.jpg",
+      "caption": "电音盛典 · 3—5级技能",
+      "sourceId": "gear58-electric-panel",
+      "version": "2026-10-01",
+      "role": "装备与外观",
+      "layout": "fit"
+    },
+    {
+      "id": "gear58-horses-lv1-3",
+      "path": "assets/gear58-horses-lv1-3.jpg",
+      "caption": "万马奔腾 · 1—3级技能",
+      "sourceId": "gear58-horses-panel",
+      "version": "2026-08-10",
+      "role": "装备与外观",
+      "layout": "fit"
+    },
+    {
+      "id": "gear58-horses-lv2-5",
+      "path": "assets/gear58-horses-lv2-5.jpg",
+      "caption": "万马奔腾 · 2—5级技能",
+      "sourceId": "gear58-horses-panel",
+      "version": "2026-08-10",
+      "role": "装备与外观",
+      "layout": "fit"
+    },
+    {
+      "id": "totem59-red-choice-005",
+      "path": "assets/totem59-red-choice-005.jpg",
+      "sourceId": "totem59-red-choice",
+      "caption": "红色号角 · 战士攻击距离",
+      "version": "2026-02-16",
+      "role": "图腾属性",
+      "layout": "fit",
+      "videoTime": "00:05",
+      "focus": {
+        "x": 140,
+        "y": 270,
+        "width": 300,
+        "height": 470,
+        "sourceWidth": 576,
+        "sourceHeight": 1124
+      }
+    },
+    {
+      "id": "totem59-red-choice-052",
+      "path": "assets/totem59-red-choice-052.jpg",
+      "sourceId": "totem59-red-choice",
+      "caption": "红色号角 · 每选词条增伤",
+      "version": "2026-02-16",
+      "role": "图腾属性",
+      "layout": "fit",
+      "videoTime": "00:52",
+      "focus": {
+        "x": 140,
+        "y": 270,
+        "width": 300,
+        "height": 470,
+        "sourceWidth": 576,
+        "sourceHeight": 1124
+      }
+    },
+    {
+      "id": "totem59-red-choice-070",
+      "path": "assets/totem59-red-choice-070.jpg",
+      "sourceId": "totem59-red-choice",
+      "caption": "红色号角 · 职业三词条增伤",
+      "version": "2026-02-16",
+      "role": "图腾属性",
+      "layout": "fit",
+      "videoTime": "01:10",
+      "focus": {
+        "x": 140,
+        "y": 270,
+        "width": 300,
+        "height": 470,
+        "sourceWidth": 576,
+        "sourceHeight": 1124
+      }
+    },
+    {
+      "id": "totem59-crown-wake-025",
+      "path": "assets/totem59-crown-wake-025.jpg",
+      "sourceId": "totem59-crown-wake",
+      "caption": "粉色皇冠 · 伤害浮动",
+      "version": "2026-03-28",
+      "role": "图腾属性",
+      "layout": "fit",
+      "videoTime": "00:25",
+      "focus": {
+        "x": 170,
+        "y": 890,
+        "width": 1570,
+        "height": 1110,
+        "sourceWidth": 1920,
+        "sourceHeight": 3414
+      }
+    },
+    {
+      "id": "totem59-crown-wake-300",
+      "path": "assets/totem59-crown-wake-300.jpg",
+      "sourceId": "totem59-crown-wake",
+      "caption": "粉色皇冠 · 满血增伤",
+      "version": "2026-03-28",
+      "role": "图腾属性",
+      "layout": "fit",
+      "videoTime": "05:00",
+      "focus": {
+        "x": 170,
+        "y": 890,
+        "width": 1570,
+        "height": 1110,
+        "sourceWidth": 1920,
+        "sourceHeight": 3414
+      }
+    },
+    {
+      "id": "totem59-crown-wake-500",
+      "path": "assets/totem59-crown-wake-500.jpg",
+      "sourceId": "totem59-crown-wake",
+      "caption": "粉色皇冠 · 负面状态增伤",
+      "version": "2026-03-28",
+      "role": "图腾属性",
+      "layout": "fit",
+      "videoTime": "08:20",
+      "focus": {
+        "x": 200,
+        "y": 650,
+        "width": 1500,
+        "height": 1800,
+        "sourceWidth": 1920,
+        "sourceHeight": 3414
+      }
+    },
+    {
+      "id": "totem59-armor-wake-065",
+      "path": "assets/totem59-armor-wake-065.jpg",
+      "sourceId": "totem59-armor-wake",
+      "caption": "粉色铠甲 · 幻天使与低血增伤",
+      "version": "2026-04-19",
+      "role": "图腾属性",
+      "layout": "fit",
+      "videoTime": "01:05",
+      "focus": {
+        "x": 85,
+        "y": 190,
+        "width": 410,
+        "height": 610,
+        "sourceWidth": 576,
+        "sourceHeight": 1024
+      }
+    },
+    {
+      "id": "totem59-armor-wake-230",
+      "path": "assets/totem59-armor-wake-230.jpg",
+      "sourceId": "totem59-armor-wake",
+      "caption": "粉色铠甲 · 国王皮肤技能叠层",
+      "version": "2026-04-19",
+      "role": "图腾属性",
+      "layout": "fit",
+      "videoTime": "03:50",
+      "focus": {
+        "x": 85,
+        "y": 190,
+        "width": 410,
+        "height": 610,
+        "sourceWidth": 576,
+        "sourceHeight": 1024
+      }
+    },
+    {
+      "id": "totem59-armor-wake-265",
+      "path": "assets/totem59-armor-wake-265.jpg",
+      "sourceId": "totem59-armor-wake",
+      "caption": "粉色铠甲 · 冷却、中毒与毒液",
+      "version": "2026-04-19",
+      "role": "图腾属性",
+      "layout": "fit",
+      "videoTime": "04:25",
+      "focus": {
+        "x": 85,
+        "y": 190,
+        "width": 410,
+        "height": 610,
+        "sourceWidth": 576,
+        "sourceHeight": 1024
+      }
+    },
+    {
+      "id": "totem59-boots-wake-070",
+      "path": "assets/totem59-boots-wake-070.jpg",
+      "sourceId": "totem59-boots-wake",
+      "caption": "粉色鞋子 · 国王暴击与掉血增伤",
+      "version": "2026-04-24",
+      "role": "图腾属性",
+      "layout": "fit",
+      "videoTime": "01:10",
+      "focus": {
+        "x": 85,
+        "y": 190,
+        "width": 410,
+        "height": 610,
+        "sourceWidth": 576,
+        "sourceHeight": 1024
+      }
+    },
+    {
+      "id": "totem59-boots-wake-095",
+      "path": "assets/totem59-boots-wake-095.jpg",
+      "sourceId": "totem59-boots-wake",
+      "caption": "粉色鞋子 · 不被抗性克制增伤",
+      "version": "2026-04-24",
+      "role": "图腾属性",
+      "layout": "fit",
+      "videoTime": "01:35",
+      "focus": {
+        "x": 85,
+        "y": 190,
+        "width": 410,
+        "height": 610,
+        "sourceWidth": 576,
+        "sourceHeight": 1024
+      }
+    },
+    {
+      "id": "totem59-boots-wake-200",
+      "path": "assets/totem59-boots-wake-200.jpg",
+      "sourceId": "totem59-boots-wake",
+      "caption": "粉色鞋子 · 满血暴击与攻速台子",
+      "version": "2026-04-24",
+      "role": "图腾属性",
+      "layout": "fit",
+      "videoTime": "03:20",
+      "focus": {
+        "x": 85,
+        "y": 190,
+        "width": 410,
+        "height": 610,
+        "sourceWidth": 576,
+        "sourceHeight": 1024
+      }
+    },
+    {
+      "id": "totem59-necklace-wake-008",
+      "path": "assets/totem59-necklace-wake-008.jpg",
+      "sourceId": "totem59-necklace-wake",
+      "caption": "粉色项链 · 天使、满血与射手",
+      "version": "2026-04-27",
+      "role": "图腾属性",
+      "layout": "fit",
+      "videoTime": "00:08",
+      "focus": {
+        "x": 85,
+        "y": 190,
+        "width": 410,
+        "height": 610,
+        "sourceWidth": 576,
+        "sourceHeight": 1024
+      }
+    },
+    {
+      "id": "totem59-necklace-wake-180",
+      "path": "assets/totem59-necklace-wake-180.jpg",
+      "sourceId": "totem59-necklace-wake",
+      "caption": "粉色项链 · 冷却与英雄暴击",
+      "version": "2026-04-27",
+      "role": "图腾属性",
+      "layout": "fit",
+      "videoTime": "03:00",
+      "focus": {
+        "x": 85,
+        "y": 190,
+        "width": 410,
+        "height": 610,
+        "sourceWidth": 576,
+        "sourceHeight": 1024
+      }
     }
   ],
   "rewardCatalog": [
@@ -15093,6 +16771,18 @@
           "局内词条",
           "专属图腾",
           "攻略视频"
+        ]
+      },
+      {
+        "id": "totems",
+        "title": "图腾",
+        "status": "ready",
+        "description": "六个部位的紫、红、粉品质词条与搭配洗练",
+        "topics": [
+          "部位属性",
+          "品质对照",
+          "搭配攻略",
+          "洗练攻略"
         ]
       },
       {
@@ -24777,7 +26467,7 @@
   },
   "equipmentKnowledge": {
     "version": 1,
-    "updatedAt": "2026-11-16",
+    "updatedAt": "2026-11-22",
     "categories": [
       {
         "id": "weapons",
@@ -25191,10 +26881,9 @@
           },
           {
             "level": 4,
-            "effect": "祝福期间，根据该英雄自身星级额外提升最终攻击；具体每星数值暂未获取到明细信息。",
+            "effect": "祝福期间，输出最高的最高星英雄按自身星级获得额外最终攻击加成，每1星+10%。",
             "refs": [
-              "gear-nov-update",
-              "gear-nov-video"
+              "gear58-ningyao-panel"
             ]
           },
           {
@@ -25207,12 +26896,16 @@
           }
         ],
         "media": [
-          "gear-white-sword-levels"
+          "gear58-white-sword-lv1-4",
+          "gear-white-sword-levels",
+          "gear58-ningyao-shop"
         ],
         "refs": [
-          "gear-nov-update"
+          "gear-nov-update",
+          "gear58-ningyao-panel",
+          "gear58-ningyao-shop"
         ],
-        "mechanic": "祝福对象覆盖各职业的输出英雄。",
+        "mechanic": "祝福对象覆盖各职业的输出英雄。八剑问心历史兑换参考（2026-11-13）：宁姚白剑×1需14枚静心印章，具体以当期商店为准。",
         "levelNote": "Lv.3、Lv.5的间隔缩短为累计值。"
       },
       {
@@ -25386,42 +27079,52 @@
         "levels": [
           {
             "level": 1,
-            "effect": "输出最高的最高星英雄每攻击5次，下一次攻击时宁姚一同出手，造成取自该英雄伤害120%的伤害；多目标平均分摊。拥有宁姚白剑时，其1—5星分别使宁姚造成的伤害提升20%/26%/32%/38%/44%。",
+            "effect": "输出最高的最高星英雄每攻击5次，下一次攻击时宁姚协同出手，伤害取自该英雄伤害的120%；多个目标命中时平均分摊。宁姚白剑1—5星分别使宁姚伤害提升20%／26%／32%／38%／44%。",
             "refs": [
-              "gear-nov-update",
-              "gear-nov-video"
+              "gear58-ningyao-panel"
             ]
           },
           {
             "level": 2,
-            "effect": "宁姚伤害取自该英雄伤害的比例提升至160%。",
+            "effect": "宁姚共斩取自该英雄伤害的比例提升至160%。",
             "refs": [
-              "gear-nov-video"
+              "gear58-ningyao-panel"
             ]
           },
           {
             "level": 3,
-            "effect": null,
-            "refs": []
+            "effect": "宁姚首次触发后，每个词条为输出最高的最高星英雄提升3%最终攻击加成，最多计入5条。",
+            "refs": [
+              "gear58-ningyao-panel"
+            ]
           },
           {
             "level": 4,
-            "effect": null,
-            "refs": []
+            "effect": "宁姚共斩取自该英雄伤害的比例提升至200%。",
+            "refs": [
+              "gear58-ningyao-panel"
+            ]
           },
           {
             "level": 5,
-            "effect": null,
-            "refs": []
+            "effect": "宁姚首次触发后，每个词条为输出最高的最高星英雄提升6%最终攻击加成，最多计入5条。",
+            "refs": [
+              "gear58-ningyao-panel"
+            ]
           }
         ],
         "media": [
-          "gear-ningyao-levels"
+          "gear58-ningyao-lv1-3",
+          "gear58-ningyao-lv2-5",
+          "gear58-ningyao-shop"
         ],
         "refs": [
-          "gear-nov-update"
+          "gear-nov-update",
+          "gear58-ningyao-panel",
+          "gear58-ningyao-shop"
         ],
-        "mechanic": "各职业输出英雄均可触发共同攻击。"
+        "mechanic": "各职业输出英雄均可触发共同攻击。八剑问心历史兑换参考（2026-11-13）：宁姚×1需20枚静心印章，具体以当期商店为准。",
+        "levelNote": "词条加成在宁姚首次触发后生效，最多计入5条。"
       },
       {
         "id": "chen-pingan",
@@ -25600,42 +27303,49 @@
         "levels": [
           {
             "level": 1,
-            "effect": "城墙首次受到伤害后，前方打亮聚光灯阵，持续30秒；灯下英雄最终伤害提升，具体增幅暂未获取到明细信息。",
+            "effect": "城墙首次受到伤害时，在输出最高的最高星英雄所在台子上点亮聚光灯；灯下英雄及所有同名英雄最终伤害+120%，持续30秒。",
             "refs": [
-              "gear-stage-official"
+              "gear58-electric-panel"
             ]
           },
           {
             "level": 2,
-            "effect": null,
-            "refs": []
+            "effect": "聚光灯的最终伤害增幅提升至+180%。",
+            "refs": [
+              "gear58-electric-panel"
+            ]
           },
           {
             "level": 3,
-            "effect": "聚光灯结束后激活永久聚光灯，追随输出最高的最高星英雄；永久灯下英雄及所有同名英雄最终伤害+10%。",
+            "effect": "首轮聚光灯结束后激活永久聚光灯，持续跟随输出最高的最高星英雄；永久灯下英雄及所有同名英雄最终伤害+10%。",
             "refs": [
-              "gear-wall-video"
+              "gear58-electric-panel"
             ]
           },
           {
             "level": 4,
             "effect": "城墙血量每降低20%，永久聚光灯的最终伤害增幅额外+2%。",
             "refs": [
-              "gear-wall-video"
+              "gear58-electric-panel"
             ]
           },
           {
             "level": 5,
-            "effect": null,
-            "refs": []
+            "effect": "城墙血量首次低于50%时，再次在输出最高的最高星英雄所在台子上点亮聚光灯；灯下英雄及所有同名英雄最终伤害+90%，持续30秒，期间永久聚光灯仍然生效。结束后，永久聚光灯效果提升至原本的150%。",
+            "refs": [
+              "gear58-electric-panel"
+            ]
           }
         ],
         "media": [
-          "gear-wall-electric"
+          "gear58-electric-lv1-4",
+          "gear58-electric-lv3-5"
         ],
         "refs": [
-          "gear-stage-official"
-        ]
+          "gear-stage-official",
+          "gear58-electric-panel"
+        ],
+        "levelNote": "5级结束后，永久聚光灯按原效果的150%生效。"
       },
       {
         "id": "sword-great-wall",
@@ -25755,7 +27465,7 @@
         "category": "walls",
         "kind": "城墙皮肤",
         "summary": "城墙损血后召唤战马冲锋，击退靠近城墙的怪物。",
-        "skill": "",
+        "skill": "烈焰战马",
         "tags": [
           "击退",
           "护墙"
@@ -25770,35 +27480,53 @@
         "levels": [
           {
             "level": 1,
-            "effect": null,
-            "refs": []
+            "effect": "城墙血量每降低30%，召唤3匹烈焰战马冲撞战场，击退怪物3格并造成400%伤害。每有6000点城墙血量上限，额外冲出1匹小马；小马击退1格并造成120%伤害，最多6匹。",
+            "refs": [
+              "gear58-horses-panel"
+            ]
           },
           {
             "level": 2,
-            "effect": null,
-            "refs": []
+            "effect": "烈焰战马的伤害提升至800%，并使怪物眩晕1秒。",
+            "refs": [
+              "gear58-horses-panel"
+            ]
           },
           {
             "level": 3,
-            "effect": null,
-            "refs": []
+            "effect": "烈焰战马升级为巨型战马，数量+2；将怪物击退5格并造成800%伤害。",
+            "refs": [
+              "gear58-horses-panel"
+            ]
           },
           {
             "level": 4,
-            "effect": null,
-            "refs": []
+            "effect": "烈焰战马的伤害提升至1200%，并使怪物眩晕2秒。",
+            "refs": [
+              "gear58-horses-panel"
+            ]
           },
           {
             "level": 5,
-            "effect": null,
-            "refs": []
+            "effect": "每有4000点城墙血量上限，额外冲出1匹小马；小马击退2格并造成240%伤害。小马数量上限暂未获取到明细信息。",
+            "refs": [
+              "gear58-horses-panel"
+            ]
           }
         ],
-        "media": [],
-        "refs": [
-          "gear-wall-video"
+        "media": [
+          "gear58-horses-lv1-3",
+          "gear58-horses-lv2-5"
         ],
-        "mechanic": "触发阈值、各星级击退距离与次数暂未获取到明细信息。"
+        "refs": [
+          "gear-wall-video",
+          "gear58-horses-panel"
+        ],
+        "mechanic": "通过城墙损血触发战马冲锋；巨型战马与按城墙血量上限增加的小马分别计算。",
+        "panelVideo": {
+          "sourceId": "gear58-horses-panel",
+          "publishedAt": "2026-08-10"
+        }
       },
       {
         "id": "dark-unicorn",
@@ -25928,7 +27656,7 @@
         "category": "mounts",
         "kind": "坐骑",
         "summary": "弹跳攻击、团子控制与爆炸联动，兼顾清怪和获取银币。",
-        "skill": "",
+        "skill": "喜从天降",
         "tags": [
           "控制",
           "爆炸联动",
@@ -25944,35 +27672,48 @@
         "levels": [
           {
             "level": 1,
-            "effect": null,
-            "refs": []
+            "effect": "鸿运团团空降造成击退和伤害，随后弹跳砸击5次；每次落地对范围内敌人造成1200%伤害及其最大生命值3%的伤害，并减速80%，持续6秒。",
+            "refs": [
+              "gear58-tuantu-panel"
+            ]
           },
           {
             "level": 2,
-            "effect": null,
-            "refs": []
+            "effect": "每次弹跳砸击时，命中的最多12只怪物会变成团子，持续9秒。",
+            "refs": [
+              "gear58-tuantu-panel"
+            ]
           },
           {
             "level": 3,
-            "effect": null,
-            "refs": []
+            "effect": "团子状态下受击次数越多，团子膨胀越大；状态结束后爆炸，造成团子期间所受伤害70%的伤害。",
+            "refs": [
+              "gear58-tuantu-panel"
+            ]
           },
           {
             "level": 4,
-            "effect": null,
-            "refs": []
+            "effect": "怪物处于团子状态期间，受到的伤害提高20%。",
+            "refs": [
+              "gear58-tuantu-panel"
+            ]
           },
           {
             "level": 5,
-            "effect": null,
-            "refs": []
+            "effect": "鸿运团团额外获得3次砸击。",
+            "refs": [
+              "gear58-tuantu-panel"
+            ]
           }
         ],
         "media": [
+          "gear58-tuantu-lv1",
+          "gear58-tuantu-lv2-5",
           "gear-mount-choice"
         ],
         "refs": [
-          "gear-mount-video"
+          "gear-mount-video",
+          "gear58-tuantu-panel"
         ]
       },
       {
@@ -26221,9 +27962,4476 @@
           "sleepy-elephant": "资源紧张时暂缓培养，自选箱不优先选择。"
         },
         "condition": "预算和自选箱名单不同，兑换目标需相应调整。"
+      },
+      {
+        "id": "gear58-ningyao",
+        "sourceId": "gear58-ningyao-panel",
+        "title": "宁姚与白剑的等级效果、兑换先后与阵容适配",
+        "author": "小孔丞相（永远的蔚蓝星球）",
+        "publishedAt": "2026-11-07",
+        "itemIds": [
+          "ningyao",
+          "ningyao-white-sword"
+        ],
+        "advice": {
+          "ningyao": "节省材料方案优先白剑5星，宁姚暂缓；若决定培养宁姚，作者建议至少考虑3星，再按阵容和余量评估5星。",
+          "ningyao-white-sword": "更优先考虑白剑，材料允许时以5星为目标；与已有初一飞剑、陈平安及主力英雄搭配比较后投入。"
+        },
+        "condition": "适用于通用输出英雄规则；不同主力英雄、已有道具和预算的兑换顺序不同。"
+      },
+      {
+        "id": "gear58-tuantu",
+        "sourceId": "gear58-tuantu-panel",
+        "title": "团团3星爆炸机制与光棱塔、草团配合",
+        "author": "河豚鱼（永远的蔚蓝星球）",
+        "publishedAt": "2026-08-26",
+        "itemIds": [
+          "lucky-tuantuan"
+        ],
+        "advice": {
+          "lucky-tuantuan": "围绕3星爆炸机制，在精英怪进入光棱塔范围后配合释放；也可用草团仙人的多段攻击配合团团，提高团子期间的伤害。"
+        },
+        "condition": "介绍技能与释放配合；兑换预算及自选箱选择另结合当期奖励。"
+      },
+      {
+        "id": "gear58-electric",
+        "sourceId": "gear58-electric-panel",
+        "title": "电音1—5级效果与满星投入分析",
+        "author": "林子蔚蓝星球",
+        "publishedAt": "2026-10-01",
+        "itemIds": [
+          "electric-festival"
+        ],
+        "advice": {
+          "electric-festival": "低星用于开荒爆发；补星时重点考虑永久聚光灯，以及5星半血触发的第二轮聚光灯。已有核心皮肤和武器的培养进度会影响投入顺序。"
+        },
+        "condition": "满星收益与城墙损血、回血及关卡节奏有关。"
       }
     ]
   },
   "sprintKnowledgeVersion": 1,
-  "sprintRankingVersion": 1
+  "sprintRankingVersion": 1,
+  "totemKnowledge": {
+    "version": 1,
+    "updatedAt": "2026-11-22",
+    "slots": [
+      {
+        "id": "crown",
+        "name": "皇冠",
+        "description": "无视抗性、伤害浮动与法师冷却"
+      },
+      {
+        "id": "horn",
+        "name": "号角",
+        "description": "职业词条、射手穿透与巨剑斩击"
+      },
+      {
+        "id": "armor",
+        "name": "铠甲",
+        "description": "国王技能增伤、护墙与英雄专属"
+      },
+      {
+        "id": "boots",
+        "name": "鞋子",
+        "description": "国王暴击增伤、满血暴击与攻速台子"
+      },
+      {
+        "id": "ring",
+        "name": "戒指",
+        "description": "冒险家、开局词条与英雄专属"
+      },
+      {
+        "id": "necklace",
+        "name": "项链",
+        "description": "天使赐福、职业机制与暴击"
+      }
+    ],
+    "qualities": [
+      {
+        "id": "purple",
+        "name": "紫色",
+        "color": "#805da3"
+      },
+      {
+        "id": "red",
+        "name": "红色",
+        "color": "#b74e48"
+      },
+      {
+        "id": "pink",
+        "name": "粉色",
+        "color": "#b64982"
+      }
+    ],
+    "kinds": [
+      {
+        "id": "general",
+        "name": "通用词条"
+      },
+      {
+        "id": "profession",
+        "name": "职业词条"
+      },
+      {
+        "id": "hero",
+        "name": "英雄专属"
+      }
+    ],
+    "traits": [
+      {
+        "id": "crown-crit",
+        "slotId": "crown",
+        "name": "英雄暴击率",
+        "kind": "general",
+        "variants": {
+          "purple": {
+            "effect": "英雄暴击率+4%。",
+            "refs": [
+              "totem57-rabbit"
+            ],
+            "media": [
+              "totem57-purple-rabbit-46"
+            ],
+            "version": "2026-09-18",
+            "evidenceStatus": "image"
+          },
+          "red": {
+            "effect": "英雄暴击率+6%。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-2"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "英雄暴击率+7%。",
+            "refs": [
+              "totem57-crit",
+              "totem59-crown-wake"
+            ],
+            "media": [
+              "totem59-crown-wake-025"
+            ],
+            "version": "2026-03-28",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "horn-crit",
+        "slotId": "horn",
+        "name": "英雄暴击率",
+        "kind": "general",
+        "variants": {
+          "purple": {
+            "effect": "英雄暴击率+4%。",
+            "refs": [
+              "totem57-all-slots"
+            ],
+            "media": [],
+            "version": "2026-05-06",
+            "evidenceStatus": "text"
+          },
+          "red": {
+            "effect": "英雄暴击率+6%。",
+            "refs": [
+              "totem57-crit"
+            ],
+            "media": [],
+            "version": "2025-10-27",
+            "evidenceStatus": "text"
+          },
+          "pink": {
+            "effect": "英雄暴击率+7%。",
+            "refs": [
+              "totem57-horn"
+            ],
+            "media": [
+              "totem57-horn-official-2"
+            ],
+            "version": "2025-11-26",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "armor-crit",
+        "slotId": "armor",
+        "name": "英雄暴击率",
+        "kind": "general",
+        "variants": {
+          "purple": {
+            "effect": "英雄暴击率+4%。",
+            "refs": [
+              "totem57-all-slots"
+            ],
+            "media": [],
+            "version": "2026-05-06",
+            "evidenceStatus": "text"
+          },
+          "red": {
+            "effect": "英雄暴击率+6%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-2"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "英雄暴击率+7%。",
+            "refs": [
+              "totem57-crit",
+              "totem59-armor-wake"
+            ],
+            "media": [
+              "totem59-armor-wake-065"
+            ],
+            "version": "2026-04-19",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-crit",
+        "slotId": "boots",
+        "name": "英雄暴击率",
+        "kind": "general",
+        "variants": {
+          "purple": {
+            "effect": "英雄暴击率+4%。",
+            "refs": [
+              "totem57-all-slots"
+            ],
+            "media": [],
+            "version": "2026-05-06",
+            "evidenceStatus": "text"
+          },
+          "red": {
+            "effect": "英雄暴击率+6%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-3"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "英雄暴击率+7%。",
+            "refs": [
+              "totem57-crit",
+              "totem59-boots-wake"
+            ],
+            "media": [
+              "totem59-boots-wake-070"
+            ],
+            "version": "2026-04-24",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-crit",
+        "slotId": "ring",
+        "name": "英雄暴击率",
+        "kind": "general",
+        "variants": {
+          "purple": {
+            "effect": "英雄暴击率+4%。",
+            "refs": [
+              "totem57-all-slots"
+            ],
+            "media": [],
+            "version": "2026-05-06",
+            "evidenceStatus": "text"
+          },
+          "red": {
+            "effect": "英雄暴击率+6%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-2"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "英雄暴击率+7%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-3"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "necklace-crit",
+        "slotId": "necklace",
+        "name": "英雄暴击率",
+        "kind": "general",
+        "variants": {
+          "purple": {
+            "effect": "英雄暴击率+4%。",
+            "refs": [
+              "totem57-all-slots"
+            ],
+            "media": [],
+            "version": "2026-05-06",
+            "evidenceStatus": "text"
+          },
+          "red": {
+            "effect": "英雄暴击率+6%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-3"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "英雄暴击率+7%。",
+            "refs": [
+              "totem57-crit"
+            ],
+            "media": [],
+            "version": "2025-10-27",
+            "evidenceStatus": "text"
+          }
+        }
+      },
+      {
+        "id": "crown-fluctuation",
+        "slotId": "crown",
+        "name": "伤害浮动",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "伤害在80%—160%之间浮动。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-3"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "伤害在80%—170%之间浮动。",
+            "refs": [
+              "totem59-crown-wake"
+            ],
+            "media": [
+              "totem59-crown-wake-025"
+            ],
+            "version": "2026-03-28",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "crown-resistance",
+        "slotId": "crown",
+        "name": "无视抗性",
+        "kind": "general",
+        "variants": {
+          "purple": {
+            "effect": "无视怪物所有类型25%的抗性。",
+            "refs": [
+              "totem57-rabbit"
+            ],
+            "media": [
+              "totem57-purple-rabbit-11"
+            ],
+            "version": "2026-09-18",
+            "evidenceStatus": "image"
+          },
+          "red": {
+            "effect": "无视怪物所有类型35%的抗性。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-4"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "无视怪物所有类型40%的抗性。",
+            "refs": [
+              "totem57-rabbit"
+            ],
+            "media": [
+              "totem57-purple-rabbit-11"
+            ],
+            "version": "2026-09-18",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "crown-wall-full",
+        "slotId": "crown",
+        "name": "城墙满血增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "城墙满血时，伤害+40%。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-5"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "城墙满血时，伤害+50%。",
+            "refs": [
+              "totem59-crown-wake"
+            ],
+            "media": [
+              "totem59-crown-wake-300"
+            ],
+            "version": "2026-03-28",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "crown-debuff",
+        "slotId": "crown",
+        "name": "负面状态增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对有负面状态的怪物伤害+25%。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-6"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "对有负面状态的怪物伤害+31%。",
+            "refs": [
+              "totem59-crown-wake"
+            ],
+            "media": [
+              "totem59-crown-wake-500"
+            ],
+            "version": "2026-03-28",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "crown-snow",
+        "slotId": "crown",
+        "name": "雪姬额外冰核",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "2星以上雪姬有30%的概率额外扔出一枚冰核。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-7"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-nezha",
+        "slotId": "crown",
+        "name": "哪吒乾坤圈",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "最高星哪吒分化的乾坤圈数量+1。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-8"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-high-hp",
+        "slotId": "crown",
+        "name": "高血量怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对血量高于70%的怪物伤害+40%。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-9"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-tank",
+        "slotId": "crown",
+        "name": "肉盾怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对肉盾怪物伤害+40%。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-10"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-flying",
+        "slotId": "crown",
+        "name": "飞行怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对飞行怪物伤害+40%。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-11"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-mage-cd",
+        "slotId": "crown",
+        "name": "法师技能冷却",
+        "kind": "profession",
+        "variants": {
+          "purple": {
+            "effect": "法师职业的技能冷却缩短21%。",
+            "refs": [
+              "totem57-rabbit"
+            ],
+            "media": [
+              "totem57-purple-rabbit-21"
+            ],
+            "version": "2026-09-18",
+            "evidenceStatus": "image"
+          },
+          "red": {
+            "effect": "法师职业的技能冷却缩短27%。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-12"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "法师职业的技能冷却缩短30%。",
+            "refs": [
+              "totem57-rabbit"
+            ],
+            "media": [
+              "totem57-purple-rabbit-21"
+            ],
+            "version": "2026-09-18",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "crown-ignore-cd",
+        "slotId": "crown",
+        "name": "攻击无视冷却",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "攻击有8%的概率无视冷却时间。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-13"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-star-damage",
+        "slotId": "crown",
+        "name": "三星英雄追加伤害",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "3星及以上英雄造成伤害追加最大生命值0.5%伤害（400%攻击力上限）。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-14"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-fast",
+        "slotId": "crown",
+        "name": "高速怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对高速怪物伤害+40%。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-15"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-ranged",
+        "slotId": "crown",
+        "name": "远程怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对远程怪物伤害+40%。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-16"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-job-毒系",
+        "slotId": "crown",
+        "name": "毒系职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "毒系职业伤害+16%。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-17"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-job-召唤",
+        "slotId": "crown",
+        "name": "召唤职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "召唤职业伤害+16%。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-17"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-job-法师",
+        "slotId": "crown",
+        "name": "法师职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "法师职业伤害+16%。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-17"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-job-战士",
+        "slotId": "crown",
+        "name": "战士职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "战士职业伤害+16%。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-17"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-job-射手",
+        "slotId": "crown",
+        "name": "射手职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "射手职业伤害+16%。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-18"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-attack-召唤",
+        "slotId": "crown",
+        "name": "召唤职业攻击力",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "召唤职业攻击力+120。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-19"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-attack-法师",
+        "slotId": "crown",
+        "name": "法师职业攻击力",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "法师职业攻击力+120。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-19"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-attack-战士",
+        "slotId": "crown",
+        "name": "战士职业攻击力",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "战士职业攻击力+120。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-19"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "crown-attack-射手",
+        "slotId": "crown",
+        "name": "射手职业攻击力",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "射手职业攻击力+120。",
+            "refs": [
+              "totem57-crown"
+            ],
+            "media": [
+              "totem57-crown-official-19"
+            ],
+            "version": "2025-11-15",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "horn-king-slash",
+        "slotId": "horn",
+        "name": "巨剑斩击增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "国王每释放一次[巨剑斩击]，所有英雄伤害+7%（最大15层）。",
+            "refs": [
+              "totem57-horn"
+            ],
+            "media": [
+              "totem57-horn-official-3"
+            ],
+            "version": "2025-11-26",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "horn-job-traits",
+        "slotId": "horn",
+        "name": "职业词条增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "某一职业的词条数量每次达到3层后，该职业的英雄伤害+21%。",
+            "refs": [
+              "totem59-red-choice"
+            ],
+            "media": [
+              "totem59-red-choice-070"
+            ],
+            "version": "2026-02-16",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "某一职业的词条数量每次达到3层后，该职业的英雄伤害+28%。",
+            "refs": [
+              "totem57-horn"
+            ],
+            "media": [
+              "totem57-horn-official-4"
+            ],
+            "version": "2025-11-26",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "horn-trait-count",
+        "slotId": "horn",
+        "name": "选择词条增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "每选一个词条后，所有伤害+4%。",
+            "refs": [
+              "totem59-red-choice"
+            ],
+            "media": [
+              "totem59-red-choice-052"
+            ],
+            "version": "2026-02-16",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "每选一个词条后，所有伤害+5%。",
+            "refs": [
+              "totem57-horn"
+            ],
+            "media": [
+              "totem57-horn-official-5"
+            ],
+            "version": "2025-11-26",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "horn-wall-low",
+        "slotId": "horn",
+        "name": "城墙低血增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "城墙血量低于30%，伤害+75.5%。",
+            "refs": [
+              "totem57-horn"
+            ],
+            "media": [
+              "totem57-horn-official-6"
+            ],
+            "version": "2025-11-26",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "horn-penetration",
+        "slotId": "horn",
+        "name": "射手弹道穿透",
+        "kind": "profession",
+        "variants": {
+          "purple": {
+            "effect": "射手的弹道技能穿透+1，伤害-37.5%。",
+            "refs": [
+              "totem57-rabbit"
+            ],
+            "media": [
+              "totem57-purple-rabbit-26"
+            ],
+            "version": "2026-09-18",
+            "evidenceStatus": "image"
+          },
+          "red": null,
+          "pink": {
+            "effect": "射手的弹道技能穿透+1，伤害-30%。",
+            "refs": [
+              "totem57-horn"
+            ],
+            "media": [
+              "totem57-horn-official-7"
+            ],
+            "version": "2025-11-26",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "horn-sword-hp",
+        "slotId": "horn",
+        "name": "剑仙生命值伤害",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "剑仙飞剑攻击时将有20%的几率附带怪物最大生命值6%的伤害。",
+            "refs": [
+              "totem57-horn"
+            ],
+            "media": [
+              "totem57-horn-official-8"
+            ],
+            "version": "2025-11-26",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "horn-warrior-range",
+        "slotId": "horn",
+        "name": "战士攻击距离",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "战士攻击距离+1，所有战士英雄伤害+7%。",
+            "refs": [
+              "totem59-red-choice"
+            ],
+            "media": [
+              "totem59-red-choice-005"
+            ],
+            "version": "2026-02-16",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "战士攻击距离+1，所有战士英雄伤害+14%。",
+            "refs": [
+              "totem57-horn"
+            ],
+            "media": [
+              "totem57-horn-official-9"
+            ],
+            "version": "2025-11-26",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "horn-elite",
+        "slotId": "horn",
+        "name": "精英首领增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "对精英和首领伤害+50%。",
+            "refs": [
+              "totem57-horn"
+            ],
+            "media": [
+              "totem57-horn-official-10"
+            ],
+            "version": "2025-11-26",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "horn-crit-platform",
+        "slotId": "horn",
+        "name": "建造暴击台子",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "有20%概率建造暴击台子，台上的英雄暴击率+16%。",
+            "refs": [
+              "totem57-horn"
+            ],
+            "media": [
+              "totem57-horn-official-11"
+            ],
+            "version": "2025-11-26",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "horn-control",
+        "slotId": "horn",
+        "name": "控制时间延长",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "控制职业有28%的概率控制时间延长100%。",
+            "refs": [
+              "totem57-horn"
+            ],
+            "media": [
+              "totem57-horn-official-12"
+            ],
+            "version": "2025-11-26",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "horn-high-hp",
+        "slotId": "horn",
+        "name": "高血量怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "对血量高于70%的怪物伤害+50%。",
+            "refs": [
+              "totem57-horn"
+            ],
+            "media": [
+              "totem57-horn-official-13"
+            ],
+            "version": "2025-11-26",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "horn-king-cd",
+        "slotId": "horn",
+        "name": "国王技能冷却",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "国王技能冷却缩短35%。",
+            "refs": [
+              "totem57-horn"
+            ],
+            "media": [
+              "totem57-horn-official-14"
+            ],
+            "version": "2025-11-26",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "armor-king-skill",
+        "slotId": "armor",
+        "name": "国王皮肤技能增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "国王每次释放国王皮肤技能时，所有英雄伤害+3.8%（最大15层）。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-3"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "国王每次释放国王皮肤技能时，所有英雄伤害+5.2%（最大15层）。",
+            "refs": [
+              "totem59-armor-wake"
+            ],
+            "media": [
+              "totem59-armor-wake-230"
+            ],
+            "version": "2026-04-19",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "armor-wall-low",
+        "slotId": "armor",
+        "name": "城墙低血增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "城墙血量低于30%，伤害+60.5%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-4"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "城墙血量低于30%，伤害+75.5%。",
+            "refs": [
+              "totem59-armor-wake"
+            ],
+            "media": [
+              "totem59-armor-wake-065"
+            ],
+            "version": "2026-04-19",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "armor-angel",
+        "slotId": "armor",
+        "name": "幻天使概率",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "召唤出现幻天使的概率提升10%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-5"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "召唤出现幻天使的概率提升15%。",
+            "refs": [
+              "totem59-armor-wake"
+            ],
+            "media": [
+              "totem59-armor-wake-065"
+            ],
+            "version": "2026-04-19",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "armor-elite",
+        "slotId": "armor",
+        "name": "精英首领增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对精英和首领伤害+40%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-6"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "armor-high-hp",
+        "slotId": "armor",
+        "name": "高血量怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对血量高于70%的怪物伤害+40%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-7"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "armor-king-cd",
+        "slotId": "armor",
+        "name": "国王技能冷却",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "国王技能冷却缩短30%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-8"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "国王技能冷却缩短35%。",
+            "refs": [
+              "totem59-armor-wake"
+            ],
+            "media": [
+              "totem59-armor-wake-265"
+            ],
+            "version": "2026-04-19",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "armor-tank",
+        "slotId": "armor",
+        "name": "肉盾怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对肉盾怪物伤害+40%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-9"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "armor-flying",
+        "slotId": "armor",
+        "name": "飞行怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对飞行怪物伤害+40%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-9"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "armor-all-damage",
+        "slotId": "armor",
+        "name": "国王与英雄增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "国王和英雄伤害+10%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-10"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "armor-king-damage",
+        "slotId": "armor",
+        "name": "国王增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "国王伤害+40%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-10"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "armor-neptune",
+        "slotId": "armor",
+        "name": "海王初始护盾",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "海王鲸鱼初始获得3层海洋护盾。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-11"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "armor-poison",
+        "slotId": "armor",
+        "name": "中毒伤害成长",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "毒系职业造成的中毒伤害每0.7秒伤害+10%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-12"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "毒系职业造成的中毒伤害每0.7秒伤害+11.5%。",
+            "refs": [
+              "totem59-armor-wake"
+            ],
+            "media": [
+              "totem59-armor-wake-265"
+            ],
+            "version": "2026-04-19",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "armor-dog",
+        "slotId": "armor",
+        "name": "钢铁汪爆炸暴击",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "2/4星钢铁汪的爆炸技能，暴击率+12%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-13"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "2/4星钢铁汪的爆炸技能，暴击率+16%。",
+            "refs": [
+              "totem59-armor-wake"
+            ],
+            "media": [
+              "totem59-armor-wake-265"
+            ],
+            "version": "2026-04-19",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "armor-spider",
+        "slotId": "armor",
+        "name": "黑百合银线盘丝",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "[银线盘丝]的激活改为不超过4。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-13"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "armor-storm",
+        "slotId": "armor",
+        "name": "暴风旋风持续",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "暴风每击杀1只怪物，她释放的旋风+0.1s（上限1.5s）。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-13"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "armor-job-毒系",
+        "slotId": "armor",
+        "name": "毒系职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "毒系职业伤害+16%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-10"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "armor-job-召唤",
+        "slotId": "armor",
+        "name": "召唤职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "召唤职业伤害+16%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-10"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "armor-job-法师",
+        "slotId": "armor",
+        "name": "法师职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "法师职业伤害+16%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-10"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "armor-job-战士",
+        "slotId": "armor",
+        "name": "战士职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "战士职业伤害+16%。",
+            "refs": [
+              "totem57-armor"
+            ],
+            "media": [
+              "totem57-armor-official-10"
+            ],
+            "version": "2025-12-16",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-king-crit",
+        "slotId": "boots",
+        "name": "国王暴击增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "国王每触发一次暴击，所有英雄伤害+7.6%（最大8层）。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-4"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "国王每触发一次暴击，所有英雄伤害+10.4%（最大8层）。",
+            "refs": [
+              "totem59-boots-wake"
+            ],
+            "media": [
+              "totem59-boots-wake-070"
+            ],
+            "version": "2026-04-24",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-non-counter",
+        "slotId": "boots",
+        "name": "不被抗性克制增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "某一职业不被怪物抗性克制时，对该怪物的伤害+21%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-5"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "某一职业不被怪物抗性克制时，对该怪物的伤害+28%。",
+            "refs": [
+              "totem59-boots-wake"
+            ],
+            "media": [
+              "totem59-boots-wake-095"
+            ],
+            "version": "2026-04-24",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-high-hp",
+        "slotId": "boots",
+        "name": "高血量怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对血量高于70%的怪物伤害+40%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-6"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "对血量高于70%的怪物伤害+50%。",
+            "refs": [
+              "totem59-boots-wake"
+            ],
+            "media": [
+              "totem59-boots-wake-200"
+            ],
+            "version": "2026-04-24",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-elite",
+        "slotId": "boots",
+        "name": "精英首领增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对精英和首领伤害+40%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-7"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "对精英和首领伤害+50%。",
+            "refs": [
+              "totem59-boots-wake"
+            ],
+            "media": [
+              "totem59-boots-wake-200"
+            ],
+            "version": "2026-04-24",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-tank",
+        "slotId": "boots",
+        "name": "肉盾怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对肉盾怪物伤害+40%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-8"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "对肉盾怪物伤害+50%。",
+            "refs": [
+              "totem59-boots-wake"
+            ],
+            "media": [
+              "totem59-boots-wake-200"
+            ],
+            "version": "2026-04-24",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-full-crit",
+        "slotId": "boots",
+        "name": "攻击满血怪物暴击",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "攻击满血怪物时，暴击率+40%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-9"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "攻击满血怪物时，暴击率+50%。",
+            "refs": [
+              "totem59-boots-wake"
+            ],
+            "media": [
+              "totem59-boots-wake-200"
+            ],
+            "version": "2026-04-24",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-wall-loss",
+        "slotId": "boots",
+        "name": "城墙掉血增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "城墙血量每降低10%，所有英雄伤害+5%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-10"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "城墙血量每降低10%，所有英雄伤害+7%。",
+            "refs": [
+              "totem59-boots-wake"
+            ],
+            "media": [
+              "totem59-boots-wake-070"
+            ],
+            "version": "2026-04-24",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-flying",
+        "slotId": "boots",
+        "name": "飞行怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对飞行怪物伤害+40%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-11"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "对飞行怪物伤害+50%。",
+            "refs": [
+              "totem59-boots-wake"
+            ],
+            "media": [
+              "totem59-boots-wake-200"
+            ],
+            "version": "2026-04-24",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-wall-low",
+        "slotId": "boots",
+        "name": "城墙低血增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "城墙血量低于30%，伤害+60.5%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-12"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "城墙血量低于30%，伤害+75.5%。",
+            "refs": [
+              "totem59-boots-wake"
+            ],
+            "media": [
+              "totem59-boots-wake-070"
+            ],
+            "version": "2026-04-24",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-all-damage",
+        "slotId": "boots",
+        "name": "国王与英雄增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "国王和英雄伤害+10%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-14"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-king-cd",
+        "slotId": "boots",
+        "name": "国王技能冷却",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "国王技能冷却缩短30%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-15"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-immune",
+        "slotId": "boots",
+        "name": "城墙免伤次数",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "城墙可免疫7次伤害。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-16"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-storm",
+        "slotId": "boots",
+        "name": "暴风旋风追加伤害",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "暴风对旋风中心的怪物追加目标最大生命值1.5%伤害（400%攻击力上限）。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-17"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-zhaoyun",
+        "slotId": "boots",
+        "name": "赵云近墙增伤",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "赵云对城墙前4格的怪物伤害+30%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-18"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-lightning",
+        "slotId": "boots",
+        "name": "闪电之子暴击",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "闪电之子额外获得10%的暴击率。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-19"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-teleport",
+        "slotId": "boots",
+        "name": "传送怪物",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "3星及以上英雄有1.5%概率将怪物传送到出发点。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-20"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-speed-platform",
+        "slotId": "boots",
+        "name": "建造攻速台子",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "有20%概率建造攻速台子，台上的英雄攻速+40%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-21"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "有20%概率建造攻速台子，台上的英雄攻速+45%。",
+            "refs": [
+              "totem59-boots-wake"
+            ],
+            "media": [
+              "totem59-boots-wake-200"
+            ],
+            "version": "2026-04-24",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-ranged",
+        "slotId": "boots",
+        "name": "远程怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对远程怪物伤害+40%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-22"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "对远程怪物伤害+50%。",
+            "refs": [
+              "totem59-boots-wake"
+            ],
+            "media": [
+              "totem59-boots-wake-200"
+            ],
+            "version": "2026-04-24",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-fast",
+        "slotId": "boots",
+        "name": "高速怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对高速怪物伤害+40%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-22"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "对高速怪物伤害+50%。",
+            "refs": [
+              "totem59-boots-wake"
+            ],
+            "media": [
+              "totem59-boots-wake-200"
+            ],
+            "version": "2026-04-24",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-summon-heal",
+        "slotId": "boots",
+        "name": "召唤物低血恢复",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "英雄的召唤物生命首次低于30%时，召唤物血量+35%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-23"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-annie",
+        "slotId": "boots",
+        "name": "安妮熊生命值",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "安妮召唤的熊，生命值+24%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-23"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-king-damage",
+        "slotId": "boots",
+        "name": "国王增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "国王伤害+40%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-24"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-control-trait",
+        "slotId": "boots",
+        "name": "控制英雄词条增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "每选择1个控制英雄的词条，所有控制英雄伤害+10%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-25"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-snow",
+        "slotId": "boots",
+        "name": "雪姬冰冻暴击",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "雪姬攻击冰冻的目标时，暴击率+9%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-25"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-puffer",
+        "slotId": "boots",
+        "name": "河掌柜冰渣",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "河掌柜的河豚砸到被冰冻的怪物会发出1个冰渣，造成40%的伤害。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-26"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-neptune",
+        "slotId": "boots",
+        "name": "海王受击海浪",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "海王鲸鱼受击时，有12%的概率立即释放海浪。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-26"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-wall-reduce",
+        "slotId": "boots",
+        "name": "城墙减伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "城墙受伤害-10。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-27"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-shield",
+        "slotId": "boots",
+        "name": "城墙护盾",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "城墙护盾值+400。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-27"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-attack",
+        "slotId": "boots",
+        "name": "英雄攻击力",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "英雄攻击力+80。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-27"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-job-毒系",
+        "slotId": "boots",
+        "name": "毒系职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "毒系职业伤害+16%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-13"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-job-射手",
+        "slotId": "boots",
+        "name": "射手职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "射手职业伤害+16%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-13"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-job-法师",
+        "slotId": "boots",
+        "name": "法师职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "法师职业伤害+16%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-13"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-job-战士",
+        "slotId": "boots",
+        "name": "战士职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "战士职业伤害+16%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-13"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-job-召唤",
+        "slotId": "boots",
+        "name": "召唤职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "召唤职业伤害+16%。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-25"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-attack-召唤",
+        "slotId": "boots",
+        "name": "召唤职业攻击力",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "召唤职业攻击力+120。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-27"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-attack-法师",
+        "slotId": "boots",
+        "name": "法师职业攻击力",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "法师职业攻击力+120。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-27"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-attack-战士",
+        "slotId": "boots",
+        "name": "战士职业攻击力",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "战士职业攻击力+120。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-27"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "boots-attack-射手",
+        "slotId": "boots",
+        "name": "射手职业攻击力",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "射手职业攻击力+120。",
+            "refs": [
+              "totem57-boots"
+            ],
+            "media": [
+              "totem57-boots-official-27"
+            ],
+            "version": "2025-12-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "ring-attack",
+        "slotId": "ring",
+        "name": "英雄攻击力",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "英雄攻击力+80。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-1"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "ring-all-damage",
+        "slotId": "ring",
+        "name": "国王与英雄增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "国王和英雄伤害+10%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-1"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "国王和英雄伤害+12.5%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-20"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-shield",
+        "slotId": "ring",
+        "name": "城墙护盾",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "城墙护盾值+400。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-1"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "城墙护盾值+600。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-23"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-ranged-wall",
+        "slotId": "ring",
+        "name": "远程怪物城墙减伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "远程怪物对城墙造成伤害-20。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-1"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "ring-high-hp",
+        "slotId": "ring",
+        "name": "高血量怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对血量高于70%的怪物伤害+40%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-1"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "对血量高于70%的怪物伤害+50%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-13"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-flying",
+        "slotId": "ring",
+        "name": "飞行怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对飞行怪物伤害+40%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-1"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "对飞行怪物伤害+50%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-17"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-ranged",
+        "slotId": "ring",
+        "name": "远程怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对远程怪物伤害+40%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-1"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "对远程怪物伤害+50%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-17"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-tank",
+        "slotId": "ring",
+        "name": "肉盾怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对肉盾怪物伤害+40%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-1"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "对肉盾怪物伤害+50%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-17"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-fast",
+        "slotId": "ring",
+        "name": "高速怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对高速怪物伤害+40%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-1"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "对高速怪物伤害+50%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-17"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-debuff",
+        "slotId": "ring",
+        "name": "负面状态增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对有负面状态的怪物伤害+25%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-1"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "对有负面状态的怪物伤害+31%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-15"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-king-cd",
+        "slotId": "ring",
+        "name": "国王技能冷却",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "国王技能冷却缩短30%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-2"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "国王技能冷却缩短35%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-11"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-immune",
+        "slotId": "ring",
+        "name": "城墙免伤次数",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "城墙可免疫7次伤害。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-2"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "城墙可免疫8次伤害。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-19"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-first-waves",
+        "slotId": "ring",
+        "name": "前三波增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对前三波出现的怪物伤害+40%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-2"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "对前三波出现的怪物伤害+50%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-14"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-wave-heal",
+        "slotId": "ring",
+        "name": "每波城墙回血",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "每波结束后城墙血量+2.5%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-2"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "每波结束后城墙血量+3%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-18"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-summon-cd",
+        "slotId": "ring",
+        "name": "召唤物死亡减冷却",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "召唤物5秒内死亡，下一次召唤的冷却时间减少22s。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-2"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "ring-poison",
+        "slotId": "ring",
+        "name": "中毒伤害成长",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "每次触发中毒伤害，下次中毒伤害额外+3%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-2"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "每次触发中毒伤害，下次中毒伤害额外+4%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-22"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-adventurer",
+        "slotId": "ring",
+        "name": "冒险家",
+        "kind": "general",
+        "variants": {
+          "purple": {
+            "effect": "有12.5%概率上阵2星英雄（主线冒险3波后生效）。",
+            "refs": [
+              "totem57-rabbit"
+            ],
+            "media": [
+              "totem57-purple-rabbit-36"
+            ],
+            "version": "2026-09-18",
+            "evidenceStatus": "image"
+          },
+          "red": {
+            "effect": "有20%概率上阵2星英雄（主线冒险3波后生效）。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-2"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "有25%概率上阵2星英雄（主线冒险3波后生效）。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-4"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-hero-cd",
+        "slotId": "ring",
+        "name": "英雄技能冷却",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "英雄技能冷却缩短8%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-2"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "英雄技能冷却缩短10%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-12"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-mermaid",
+        "slotId": "ring",
+        "name": "美人鱼圣泉暴击",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "受到美人鱼圣泉效果影响的友军，暴击+8%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-3"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "ring-nezha",
+        "slotId": "ring",
+        "name": "哪吒秒杀",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "最高星哪吒的乾坤圈有3%概率秒杀小怪。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-3"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "最高星哪吒的乾坤圈有4.5%概率秒杀小怪。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-7"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-swordmaster",
+        "slotId": "ring",
+        "name": "剑圣近墙增伤",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "剑圣对城墙前2格的怪物伤害+55%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-3"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "ring-rocket",
+        "slotId": "ring",
+        "name": "火箭额外机枪",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "火箭攻击有65%几率机枪+1，伤害-20%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-3"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "ring-lightning",
+        "slotId": "ring",
+        "name": "闪电之子电火花",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "闪电之子命中被点燃的怪物时，电火花有10%的概率往随机方向延伸。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-3"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "ring-sword",
+        "slotId": "ring",
+        "name": "剑仙初始飞剑",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "剑仙普攻有25%概率初始飞剑+1。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-3"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "剑仙普攻有40%概率初始飞剑+1。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-10"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-dog",
+        "slotId": "ring",
+        "name": "钢铁汪激光攻速",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "钢铁汪发射5次激光，有20%的概率攻速提升105%，持续3次普攻。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-3"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "钢铁汪发射5次激光，有20%概率攻速提升140%，持续3次普攻。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-21"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-warrior-low",
+        "slotId": "ring",
+        "name": "战士低血增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "城墙血量每降低30%，战士职业伤害+21%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-4"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "城墙血量每降低30%，战士职业伤害+24%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-9"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-mage-crit",
+        "slotId": "ring",
+        "name": "法师暴击伤害浮动",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "法师职业暴击时，最终暴击伤害将在80%—200%间浮动。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-4"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "法师职业暴击时，最终暴击伤害将在80%—230%间浮动。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-8"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-job-召唤",
+        "slotId": "ring",
+        "name": "召唤职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "召唤职业伤害+16%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-4"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "召唤职业伤害+20%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-16"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-job-毒系",
+        "slotId": "ring",
+        "name": "毒系职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "毒系职业伤害+16%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-4"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "毒系职业伤害+20%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-16"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-job-射手",
+        "slotId": "ring",
+        "name": "射手职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "射手职业伤害+16%。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-4"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "射手职业伤害+20%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-16"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-attack-射手",
+        "slotId": "ring",
+        "name": "射手职业攻击力",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "射手职业攻击力+120。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-4"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "ring-attack-战士",
+        "slotId": "ring",
+        "name": "战士职业攻击力",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "战士职业攻击力+120。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-4"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "ring-attack-法师",
+        "slotId": "ring",
+        "name": "法师职业攻击力",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "法师职业攻击力+120。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-4"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "ring-attack-召唤",
+        "slotId": "ring",
+        "name": "召唤职业攻击力",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "召唤职业攻击力+120。",
+            "refs": [
+              "totem57-ring"
+            ],
+            "media": [
+              "totem57-ring-luosheng-4"
+            ],
+            "version": "2025-09-26",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "ring-opening",
+        "slotId": "ring",
+        "name": "开局选择词条",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "进入战斗有100%概率立即选择1次词条，英雄伤害-10%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-5"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-monkey",
+        "slotId": "ring",
+        "name": "孙悟空秒杀",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "最高星孙悟空普攻时有6%概率秒杀怪物。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-6"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-job-法师",
+        "slotId": "ring",
+        "name": "法师职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "法师职业伤害+20%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-16"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "ring-job-战士",
+        "slotId": "ring",
+        "name": "战士职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "战士职业伤害+20%。",
+            "refs": [
+              "totem57-ring-pink"
+            ],
+            "media": [
+              "totem57-ring-pink-official-16"
+            ],
+            "version": "2026-03-06",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "necklace-angel",
+        "slotId": "necklace",
+        "name": "天使赐福暴击",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "被天使赐福的英雄暴击率提升8%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-4"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "被天使赐福的英雄暴击率提升12%。",
+            "refs": [
+              "totem59-necklace-wake"
+            ],
+            "media": [
+              "totem59-necklace-wake-008"
+            ],
+            "version": "2026-04-27",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "necklace-venom",
+        "slotId": "necklace",
+        "name": "毒液吞噬暴击",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "每获得10层[吞噬]效果，毒液暴击率额外提升5%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-5"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "每获得10层[吞噬]效果，毒液暴击率额外提升7.5%。",
+            "refs": [
+              "hero-venom-totems-20251218",
+              "totem59-necklace-wake"
+            ],
+            "media": [
+              "totem59-necklace-wake-008"
+            ],
+            "version": "2026-04-27",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "necklace-wall-full",
+        "slotId": "necklace",
+        "name": "城墙满血增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "城墙满血时，伤害+40%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-6"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "城墙满血时，伤害+50%。",
+            "refs": [
+              "totem59-necklace-wake"
+            ],
+            "media": [
+              "totem59-necklace-wake-008"
+            ],
+            "version": "2026-04-27",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "necklace-nezha",
+        "slotId": "necklace",
+        "name": "哪吒控制暴击",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "哪吒对被控制效果影响的怪物，暴击率+10%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-7"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "哪吒对被控制效果影响的怪物，暴击率+15%。",
+            "refs": [
+              "totem59-necklace-wake"
+            ],
+            "media": [
+              "totem59-necklace-wake-180"
+            ],
+            "version": "2026-04-27",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "necklace-sword",
+        "slotId": "necklace",
+        "name": "剑仙负面暴击",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "剑仙攻击负面状态的怪物，暴击率+8%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-8"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "剑仙攻击负面状态的怪物，暴击率+12%。",
+            "refs": [
+              "totem59-necklace-wake"
+            ],
+            "media": [
+              "totem59-necklace-wake-180"
+            ],
+            "version": "2026-04-27",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "necklace-shooter",
+        "slotId": "necklace",
+        "name": "射手攻速换伤害",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "射手职业攻速-50%，伤害+90%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-9"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "射手职业攻速-50%，伤害+120%。",
+            "refs": [
+              "totem59-necklace-wake"
+            ],
+            "media": [
+              "totem59-necklace-wake-008"
+            ],
+            "version": "2026-04-27",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "necklace-poison-proc",
+        "slotId": "necklace",
+        "name": "中毒追加伤害",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "每次触发中毒伤害，均有15%概率额外造成100%的伤害。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-10"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-debuff",
+        "slotId": "necklace",
+        "name": "负面状态增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对有负面状态的怪物伤害+25%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-11"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-poison-stack",
+        "slotId": "necklace",
+        "name": "技能立即叠毒",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "毒系职业技能命中时，立即叠3层毒。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-12"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-high-hp",
+        "slotId": "necklace",
+        "name": "高血量怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对血量高于70%的怪物伤害+40%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-13"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-tank",
+        "slotId": "necklace",
+        "name": "肉盾怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对肉盾怪物伤害+40%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-14"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-flying",
+        "slotId": "necklace",
+        "name": "飞行怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "对飞行怪物伤害+40%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-14"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-king-cd",
+        "slotId": "necklace",
+        "name": "国王技能冷却",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "国王技能冷却缩短30%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-15"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "国王技能冷却缩短35%。",
+            "refs": [
+              "totem59-necklace-wake"
+            ],
+            "media": [
+              "totem59-necklace-wake-180"
+            ],
+            "version": "2026-04-27",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "necklace-star-crit",
+        "slotId": "necklace",
+        "name": "三星英雄暴击追加伤害",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "3星及以上英雄暴击追加目标最大生命值1%伤害（400%攻击力上限）。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-16"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "3星及以上英雄暴击追加目标最大生命值1.5%伤害（400%攻击力上限）。",
+            "refs": [
+              "totem59-necklace-wake"
+            ],
+            "media": [
+              "totem59-necklace-wake-008"
+            ],
+            "version": "2026-04-27",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "necklace-all-damage",
+        "slotId": "necklace",
+        "name": "国王与英雄增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "国王和英雄伤害+10%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-17"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-swordmaster",
+        "slotId": "necklace",
+        "name": "剑圣残血增伤",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "剑圣对生命值低于50%的怪物，额外造成40%的伤害。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-18"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-dog",
+        "slotId": "necklace",
+        "name": "钢铁汪额外激光",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "钢铁汪有25%的概率对主目标多发射一条激光。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-18"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-zhaoyun",
+        "slotId": "necklace",
+        "name": "赵云龙魂",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "赵云合成龙魂数量+1，有50%概率额外再增加1层龙魂（最多触发10次）。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-18"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-spider",
+        "slotId": "necklace",
+        "name": "黑百合额外蛛皇",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "黑百合释放大招时有22.5%概率再额外投出一只超级蛛皇。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-18"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-explosion",
+        "slotId": "necklace",
+        "name": "爆炸伤害",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "爆炸伤害+35%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-19"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-job-毒系",
+        "slotId": "necklace",
+        "name": "毒系职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "毒系职业伤害+16%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-17"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-job-召唤",
+        "slotId": "necklace",
+        "name": "召唤职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "召唤职业伤害+16%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-17"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-job-法师",
+        "slotId": "necklace",
+        "name": "法师职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "法师职业伤害+16%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-17"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "necklace-job-战士",
+        "slotId": "necklace",
+        "name": "战士职业增伤",
+        "kind": "profession",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "战士职业伤害+16%。",
+            "refs": [
+              "totem57-necklace"
+            ],
+            "media": [
+              "totem57-necklace-official-17"
+            ],
+            "version": "2026-01-29",
+            "evidenceStatus": "image"
+          },
+          "pink": null
+        }
+      },
+      {
+        "id": "horn-hero-angel-3",
+        "slotId": "horn",
+        "name": "天使专属",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "英雄受到2次天使赐福，额外提升45%攻击。",
+            "refs": [
+              "hero-percent-totems-ayue"
+            ],
+            "media": [
+              "hero-v51-strike-totem"
+            ],
+            "version": "发布日期暂未获取",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "armor-venom-chain",
+        "slotId": "armor",
+        "name": "毒液专属",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "毒液释放大招时，另一名最高星毒液有50%概率立即释放大招。",
+            "refs": [
+              "hero-venom-totems-20251218"
+            ],
+            "media": [
+              "hero-v51-venom-3"
+            ],
+            "version": "2025-12-18",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "毒液释放大招时，另一名最高星毒液有80%概率立即释放大招。",
+            "refs": [
+              "hero-venom-totems-20251218",
+              "totem59-armor-wake"
+            ],
+            "media": [
+              "totem59-armor-wake-265"
+            ],
+            "version": "2026-04-19",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-venom-arms",
+        "slotId": "boots",
+        "name": "毒液专属",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": {
+            "effect": "毒液[双重手臂]选项不再降低手臂伤害。",
+            "refs": [
+              "hero-venom-totems-20251218"
+            ],
+            "media": [
+              "hero-v51-venom-4"
+            ],
+            "version": "2025-12-18",
+            "evidenceStatus": "image"
+          },
+          "pink": {
+            "effect": "毒液[双重手臂]选项不再降低手臂伤害，额外增伤15%。",
+            "refs": [
+              "hero-venom-totems-20251218"
+            ],
+            "media": [],
+            "version": "2025-12-18",
+            "evidenceStatus": "text"
+          }
+        }
+      },
+      {
+        "id": "boots-hero-daji-2",
+        "slotId": "boots",
+        "name": "妲己专属",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "被妲己魅惑的怪物受到其他英雄普攻暴击时，会附带12%生命值伤害。",
+            "refs": [
+              "hero-percent-totems-ayue"
+            ],
+            "media": [
+              "hero-v51-daji-totem"
+            ],
+            "version": "发布日期暂未获取",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "boots-hero-disla-0",
+        "slotId": "boots",
+        "name": "帝斯拉专属",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "红莲帝斯拉暴击时，额外造成怪物最大生命值2.5%的伤害。",
+            "refs": [
+              "hero-percent-totems-ayue"
+            ],
+            "media": [
+              "hero-v51-disla-totem"
+            ],
+            "version": "发布日期暂未获取",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "horn-hero-strike-0",
+        "slotId": "horn",
+        "name": "强袭专属",
+        "kind": "hero",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "每颗子弹附带怪物最大生命值1.2%的伤害。",
+            "refs": [
+              "hero-article-360",
+              "hero-percent-totems-ayue"
+            ],
+            "media": [
+              "hero-guide-360-9",
+              "hero-v51-strike-totem"
+            ],
+            "version": "2026-06-25",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "horn-tank",
+        "slotId": "horn",
+        "name": "肉盾怪物增伤",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "对肉盾怪物伤害+50%。",
+            "refs": [
+              "hero-percent-totems-ayue"
+            ],
+            "media": [
+              "hero-v51-strike-totem"
+            ],
+            "version": "发布日期暂未获取",
+            "evidenceStatus": "image"
+          }
+        }
+      },
+      {
+        "id": "necklace-hero-cd",
+        "name": "英雄技能冷却",
+        "slotId": "necklace",
+        "kind": "general",
+        "variants": {
+          "purple": null,
+          "red": null,
+          "pink": {
+            "effect": "英雄技能冷却缩短10%。",
+            "refs": [
+              "totem59-necklace-wake"
+            ],
+            "media": [
+              "totem59-necklace-wake-180"
+            ],
+            "version": "2026-04-27",
+            "evidenceStatus": "image"
+          }
+        }
+      }
+    ],
+    "videos": [
+      {
+        "id": "blueberry",
+        "sourceId": "totem57-blueberry",
+        "title": "图腾洗炼常见问题解答",
+        "author": "努力的蓝莓",
+        "publishedAt": "2026-11-12",
+        "topics": [
+          "refining"
+        ],
+        "summary": "图腾选择、秒杀词条的保留，以及洗练中的常见疑问。"
+      },
+      {
+        "id": "planning",
+        "sourceId": "totem57-planning",
+        "title": "新区图腾洗练规划",
+        "author": "欧一点怎么了",
+        "publishedAt": "2026-10-22",
+        "topics": [
+          "refining",
+          "pairing"
+        ],
+        "summary": "结合新区配装和图腾属性面板，介绍图腾洗练与资源规划。"
+      },
+      {
+        "id": "pairing",
+        "sourceId": "totem57-pairing",
+        "title": "图腾搭配与增伤选择",
+        "author": "冷鸟大叔",
+        "publishedAt": "2026-09-20",
+        "topics": [
+          "pairing"
+        ],
+        "summary": "围绕主线、职业和怪物类型增伤讨论图腾搭配。"
+      },
+      {
+        "id": "rabbit",
+        "sourceId": "totem57-rabbit",
+        "title": "紫色图腾的选择",
+        "author": "永远蔚蓝星球-兔兔",
+        "publishedAt": "2026-09-18",
+        "topics": [
+          "pairing",
+          "refining"
+        ],
+        "summary": "对照紫色与粉色的无视抗性、法师冷却、射手穿透、冒险家和英雄暴击率。"
+      },
+      {
+        "id": "totem59-general",
+        "sourceId": "totem59-general",
+        "title": "顶级通用图腾的选择与取舍",
+        "summary": "介绍开局词条、冒险家、无视抗性、伤害浮动和冷却类图腾的搭配。",
+        "author": "努力的蓝莓",
+        "publishedAt": "2026-11-19",
+        "topics": [
+          "pairing",
+          "refining"
+        ]
+      },
+      {
+        "id": "totem59-horn-recent",
+        "sourceId": "totem59-horn-recent",
+        "title": "号角图腾的必带、可选与保留",
+        "summary": "按主力英雄讲解强袭、剑仙、战士及天使体系的号角取舍。",
+        "author": "冷鸟大叔",
+        "publishedAt": "2026-11-09",
+        "topics": [
+          "pairing",
+          "refining"
+        ]
+      },
+      {
+        "id": "totem59-red-choice",
+        "sourceId": "totem59-red-choice",
+        "title": "红色自选图腾的选择",
+        "summary": "比较战士距离、每选词条增伤、同职业三词条增伤与已有搭配。",
+        "author": "土豆不是马铃薯🥔",
+        "publishedAt": "2026-02-16",
+        "topics": [
+          "pairing"
+        ]
+      }
+    ],
+    "unavailableText": "暂未获取到明细信息。",
+    "poolNote": "未列出的词条与品质明细：暂未获取到明细信息。"
+  }
 }
