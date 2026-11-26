@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "revision": "2026-11-22-v6.6",
+  "revision": "2026-11-26-v6.8",
   "meta": {
     "title": "蔚蓝星球知识库",
-    "updatedAt": "2026-11-16",
+    "updatedAt": "2026-11-26",
     "profile": {
       "id": "wechat-20261002",
       "channel": "微信小游戏",
@@ -3501,9 +3501,9 @@
     },
     {
       "id": "training",
-      "name": "神木特训",
+      "name": "神木试炼",
       "category": "small",
-      "intro": "随英雄试炼开放的三轮随机取奖活动。本区剑仙已于D45首次开启，末日预计D47；奖单按英雄及资料版本查看。",
+      "intro": "按英雄查看哪吒至洛姬的11期试炼，分别查活动时间、三轮奖励、攻略与截图。",
       "resource": "特训卷轴 / 特训之匙（以当前版本为准）",
       "steps": [
         "先选择本期可训练的目标英雄，核对奖励随英雄是否变化。",
@@ -3537,7 +3537,15 @@
         "training-strong-sept",
         "training-sword-oct",
         "training-sword-old",
-        "user-training-nov15"
+        "user-training-nov15",
+        "trial-nezha-june",
+        "trial-nezha-disla-march",
+        "trial-venom-group-jan",
+        "trial-disla-feb",
+        "trial-death-april",
+        "trial-strike-may",
+        "trial-thor-sept",
+        "trial-loki-thor-oct"
       ],
       "notes": [
         "本区D45首次开启日由用户确认；末日和具体日切仍待精确倒计时，不能将他区剩余小时平移为本区结束时刻。"
@@ -3602,6 +3610,31 @@
           "sourceId": "training-plan-oct24",
           "title": "10月新区神木规划：英雄组与材料",
           "note": "2026-10-24；补充材料规划，未给出本区剑仙起止日或完整皮肤等级表。"
+        },
+        {
+          "sourceId": "trial-nezha-d40",
+          "title": "哪吒D40 · 任务与首轮奖励",
+          "note": "已看00:13、00:30、00:46。"
+        },
+        {
+          "sourceId": "trial-venom-june-video",
+          "title": "毒液 · 三轮奖单与图腾箱",
+          "note": "已看00:16、00:23、00:30、00:33。"
+        },
+        {
+          "sourceId": "trial-disla-oct-video",
+          "title": "帝斯拉 · 三轮奖单与英雄选择",
+          "note": "已看00:08、00:19、00:25、00:31。"
+        },
+        {
+          "sourceId": "trial-thor-d139-video",
+          "title": "雷神D139 · 首次试炼三轮奖励",
+          "note": "已看00:04、00:20、00:30、00:46。"
+        },
+        {
+          "sourceId": "trial-loki-d146-video",
+          "title": "洛姬D146 · 三轮奖励与图腾箱",
+          "note": "已看00:04、00:12。日数为作者自述。"
         }
       ],
       "guideSections": [
@@ -4275,6 +4308,968 @@
                   "note": "单格数量按可读数字记录；无数字或遮挡处暂未获取到明细信息。历史每轮51的规则不作为本片独立成本实测。"
                 }
               ]
+            },
+            {
+              "id": "venom-june",
+              "hero": "毒液",
+              "versionDate": "2026-06-12",
+              "title": "毒液试炼 · 2026-06-12奖励",
+              "groupLabel": "2026-06-12奖励",
+              "how": "按同一来源的本英雄画面逐格记录；未标数的数量保留未知。",
+              "prizes": "前两轮20格 · 第三轮上排5格",
+              "rounds": [
+                {
+                  "round": 1,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "毒液元神 · 格A",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "毒液元神 · 格B",
+                      "quantity": 10
+                    },
+                    {
+                      "name": "稀有祝福石",
+                      "quantity": null
+                    },
+                    {
+                      "name": "机关核心",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "彩虹探测仪",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "超凡宝锤",
+                      "quantity": null
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 500
+                    },
+                    {
+                      "name": "体力",
+                      "quantity": 60
+                    },
+                    {
+                      "name": "随机职业经验",
+                      "quantity": 100
+                    },
+                    {
+                      "name": "职业经验（职业待核）",
+                      "quantity": 200
+                    }
+                  ],
+                  "missing": "",
+                  "media": [
+                    "trial-venom-june-rounds"
+                  ],
+                  "refs": [
+                    "trial-venom-june-video"
+                  ],
+                  "version": "2026-06-12",
+                  "note": ""
+                },
+                {
+                  "round": 2,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "毒液元神",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "毒液皮肤（名称、期限待核）",
+                      "quantity": null
+                    },
+                    {
+                      "name": "绝世随机图腾箱",
+                      "quantity": null
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 500
+                    },
+                    {
+                      "name": "彩虹探测仪",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "超凡宝锤",
+                      "quantity": null
+                    },
+                    {
+                      "name": "招募券",
+                      "quantity": 50
+                    },
+                    {
+                      "name": "体力",
+                      "quantity": 60
+                    },
+                    {
+                      "name": "职业经验（职业待核）",
+                      "quantity": 200
+                    },
+                    {
+                      "name": "随机职业经验",
+                      "quantity": 100
+                    }
+                  ],
+                  "missing": "",
+                  "media": [
+                    "trial-venom-june-rounds"
+                  ],
+                  "refs": [
+                    "trial-venom-june-video"
+                  ],
+                  "version": "2026-06-12",
+                  "note": ""
+                },
+                {
+                  "round": 3,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "毒液元神",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "至尊随机图腾",
+                      "quantity": null
+                    },
+                    {
+                      "name": "毒液皮肤 · 格A（名称、期限待核）",
+                      "quantity": null
+                    },
+                    {
+                      "name": "毒液皮肤 · 格B（名称、期限待核）",
+                      "quantity": null
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 800
+                    }
+                  ],
+                  "missing": "下排5格被字幕遮挡，尚未取得清晰奖品和数量。",
+                  "media": [
+                    "trial-venom-june-rounds"
+                  ],
+                  "refs": [
+                    "trial-venom-june-video"
+                  ],
+                  "version": "2026-06-12",
+                  "note": ""
+                }
+              ],
+              "media": [
+                "trial-venom-june-rounds"
+              ],
+              "refs": [
+                "trial-venom-june-video"
+              ],
+              "note": "前两轮20格 · 第三轮上排5格"
+            },
+            {
+              "id": "daji-jan",
+              "hero": "妲己",
+              "versionDate": "2026-01-17",
+              "title": "妲己试炼 · 2026-01-17奖励",
+              "groupLabel": "2026-01-17奖励",
+              "how": "按同一来源的本英雄画面逐格记录；未标数的数量保留未知。",
+              "prizes": "三轮30格历史奖单 · 部分名称与箱数待核",
+              "rounds": [
+                {
+                  "round": 1,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "妲己元神",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "粉色箱子（名称待核）",
+                      "quantity": null
+                    },
+                    {
+                      "name": "稀有祝福石",
+                      "quantity": null
+                    },
+                    {
+                      "name": "机关核心",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 500
+                    },
+                    {
+                      "name": "彩虹探测仪",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "超凡宝锤",
+                      "quantity": null
+                    },
+                    {
+                      "name": "寒冰扇",
+                      "quantity": null
+                    },
+                    {
+                      "name": "随机职业经验",
+                      "quantity": 100
+                    },
+                    {
+                      "name": "职业经验（职业待核）",
+                      "quantity": 200
+                    }
+                  ],
+                  "missing": "",
+                  "media": [
+                    "trial-daji-jan-rounds"
+                  ],
+                  "refs": [
+                    "training-jan-example"
+                  ],
+                  "version": "2026-01-17",
+                  "note": ""
+                },
+                {
+                  "round": 2,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "妲己元神",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "绝世随机图腾箱",
+                      "quantity": null
+                    },
+                    {
+                      "name": "星珀",
+                      "quantity": 60
+                    },
+                    {
+                      "name": "超凡宝锤",
+                      "quantity": null
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 500
+                    },
+                    {
+                      "name": "彩虹探测仪",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "寒冰扇",
+                      "quantity": 2
+                    },
+                    {
+                      "name": "招募券",
+                      "quantity": 50
+                    },
+                    {
+                      "name": "职业经验（职业待核）",
+                      "quantity": 200
+                    },
+                    {
+                      "name": "随机职业经验",
+                      "quantity": 100
+                    }
+                  ],
+                  "missing": "",
+                  "media": [
+                    "trial-daji-jan-rounds"
+                  ],
+                  "refs": [
+                    "training-jan-example"
+                  ],
+                  "version": "2026-01-17",
+                  "note": ""
+                },
+                {
+                  "round": 3,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "妲己元神",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "至尊随机图腾箱",
+                      "quantity": null
+                    },
+                    {
+                      "name": "爱心魔杖",
+                      "quantity": null
+                    },
+                    {
+                      "name": "星珀",
+                      "quantity": 60
+                    },
+                    {
+                      "name": "机关核心",
+                      "quantity": 10
+                    },
+                    {
+                      "name": "超凡宝锤",
+                      "quantity": 2
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 800
+                    },
+                    {
+                      "name": "彩虹探测仪",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "寒冰扇",
+                      "quantity": 2
+                    },
+                    {
+                      "name": "职业经验（职业待核）",
+                      "quantity": 300
+                    }
+                  ],
+                  "missing": "",
+                  "media": [
+                    "trial-daji-jan-rounds"
+                  ],
+                  "refs": [
+                    "training-jan-example"
+                  ],
+                  "version": "2026-01-17",
+                  "note": ""
+                }
+              ],
+              "media": [
+                "trial-daji-jan-rounds"
+              ],
+              "refs": [
+                "training-jan-example"
+              ],
+              "note": "三轮30格历史奖单 · 部分名称与箱数待核"
+            },
+            {
+              "id": "disla-oct",
+              "hero": "帝斯拉",
+              "versionDate": "2026-10-26",
+              "title": "帝斯拉试炼 · 2026-10-26奖励",
+              "groupLabel": "2026-10-26奖励",
+              "how": "按同一来源的本英雄画面逐格记录；未标数的数量保留未知。",
+              "prizes": "前两轮20格 · 第三轮上排5格",
+              "rounds": [
+                {
+                  "round": 1,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "帝斯拉元神 · 格A",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "帝斯拉元神 · 格B",
+                      "quantity": 10
+                    },
+                    {
+                      "name": "藏品箱 · 格A（全名待核）",
+                      "quantity": null
+                    },
+                    {
+                      "name": "藏品箱 · 格B（全名待核）",
+                      "quantity": null
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 500
+                    },
+                    {
+                      "name": "彩虹探测仪",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "超凡宝锤",
+                      "quantity": null
+                    },
+                    {
+                      "name": "机关核心",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "随机职业经验",
+                      "quantity": 100
+                    },
+                    {
+                      "name": "职业经验（职业待核）",
+                      "quantity": 200
+                    }
+                  ],
+                  "missing": "",
+                  "media": [
+                    "trial-disla-oct-rounds"
+                  ],
+                  "refs": [
+                    "trial-disla-oct-video"
+                  ],
+                  "version": "2026-10-26",
+                  "note": ""
+                },
+                {
+                  "round": 2,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "帝斯拉元神",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "机械巨兽皮肤（期限待核）",
+                      "quantity": null
+                    },
+                    {
+                      "name": "绝世随机图腾箱",
+                      "quantity": null
+                    },
+                    {
+                      "name": "超凡宝锤",
+                      "quantity": null
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 500
+                    },
+                    {
+                      "name": "彩虹探测仪",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "藏品箱（全名待核）",
+                      "quantity": 2
+                    },
+                    {
+                      "name": "招募券",
+                      "quantity": 50
+                    },
+                    {
+                      "name": "职业经验（职业待核）",
+                      "quantity": 200
+                    },
+                    {
+                      "name": "随机职业经验",
+                      "quantity": 100
+                    }
+                  ],
+                  "missing": "",
+                  "media": [
+                    "trial-disla-oct-rounds"
+                  ],
+                  "refs": [
+                    "trial-disla-oct-video"
+                  ],
+                  "version": "2026-10-26",
+                  "note": ""
+                },
+                {
+                  "round": 3,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "帝斯拉元神",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "至尊随机图腾",
+                      "quantity": null
+                    },
+                    {
+                      "name": "机械巨兽皮肤 · 格A（期限待核）",
+                      "quantity": null
+                    },
+                    {
+                      "name": "机械巨兽皮肤 · 格B（期限待核）",
+                      "quantity": null
+                    },
+                    {
+                      "name": "机关核心",
+                      "quantity": 10
+                    }
+                  ],
+                  "missing": "下排5格被奖励面板裁切，未将其他英雄或旧版数量补入。",
+                  "media": [
+                    "trial-disla-oct-rounds"
+                  ],
+                  "refs": [
+                    "trial-disla-oct-video"
+                  ],
+                  "version": "2026-10-26",
+                  "note": ""
+                }
+              ],
+              "media": [
+                "trial-disla-oct-rounds"
+              ],
+              "refs": [
+                "trial-disla-oct-video"
+              ],
+              "note": "前两轮20格 · 第三轮上排5格"
+            },
+            {
+              "id": "strike-may",
+              "hero": "强袭",
+              "versionDate": "2026-05-12",
+              "title": "强袭试炼 · 2026-05-12奖励",
+              "groupLabel": "2026-05-12奖励",
+              "how": "按同一来源的本英雄画面逐格记录；未标数的数量保留未知。",
+              "prizes": "首轮10格 · 第二轮箱说明 · 第三轮上排5格",
+              "rounds": [
+                {
+                  "round": 1,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "强袭头像材料 · 格A（全名待核）",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "强袭头像材料 · 格B（全名待核）",
+                      "quantity": 3
+                    },
+                    {
+                      "name": "自选藏品箱",
+                      "quantity": 2
+                    },
+                    {
+                      "name": "星珀",
+                      "quantity": 18
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 500
+                    },
+                    {
+                      "name": "彩虹探测仪",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "机关核心",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "超凡宝锤",
+                      "quantity": null
+                    },
+                    {
+                      "name": "随机职业经验",
+                      "quantity": 150
+                    },
+                    {
+                      "name": "职业经验（职业待核）",
+                      "quantity": 300
+                    }
+                  ],
+                  "missing": "",
+                  "media": [
+                    "trial-strike-may-rounds"
+                  ],
+                  "refs": [
+                    "trial-strike-may"
+                  ],
+                  "version": "2026-05-12",
+                  "note": ""
+                },
+                {
+                  "round": 2,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "自选图腾宝箱",
+                      "quantity": null
+                    }
+                  ],
+                  "missing": "只取得自选箱候选面板：猫神、毒蛇、熊王、夜枭及彩虹石图标道具2个；完整本轮10格未展开。",
+                  "media": [
+                    "trial-strike-may-rounds"
+                  ],
+                  "refs": [
+                    "trial-strike-may"
+                  ],
+                  "version": "2026-05-12",
+                  "note": ""
+                },
+                {
+                  "round": 3,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "强袭头像材料 · 格A（全名待核）",
+                      "quantity": 8
+                    },
+                    {
+                      "name": "强袭头像材料 · 格B（全名待核）",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "至尊随机图腾",
+                      "quantity": null
+                    },
+                    {
+                      "name": "自选传说藏品箱",
+                      "quantity": 2
+                    },
+                    {
+                      "name": "机关核心",
+                      "quantity": 10
+                    }
+                  ],
+                  "missing": "第三轮下排5格被裁切，数量未取得。",
+                  "media": [
+                    "trial-strike-may-rounds"
+                  ],
+                  "refs": [
+                    "trial-strike-may"
+                  ],
+                  "version": "2026-05-12",
+                  "note": ""
+                }
+              ],
+              "media": [
+                "trial-strike-may-rounds"
+              ],
+              "refs": [
+                "trial-strike-may"
+              ],
+              "note": "首轮10格 · 第二轮箱说明 · 第三轮上排5格"
+            },
+            {
+              "id": "thor-oct",
+              "hero": "雷神",
+              "versionDate": "2026-10-27",
+              "title": "雷神试炼 · 2026-10-27奖励",
+              "groupLabel": "2026-10-27奖励",
+              "how": "按同一来源的本英雄画面逐格记录；未标数的数量保留未知。",
+              "prizes": "前两轮20格 · 第三轮上排5格",
+              "rounds": [
+                {
+                  "round": 1,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "雷神头像材料 · 格A（全名待核）",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "雷神头像材料 · 格B（全名待核）",
+                      "quantity": 3
+                    },
+                    {
+                      "name": "藏品自选箱",
+                      "quantity": 2
+                    },
+                    {
+                      "name": "星珀",
+                      "quantity": 18
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 500
+                    },
+                    {
+                      "name": "彩虹探测仪",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "项圈图标材料（全名待核）",
+                      "quantity": 20
+                    },
+                    {
+                      "name": "宠物材料（全名待核）",
+                      "quantity": 150
+                    },
+                    {
+                      "name": "随机职业经验",
+                      "quantity": 150
+                    },
+                    {
+                      "name": "职业经验（职业待核）",
+                      "quantity": 300
+                    }
+                  ],
+                  "missing": "",
+                  "media": [
+                    "trial-thor-oct-rounds"
+                  ],
+                  "refs": [
+                    "trial-thor-d139-video"
+                  ],
+                  "version": "2026-10-27",
+                  "note": ""
+                },
+                {
+                  "round": 2,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "雷神头像材料（全名待核）",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "自选图腾宝箱",
+                      "quantity": null
+                    },
+                    {
+                      "name": "藏品箱（全名待核）",
+                      "quantity": null
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 500
+                    },
+                    {
+                      "name": "彩虹探测仪",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "全职业经验",
+                      "quantity": 2000
+                    },
+                    {
+                      "name": "宠物材料（全名待核）",
+                      "quantity": 200
+                    },
+                    {
+                      "name": "招募券",
+                      "quantity": 50
+                    },
+                    {
+                      "name": "随机职业经验",
+                      "quantity": 150
+                    },
+                    {
+                      "name": "职业经验（职业待核）",
+                      "quantity": 300
+                    }
+                  ],
+                  "missing": "",
+                  "media": [
+                    "trial-thor-oct-rounds"
+                  ],
+                  "refs": [
+                    "trial-thor-d139-video"
+                  ],
+                  "version": "2026-10-27",
+                  "note": ""
+                },
+                {
+                  "round": 3,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "雷神头像材料 · 格A（全名待核）",
+                      "quantity": 8
+                    },
+                    {
+                      "name": "雷神头像材料 · 格B（全名待核）",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "至尊随机图腾",
+                      "quantity": null
+                    },
+                    {
+                      "name": "藏品自选箱",
+                      "quantity": 2
+                    },
+                    {
+                      "name": "项圈图标材料（全名待核）",
+                      "quantity": 30
+                    }
+                  ],
+                  "missing": "下排5格未清晰读取，数量保留缺失。",
+                  "media": [
+                    "trial-thor-oct-rounds"
+                  ],
+                  "refs": [
+                    "trial-thor-d139-video"
+                  ],
+                  "version": "2026-10-27",
+                  "note": ""
+                }
+              ],
+              "media": [
+                "trial-thor-oct-rounds"
+              ],
+              "refs": [
+                "trial-thor-d139-video"
+              ],
+              "note": "前两轮20格 · 第三轮上排5格"
+            },
+            {
+              "id": "loki-oct",
+              "hero": "洛姬",
+              "versionDate": "2026-10-15",
+              "title": "洛姬试炼 · 2026-10-15奖励",
+              "groupLabel": "2026-10-15奖励",
+              "how": "按同一来源的本英雄画面逐格记录；未标数的数量保留未知。",
+              "prizes": "前两轮20格 · 第三轮上排5格",
+              "rounds": [
+                {
+                  "round": 1,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "洛姬头像材料 · 格A（全名待核）",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "洛姬头像材料 · 格B（全名待核）",
+                      "quantity": 3
+                    },
+                    {
+                      "name": "自选藏品箱",
+                      "quantity": 2
+                    },
+                    {
+                      "name": "星珀",
+                      "quantity": 18
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 500
+                    },
+                    {
+                      "name": "彩虹探测仪",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "项圈图标材料（全名待核）",
+                      "quantity": 20
+                    },
+                    {
+                      "name": "宠物材料（全名待核）",
+                      "quantity": 150
+                    },
+                    {
+                      "name": "随机职业经验",
+                      "quantity": 150
+                    },
+                    {
+                      "name": "职业经验（职业待核）",
+                      "quantity": 300
+                    }
+                  ],
+                  "missing": "",
+                  "media": [
+                    "trial-loki-rounds-oct"
+                  ],
+                  "refs": [
+                    "trial-loki-thor-oct"
+                  ],
+                  "version": "2026-10-15",
+                  "note": ""
+                },
+                {
+                  "round": 2,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "洛姬头像材料（全名待核）",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "自选图腾宝箱",
+                      "quantity": null
+                    },
+                    {
+                      "name": "藏品箱（全名待核）",
+                      "quantity": null
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 500
+                    },
+                    {
+                      "name": "彩虹探测仪",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "全职业经验",
+                      "quantity": 2000
+                    },
+                    {
+                      "name": "宠物材料（全名待核）",
+                      "quantity": 200
+                    },
+                    {
+                      "name": "招募券",
+                      "quantity": 50
+                    },
+                    {
+                      "name": "随机职业经验",
+                      "quantity": 150
+                    },
+                    {
+                      "name": "职业经验（职业待核）",
+                      "quantity": 300
+                    }
+                  ],
+                  "missing": "",
+                  "media": [
+                    "trial-loki-rounds-oct"
+                  ],
+                  "refs": [
+                    "trial-loki-thor-oct"
+                  ],
+                  "version": "2026-10-15",
+                  "note": ""
+                },
+                {
+                  "round": 3,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "洛姬头像材料 · 格A（全名待核）",
+                      "quantity": 8
+                    },
+                    {
+                      "name": "洛姬头像材料 · 格B（全名待核）",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "至尊随机图腾",
+                      "quantity": null
+                    },
+                    {
+                      "name": "自选藏品箱",
+                      "quantity": null
+                    },
+                    {
+                      "name": "项圈图标材料（全名待核）",
+                      "quantity": 30
+                    }
+                  ],
+                  "missing": "底部5格未完整显示，奖品与数量待核。",
+                  "media": [
+                    "trial-loki-rounds-oct"
+                  ],
+                  "refs": [
+                    "trial-loki-thor-oct"
+                  ],
+                  "version": "2026-10-15",
+                  "note": ""
+                }
+              ],
+              "media": [
+                "trial-loki-rounds-oct"
+              ],
+              "refs": [
+                "trial-loki-thor-oct"
+              ],
+              "note": "前两轮20格 · 第三轮上排5格"
             }
           ]
         }
@@ -4587,7 +5582,446 @@
         "hero",
         "totem",
         "resource"
-      ]
+      ],
+      "aliases": [
+        "神木特训",
+        "英雄试炼",
+        "神木试炼"
+      ],
+      "trialPeriods": [
+        {
+          "period": 1,
+          "slug": "nezha",
+          "hero": "哪吒",
+          "scheduleId": "training-nezha",
+          "summary": "按哪吒查看神木材料、祝福石及皮肤奖励记录。",
+          "coverage": "首轮10格文字记录 · 后两轮待核",
+          "timingNote": "时间参考：他区D40开启，00:30剩2天17小时，参考窗口D40—D42。本区尚未实况确认，不自动写入本区日历。",
+          "referenceObservations": [
+            {
+              "text": "2026-10-31波比大王：标题第40天、任务剩2天17小时。相同作者的剑仙记录在D45；这里只建立作者区服参考。",
+              "refs": [
+                "trial-nezha-d40"
+              ]
+            },
+            {
+              "text": "2026-03-01旧版攻略记D38；与当前小游戏节奏不同，不作为本区日期。",
+              "refs": [
+                "trial-nezha-disla-march"
+              ]
+            }
+          ],
+          "selectableHeroes": [],
+          "rewardSetIds": [],
+          "videoSourceIds": [
+            "trial-nezha-d40"
+          ],
+          "guideRefs": [
+            "trial-nezha-d40",
+            "trial-nezha-june",
+            "trial-nezha-disla-march"
+          ],
+          "media": [
+            "trial-nezha-rules-june",
+            "trial-nezha-stone-june",
+            "trial-nezha-d40-time"
+          ],
+          "roundNotes": [
+            {
+              "round": 1,
+              "text": "2026-10-31原片00:46：哪吒元神两格5、10，稀有祝福石、机关核心5、钻石500、彩虹探测仪5、超凡宝锤、体力60、随机职业经验100、职业经验200。无数字的数量与职业全名待核。"
+            },
+            {
+              "round": 2,
+              "text": "旧版文字提到绝世图腾与皮肤；逐格奖品、数量和期限待核。"
+            },
+            {
+              "round": 3,
+              "text": "旧版文字提到至尊图腾与皮肤；逐格奖品、数量和期限待核。"
+            }
+          ]
+        },
+        {
+          "period": 2,
+          "slug": "sword",
+          "hero": "剑仙",
+          "scheduleId": "training-unconfirmed",
+          "summary": "按剑仙查看三轮奖单、举杯邀月皮肤和任务材料。",
+          "coverage": "三轮奖单 · 部分数量待核",
+          "timingNote": "本区已确认D45首次开启；末日预计D47，具体结束时刻待核。",
+          "referenceObservations": [],
+          "selectableHeroes": [],
+          "rewardSetIds": [
+            "sword-june"
+          ],
+          "videoSourceIds": [
+            "training-sword-nov06",
+            "training-sword-wudi-oct26",
+            "training-sword-sept25",
+            "wind-icebox-full-skills",
+            "training-sword-oct47",
+            "training-sword-aug",
+            "training-sword-oct",
+            "training-june",
+            "sword-moon-preview-jan",
+            "training-plan-oct24"
+          ],
+          "guideRefs": [
+            "user-training-nov15",
+            "training-june",
+            "training-sword-old"
+          ],
+          "media": [
+            "sword-nov6-tasks",
+            "sword-oct26-wudi-rounds",
+            "sword-sept25-day45",
+            "sword-sept25-countdown",
+            "sword-moon-lv3-complete",
+            "sword-moon-preview",
+            "sword-moon-skills",
+            "training-sword-aug26-rounds",
+            "training-sword-june-r1",
+            "training-sword-june-r2",
+            "training-sword-june-r3",
+            "training-sword-oct-choice",
+            "training-sword-oct-tree",
+            "training-sword-aug-r2",
+            "training-sword-aug-r3",
+            "training-sword-aug-red",
+            "training-sword-aug-pink",
+            "training-sword-tasks-a",
+            "training-sword-tasks-b",
+            "training-sword-aug-gifts",
+            "training-sword-rare-old",
+            "training-sword-redbox-old",
+            "training-sword-supreme-old"
+          ],
+          "roundNotes": []
+        },
+        {
+          "period": 3,
+          "slug": "angel",
+          "hero": "天使",
+          "scheduleId": "training-angel",
+          "summary": "按天使查看11月三轮奖励和琳琅自选箱。",
+          "coverage": "三轮奖单 · 部分数量待核",
+          "timingNote": "时间参考：他区D60开启，任务剩2天9小时，参考窗口D60—D62。本区尚未实况确认，不自动写入本区日历。",
+          "referenceObservations": [
+            {
+              "text": "2026-11-08无敌：标题开区第60天，01:06任务倒计时2天9小时；02:04 UP剩7天9小时。",
+              "refs": [
+                "trial-angel-nov08-reviewed"
+              ]
+            }
+          ],
+          "selectableHeroes": [],
+          "rewardSetIds": [
+            "angel-nov"
+          ],
+          "videoSourceIds": [
+            "training-angel-nov"
+          ],
+          "guideRefs": [
+            "trial-angel-nov08-reviewed",
+            "training-angel-nov"
+          ],
+          "media": [
+            "training-angel-nov-rounds",
+            "training-angel-nov-choicebox",
+            "trial-angel-d60-time"
+          ],
+          "roundNotes": []
+        },
+        {
+          "period": 4,
+          "slug": "venom",
+          "hero": "毒液",
+          "scheduleId": "training-venom",
+          "summary": "按毒液查看开启时间线索、三轮奖品与原始界面。",
+          "coverage": "前两轮20格 · 第三轮上排5格",
+          "timingNote": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+          "referenceObservations": [
+            {
+              "text": "2026-01-22攻略的可选英雄为天使、毒液、妲己；发布日期不等于本区开场日。",
+              "refs": [
+                "trial-venom-group-jan"
+              ]
+            }
+          ],
+          "selectableHeroes": [
+            "天使",
+            "毒液",
+            "妲己"
+          ],
+          "rewardSetIds": [
+            "venom-june"
+          ],
+          "videoSourceIds": [
+            "trial-venom-june-video"
+          ],
+          "guideRefs": [
+            "trial-venom-june-video",
+            "trial-venom-group-jan",
+            "training-june"
+          ],
+          "media": [
+            "trial-venom-june-rounds"
+          ],
+          "roundNotes": []
+        },
+        {
+          "period": 5,
+          "slug": "daji",
+          "hero": "妲己",
+          "scheduleId": "training-daji",
+          "summary": "按妲己查看开启时间线索、三轮奖品与原始界面。",
+          "coverage": "三轮30格历史奖单 · 部分名称与箱数待核",
+          "timingNote": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+          "referenceObservations": [
+            {
+              "text": "旧文称UP结束前两天开启，仅适用于其旧版记录，不套用本区20天UP。",
+              "refs": [
+                "training-old"
+              ]
+            }
+          ],
+          "selectableHeroes": [],
+          "rewardSetIds": [
+            "daji-jan"
+          ],
+          "videoSourceIds": [],
+          "guideRefs": [
+            "training-old",
+            "training-jan-example"
+          ],
+          "media": [
+            "trial-daji-jan-rounds"
+          ],
+          "roundNotes": [
+            {
+              "round": 1,
+              "text": "1月截图确实含稀有祝福石；后续攻略存在取消祝福石的版本记录，两个版本不得混用。"
+            }
+          ]
+        },
+        {
+          "period": 6,
+          "slug": "disla",
+          "hero": "帝斯拉",
+          "scheduleId": "training-disla",
+          "summary": "按帝斯拉查看开启时间线索、三轮奖品与原始界面。",
+          "coverage": "前两轮20格 · 第三轮上排5格",
+          "timingNote": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+          "referenceObservations": [],
+          "selectableHeroes": [
+            "毒液",
+            "妲己",
+            "帝斯拉"
+          ],
+          "rewardSetIds": [
+            "disla-oct"
+          ],
+          "videoSourceIds": [
+            "trial-disla-oct-video"
+          ],
+          "guideRefs": [
+            "trial-disla-oct-video",
+            "trial-disla-feb",
+            "trial-nezha-disla-march"
+          ],
+          "media": [
+            "trial-disla-oct-rounds"
+          ],
+          "roundNotes": []
+        },
+        {
+          "period": 7,
+          "slug": "wukong",
+          "hero": "孙悟空",
+          "scheduleId": "training-wukong",
+          "summary": "按孙悟空查看三轮历史奖单及藏品、图腾箱。",
+          "coverage": "三轮历史奖单",
+          "timingNote": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+          "referenceObservations": [],
+          "selectableHeroes": [],
+          "rewardSetIds": [
+            "monkey-old"
+          ],
+          "videoSourceIds": [],
+          "guideRefs": [
+            "training-monkey-images"
+          ],
+          "media": [
+            "training-monkey-r1",
+            "training-monkey-r2",
+            "training-monkey-r3",
+            "training-monkey-chest",
+            "training-monkey-totembox",
+            "training-monkey-supremebox",
+            "training-monkey-tree"
+          ],
+          "roundNotes": []
+        },
+        {
+          "period": 8,
+          "slug": "death-knight",
+          "hero": "死亡骑士",
+          "scheduleId": "training-death-knight",
+          "summary": "已找到死亡骑士神木特训攻略，逐轮奖品仍待补全。",
+          "coverage": "玩法攻略",
+          "timingNote": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+          "referenceObservations": [],
+          "selectableHeroes": [],
+          "rewardSetIds": [],
+          "videoSourceIds": [],
+          "guideRefs": [
+            "trial-death-apr-video",
+            "trial-death-april"
+          ],
+          "media": [],
+          "roundNotes": [
+            {
+              "round": 1,
+              "text": "尚未取得死亡骑士本英雄的完整本轮奖单。"
+            },
+            {
+              "round": 2,
+              "text": "尚未取得死亡骑士本英雄的完整本轮奖单。"
+            },
+            {
+              "round": 3,
+              "text": "尚未取得死亡骑士本英雄的完整本轮奖单。"
+            }
+          ]
+        },
+        {
+          "period": 9,
+          "slug": "strike",
+          "hero": "强袭",
+          "scheduleId": "training-strike",
+          "summary": "按强袭查看开启时间线索、三轮奖品与原始界面。",
+          "coverage": "首轮10格 · 第二轮箱说明 · 第三轮上排5格",
+          "timingNote": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+          "referenceObservations": [
+            {
+              "text": "2026-09-13他区D139视频为第二次强袭试炼，画面剩2天23小时；仅作他区返场记录。",
+              "refs": [
+                "training-strong-sept"
+              ]
+            },
+            {
+              "text": "原视频作者评论：“第一次up结束8天前第二次up结束3天前”。与其D139返场倒计时相符，适用版本和区服未明确，不按本区新UP表换算。",
+              "refs": [
+                "training-strong-sept"
+              ]
+            }
+          ],
+          "selectableHeroes": [],
+          "rewardSetIds": [
+            "strike-may"
+          ],
+          "videoSourceIds": [
+            "training-strong-sept"
+          ],
+          "guideRefs": [
+            "training-strong-sept",
+            "trial-strike-may"
+          ],
+          "media": [
+            "trial-strike-may-rounds",
+            "trial-strike-may-box"
+          ],
+          "roundNotes": []
+        },
+        {
+          "period": 10,
+          "slug": "thor",
+          "hero": "雷神",
+          "scheduleId": "training-thor",
+          "summary": "按雷神查看开启时间线索、三轮奖品与原始界面。",
+          "coverage": "前两轮20格 · 第三轮上排5格",
+          "timingNote": "时间参考：2026-10-27拾柒原片字幕记D139，标题为雷神首次试炼。本区起止日仍待确认。",
+          "referenceObservations": [
+            {
+              "text": "拾柒2026-10-27视频00:04称开服第139天，页面为雷神试炼；只作该作者区服时间记录。",
+              "refs": [
+                "trial-thor-d139-video"
+              ]
+            },
+            {
+              "text": "10月雷神与洛姬可在同次试炼切换；图腾概率按各自弹窗分别查看。",
+              "refs": [
+                "trial-loki-thor-oct"
+              ]
+            }
+          ],
+          "selectableHeroes": [
+            "雷神",
+            "洛姬"
+          ],
+          "rewardSetIds": [
+            "thor-oct"
+          ],
+          "videoSourceIds": [
+            "trial-thor-d139-video"
+          ],
+          "guideRefs": [
+            "trial-thor-d139-video",
+            "trial-thor-sept",
+            "trial-loki-thor-oct"
+          ],
+          "media": [
+            "trial-thor-box-oct",
+            "trial-thor-level-oct",
+            "trial-thor-oct-rounds",
+            "trial-thor-d139-time"
+          ],
+          "roundNotes": []
+        },
+        {
+          "period": 11,
+          "slug": "loki",
+          "hero": "洛姬",
+          "scheduleId": "training-loki",
+          "summary": "按洛姬查看开启时间线索、三轮奖品与原始界面。",
+          "coverage": "前两轮20格 · 第三轮上排5格",
+          "timingNote": "时间参考：2026-11-09攻略羊标题记D146，画面活动剩2天以上。日数为作者自述，本区起止日仍待确认。",
+          "referenceObservations": [
+            {
+              "text": "攻略羊D146洛姬试炼视频；声明AI生成，作为作者区服参考，不升级为本区日期。",
+              "refs": [
+                "trial-loki-d146-video"
+              ]
+            }
+          ],
+          "selectableHeroes": [
+            "洛姬",
+            "雷神"
+          ],
+          "rewardSetIds": [
+            "loki-oct"
+          ],
+          "videoSourceIds": [
+            "trial-loki-d146-video"
+          ],
+          "guideRefs": [
+            "trial-loki-d146-video",
+            "trial-loki-thor-oct"
+          ],
+          "media": [
+            "trial-loki-rounds-oct",
+            "trial-loki-crown-oct",
+            "trial-loki-d146-time"
+          ],
+          "roundNotes": [
+            {
+              "round": 3,
+              "text": "底部五格未完整显示，不将雷神或其他版本的数量套入。"
+            }
+          ]
+        }
+      ],
+      "trialVersion": 1
     },
     {
       "id": "adventure",
@@ -7680,7 +9114,9 @@
       "basis": "本区已确认D45/11月15日首次开启。倒计时尚无精确小时，按三天参考窗口预计D47/11月17日结束；开始日确认，结束日及具体时刻仍为推算。",
       "startEstimated": false,
       "endEstimated": true,
-      "observedDay": 45
+      "observedDay": 45,
+      "period": 2,
+      "hero": "剑仙"
     },
     {
       "id": "adventure-cycle",
@@ -7712,6 +9148,106 @@
       "status": "pending",
       "afterEventId": "sea-next",
       "basis": "本区确认海域结束后接冰火之歌；海域结束日未定，因此冰火起止日待核。"
+    },
+    {
+      "id": "training-nezha",
+      "activityId": "training",
+      "start": null,
+      "end": null,
+      "status": "pending",
+      "basis": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+      "period": 1,
+      "hero": "哪吒"
+    },
+    {
+      "id": "training-angel",
+      "activityId": "training",
+      "start": null,
+      "end": null,
+      "status": "pending",
+      "basis": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+      "period": 3,
+      "hero": "天使"
+    },
+    {
+      "id": "training-venom",
+      "activityId": "training",
+      "start": null,
+      "end": null,
+      "status": "pending",
+      "basis": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+      "period": 4,
+      "hero": "毒液"
+    },
+    {
+      "id": "training-daji",
+      "activityId": "training",
+      "start": null,
+      "end": null,
+      "status": "pending",
+      "basis": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+      "period": 5,
+      "hero": "妲己"
+    },
+    {
+      "id": "training-disla",
+      "activityId": "training",
+      "start": null,
+      "end": null,
+      "status": "pending",
+      "basis": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+      "period": 6,
+      "hero": "帝斯拉"
+    },
+    {
+      "id": "training-wukong",
+      "activityId": "training",
+      "start": null,
+      "end": null,
+      "status": "pending",
+      "basis": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+      "period": 7,
+      "hero": "孙悟空"
+    },
+    {
+      "id": "training-death-knight",
+      "activityId": "training",
+      "start": null,
+      "end": null,
+      "status": "pending",
+      "basis": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+      "period": 8,
+      "hero": "死亡骑士"
+    },
+    {
+      "id": "training-strike",
+      "activityId": "training",
+      "start": null,
+      "end": null,
+      "status": "pending",
+      "basis": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+      "period": 9,
+      "hero": "强袭"
+    },
+    {
+      "id": "training-thor",
+      "activityId": "training",
+      "start": null,
+      "end": null,
+      "status": "pending",
+      "basis": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+      "period": 10,
+      "hero": "雷神"
+    },
+    {
+      "id": "training-loki",
+      "activityId": "training",
+      "start": null,
+      "end": null,
+      "status": "pending",
+      "basis": "本区起止日期待定；UP招募日期不代替英雄试炼日期。",
+      "period": 11,
+      "hero": "洛姬"
     }
   ],
   "sources": [
@@ -9293,6 +10829,141 @@
       "publishedAt": "2026-11-09",
       "kind": "抖音图腾攻略",
       "note": "近期号角搭配建议。01:38必带、06:15可选、07:37保留；汇总榜单不替代红色道具弹窗。"
+    },
+    {
+      "id": "trial-nezha-june",
+      "title": "哪吒神木任务与材料说明",
+      "kind": "英雄试炼资料 · 2026-06-14",
+      "url": "https://news.17173.com/content/06142026/041537102.shtml",
+      "note": "玩家攻略转载；读取活动说明、祝福石及图腾面板。未提供完整三轮奖励截图。",
+      "publishedAt": "2026-06-14",
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "id": "trial-nezha-disla-march",
+      "title": "哪吒、帝斯拉与孙悟空试炼奖励对照",
+      "kind": "英雄试炼资料 · 2026-03-01",
+      "url": "https://news.17173.com/content/03012026/092805345.shtml",
+      "note": "旧版文字记录；哪吒D38不能套用当前新区。皮肤数量与全部三轮奖品尚未逐项核图。",
+      "publishedAt": "2026-03-01",
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "id": "trial-venom-group-jan",
+      "title": "天使、毒液、妲己可选英雄与神木玩法",
+      "kind": "英雄试炼资料 · 2026-01-22",
+      "url": "https://www.yxi5.com/gonglue/2008.html",
+      "note": "旧版三英雄可选记录，不足以证明毒液首次试炼的本区日期或独立三轮奖单。",
+      "publishedAt": "2026-01-22",
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "id": "trial-disla-feb",
+      "title": "帝斯拉试炼与机械巨兽奖励说明",
+      "kind": "英雄试炼资料 · 2026-02-07",
+      "url": "https://news.17173.com/content/02072026/094058653.shtml",
+      "note": "旧版玩家意见与文字奖励记录，未把文章发布日期或最后一天叙述平移为本区时间。",
+      "publishedAt": "2026-02-07",
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "id": "trial-death-april",
+      "title": "死亡骑士神木特训攻略",
+      "kind": "英雄试炼资料 · 2026-04-16",
+      "url": "https://news.17173.com/content/04162026/100510138.shtml",
+      "note": "确认死亡骑士试炼资料及卷轴储存说明；礼包方案有前提条件，未据此生成通用费用或三轮奖单。",
+      "publishedAt": "2026-04-16",
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "id": "trial-strike-may",
+      "title": "强袭与孙悟空神木玩法记录",
+      "kind": "英雄试炼资料 · 2026-05-12",
+      "url": "https://www.taptap.cn/moment/803241813438627878",
+      "note": "逐张核对原帖前5张强袭截图；首轮10格、第二轮图腾自选候选及第三轮上排5格可读。后续推荐内容图片不归入原帖奖池。",
+      "publishedAt": "2026-05-12",
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "id": "trial-thor-sept",
+      "title": "雷神试炼攻略视频入口",
+      "kind": "英雄试炼资料 · 2026-09-15",
+      "url": "https://www.taptap.cn/moment/848851200483788279",
+      "note": "核对标题、作者及日期；尚未逐帧观看，不声称完整奖单已经核实。",
+      "publishedAt": "2026-09-15",
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "id": "trial-loki-thor-oct",
+      "title": "洛姬神木与雷神切换、奖励及图腾面板",
+      "kind": "英雄试炼资料 · 2026-10-15",
+      "url": "https://www.taptap.cn/moment/859804500792182024",
+      "note": "逐张查看四张游戏截图：洛姬奖励预览、雷神至尊随机图腾概率、洛姬图腾面板、雷神试炼礼包。洛姬第三轮下排被截断；未认定完整奖单。37材料包含任务条件不明的部分，不当成全免费。",
+      "publishedAt": "2026-10-15",
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "id": "trial-nezha-d40",
+      "title": "哪吒D40试炼与沙海首期实录",
+      "kind": "英雄试炼原片 · 2026-10-31",
+      "url": "https://www.douyin.com/video/7702857788196812963",
+      "note": "作者波比大王标题记D40；00:30任务页剩2天17小时，支持该作者D40首日、D42结束的参考窗口；未确认为本区。",
+      "publishedAt": "2026-10-31",
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "id": "trial-angel-nov08-reviewed",
+      "title": "天使D60神木三轮实录",
+      "kind": "英雄试炼原片 · 2026-11-08",
+      "url": "https://www.douyin.com/video/7705699225341889832",
+      "note": "标题D60；01:06任务页剩2天9小时，支持该作者D60首日、D62末日。02:04招募剩7天9小时。不能将他区日序直接当成本区确认。",
+      "publishedAt": "2026-11-08",
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "id": "trial-venom-june-video",
+      "title": "毒液英雄试炼三轮预览",
+      "kind": "英雄试炼原片 · 2026-06-12",
+      "url": "https://www.douyin.com/video/7650191424113249582",
+      "note": "作者Leo。00:33预览可读前两轮10格及第三轮上排5格；第三轮下排被字幕遮挡。未标数字的数量不推成1，未取得开服日数。",
+      "publishedAt": "2026-06-12",
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "id": "trial-disla-oct-video",
+      "title": "帝斯拉神木三轮与可选英雄",
+      "kind": "英雄试炼原片 · 2026-10-26",
+      "url": "https://www.douyin.com/video/7700802565155546802",
+      "note": "作者子休。00:08可选毒液、妲己、帝斯拉；00:25帝斯拉三轮预览。前两轮逐格可读，第三轮下排被面板裁切。00:19是天使对照画面，不能误作妲己。",
+      "publishedAt": "2026-10-26",
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "id": "trial-thor-d139-video",
+      "title": "雷神首次试炼D139与三轮奖励",
+      "kind": "英雄试炼原片 · 2026-10-27",
+      "url": "https://www.douyin.com/video/7701337245961976218",
+      "note": "作者拾柒。00:04字幕记开服D139、标题首次试炼；00:30预览三轮。部分名称和第三轮下排数量未读清，保留缺失。",
+      "publishedAt": "2026-10-27",
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "id": "trial-loki-d146-video",
+      "title": "洛姬D146神木实录",
+      "kind": "英雄试炼原片 · 2026-11-09",
+      "url": "https://www.douyin.com/video/7706101912257761018",
+      "note": "攻略羊标题记D146；00:04页面倒计时仍为2天以上、00:12三轮预览。视频声明AI生成，日数作为作者自述参考，不确认为本区。",
+      "publishedAt": "2026-11-09",
+      "checkedAt": "2026-11-26"
+    },
+    {
+      "id": "trial-death-apr-video",
+      "title": "死亡骑士神木攻略与藏品选择",
+      "kind": "玩家原片 · 2026-04-15",
+      "url": "https://www.douyin.com/video/7628663050685451570",
+      "note": "查看作者原片。部分三轮预览显示已切换孙悟空，未误写为死亡骑士独立奖单；死骑完整三轮仍缺失。",
+      "publishedAt": "2026-04-15",
+      "checkedAt": "2026-11-26"
     }
   ],
   "excludedActivities": [
@@ -16087,6 +17758,134 @@
         "sourceWidth": 576,
         "sourceHeight": 1024
       }
+    },
+    {
+      "id": "trial-loki-rounds-oct",
+      "path": "assets/trial-loki-rounds-oct.png",
+      "sourceId": "trial-loki-thor-oct",
+      "caption": "洛姬 · 第一、二轮及第三轮部分奖励",
+      "version": "2026-10-15",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-thor-box-oct",
+      "path": "assets/trial-thor-box-oct.png",
+      "sourceId": "trial-loki-thor-oct",
+      "caption": "雷神 · 至尊随机图腾概率面板",
+      "version": "2026-10-15",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-loki-crown-oct",
+      "path": "assets/trial-loki-crown-oct.png",
+      "sourceId": "trial-loki-thor-oct",
+      "caption": "洛姬 · 熊王皇冠与图腾箱面板",
+      "version": "2026-10-15",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-thor-level-oct",
+      "path": "assets/trial-thor-level-oct.png",
+      "sourceId": "trial-loki-thor-oct",
+      "caption": "雷神 · 英雄试炼等级与礼包",
+      "version": "2026-10-15",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-nezha-rules-june",
+      "path": "assets/trial-nezha-rules-june.png",
+      "sourceId": "trial-nezha-june",
+      "caption": "神木特训 · 活动与材料规则",
+      "version": "2026-06-14",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-nezha-stone-june",
+      "path": "assets/trial-nezha-stone-june.png",
+      "sourceId": "trial-nezha-june",
+      "caption": "哪吒 · 稀有祝福石说明",
+      "version": "2026-06-14",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-nezha-d40-time",
+      "path": "assets/trial-nezha-d40-time.jpg",
+      "sourceId": "trial-nezha-d40",
+      "caption": "哪吒 · D40任务倒计时",
+      "version": "2026-10-31",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-angel-d60-time",
+      "path": "assets/trial-angel-d60-time.jpg",
+      "sourceId": "training-angel-nov",
+      "caption": "天使 · D60招募剩余时间",
+      "version": "2026-11-08",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-venom-june-rounds",
+      "path": "assets/trial-venom-june-rounds.jpg",
+      "sourceId": "trial-venom-june-video",
+      "caption": "毒液 · 前两轮及第三轮上排",
+      "version": "2026-06-12",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-daji-jan-rounds",
+      "path": "assets/trial-daji-jan-rounds.webp",
+      "sourceId": "training-jan-example",
+      "caption": "妲己 · 1月三轮30格奖励",
+      "version": "2026-01-17",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-disla-oct-rounds",
+      "path": "assets/trial-disla-oct-rounds.jpg",
+      "sourceId": "trial-disla-oct-video",
+      "caption": "帝斯拉 · 10月三轮奖励预览",
+      "version": "2026-10-26",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-strike-may-rounds",
+      "path": "assets/trial-strike-may-rounds.png",
+      "sourceId": "trial-strike-may",
+      "caption": "强袭 · 首轮与第三轮上排",
+      "version": "2026-05-12",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-strike-may-box",
+      "path": "assets/trial-strike-may-box.png",
+      "sourceId": "trial-strike-may",
+      "caption": "强袭 · 第二轮自选图腾箱候选",
+      "version": "2026-05-12",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-thor-oct-rounds",
+      "path": "assets/trial-thor-oct-rounds.jpg",
+      "sourceId": "trial-thor-d139-video",
+      "caption": "雷神 · 三轮奖励预览",
+      "version": "2026-10-27",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-thor-d139-time",
+      "path": "assets/trial-thor-d139-time.jpg",
+      "sourceId": "trial-thor-d139-video",
+      "caption": "雷神 · 首次试炼D139记录",
+      "version": "2026-10-27",
+      "role": "英雄试炼游戏截图"
+    },
+    {
+      "id": "trial-loki-d146-time",
+      "path": "assets/trial-loki-d146-time.jpg",
+      "sourceId": "trial-loki-d146-video",
+      "caption": "洛姬 · D146试炼倒计时",
+      "version": "2026-11-09",
+      "role": "英雄试炼游戏截图"
     }
   ],
   "rewardCatalog": [
