@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "revision": "2026-11-26-v6.8",
+  "revision": "2026-11-26-v6.8.1",
   "meta": {
     "title": "蔚蓝星球知识库",
     "updatedAt": "2026-11-26",
@@ -5270,6 +5270,169 @@
                 "trial-loki-thor-oct"
               ],
               "note": "前两轮20格 · 第三轮上排5格"
+            },
+            {
+              "id": "nezha-oct",
+              "hero": "哪吒",
+              "versionDate": "2026-10-31",
+              "title": "哪吒试炼 · 2026-10-31奖励",
+              "groupLabel": "2026-10-31奖励",
+              "how": "按同一来源的本英雄画面逐格记录；未标数的数量保留未知。",
+              "prizes": "前两轮20格 · 第三轮上排5格",
+              "rounds": [
+                {
+                  "round": 1,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "哪吒元神 · 格A",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "哪吒元神 · 格B",
+                      "quantity": 10
+                    },
+                    {
+                      "name": "稀有祝福石",
+                      "quantity": null
+                    },
+                    {
+                      "name": "机关核心",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "彩虹探测仪",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "超凡宝锤",
+                      "quantity": null
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 500
+                    },
+                    {
+                      "name": "体力",
+                      "quantity": 60
+                    },
+                    {
+                      "name": "随机职业经验",
+                      "quantity": 100
+                    },
+                    {
+                      "name": "职业经验（职业待核）",
+                      "quantity": 200
+                    }
+                  ],
+                  "missing": "",
+                  "media": [
+                    "trial-nezha-d40-time"
+                  ],
+                  "refs": [
+                    "trial-nezha-d40"
+                  ],
+                  "version": "2026-10-31",
+                  "note": ""
+                },
+                {
+                  "round": 2,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "哪吒元神",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "哪吒皮肤（名称、期限待核）",
+                      "quantity": null
+                    },
+                    {
+                      "name": "绝世随机图腾箱",
+                      "quantity": null
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 500
+                    },
+                    {
+                      "name": "彩虹探测仪",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "超凡宝锤",
+                      "quantity": null
+                    },
+                    {
+                      "name": "招募券",
+                      "quantity": 50
+                    },
+                    {
+                      "name": "体力",
+                      "quantity": 60
+                    },
+                    {
+                      "name": "职业经验（职业待核）",
+                      "quantity": 200
+                    },
+                    {
+                      "name": "随机职业经验",
+                      "quantity": 100
+                    }
+                  ],
+                  "missing": "",
+                  "media": [
+                    "trial-nezha-d40-time"
+                  ],
+                  "refs": [
+                    "trial-nezha-d40"
+                  ],
+                  "version": "2026-10-31",
+                  "note": ""
+                },
+                {
+                  "round": 3,
+                  "cost": null,
+                  "items": [
+                    {
+                      "name": "哪吒元神",
+                      "quantity": 5
+                    },
+                    {
+                      "name": "至尊随机图腾",
+                      "quantity": null
+                    },
+                    {
+                      "name": "哪吒皮肤 · 格A（名称、期限待核）",
+                      "quantity": null
+                    },
+                    {
+                      "name": "哪吒皮肤 · 格B（名称、期限待核）",
+                      "quantity": null
+                    },
+                    {
+                      "name": "钻石",
+                      "quantity": 800
+                    }
+                  ],
+                  "missing": "下排5格受到字幕遮挡，未确认清晰数量。",
+                  "media": [
+                    "trial-nezha-d40-time"
+                  ],
+                  "refs": [
+                    "trial-nezha-d40"
+                  ],
+                  "version": "2026-10-31",
+                  "note": ""
+                }
+              ],
+              "media": [
+                "trial-nezha-d40-time"
+              ],
+              "refs": [
+                "trial-nezha-d40"
+              ],
+              "note": "前两轮20格 · 第三轮上排5格"
             }
           ]
         }
@@ -5594,8 +5757,8 @@
           "slug": "nezha",
           "hero": "哪吒",
           "scheduleId": "training-nezha",
-          "summary": "按哪吒查看神木材料、祝福石及皮肤奖励记录。",
-          "coverage": "首轮10格文字记录 · 后两轮待核",
+          "summary": "按哪吒查看开启时间线索、三轮奖品与原始界面。",
+          "coverage": "前两轮20格 · 第三轮上排5格",
           "timingNote": "时间参考：他区D40开启，00:30剩2天17小时，参考窗口D40—D42。本区尚未实况确认，不自动写入本区日历。",
           "referenceObservations": [
             {
@@ -5612,7 +5775,9 @@
             }
           ],
           "selectableHeroes": [],
-          "rewardSetIds": [],
+          "rewardSetIds": [
+            "nezha-oct"
+          ],
           "videoSourceIds": [
             "trial-nezha-d40"
           ],
@@ -5626,20 +5791,7 @@
             "trial-nezha-stone-june",
             "trial-nezha-d40-time"
           ],
-          "roundNotes": [
-            {
-              "round": 1,
-              "text": "2026-10-31原片00:46：哪吒元神两格5、10，稀有祝福石、机关核心5、钻石500、彩虹探测仪5、超凡宝锤、体力60、随机职业经验100、职业经验200。无数字的数量与职业全名待核。"
-            },
-            {
-              "round": 2,
-              "text": "旧版文字提到绝世图腾与皮肤；逐格奖品、数量和期限待核。"
-            },
-            {
-              "round": 3,
-              "text": "旧版文字提到至尊图腾与皮肤；逐格奖品、数量和期限待核。"
-            }
-          ]
+          "roundNotes": []
         },
         {
           "period": 2,
@@ -10907,7 +11059,7 @@
       "title": "哪吒D40试炼与沙海首期实录",
       "kind": "英雄试炼原片 · 2026-10-31",
       "url": "https://www.douyin.com/video/7702857788196812963",
-      "note": "作者波比大王标题记D40；00:30任务页剩2天17小时，支持该作者D40首日、D42结束的参考窗口；未确认为本区。",
+      "note": "作者波比大王标题记D40；00:30任务页剩2天17小时，支持该作者D40首日、D42结束的参考窗口；未确认为本区。 00:42三轮预览，前两轮20格和第三轮上排5格可读，下排未补数量。",
       "publishedAt": "2026-10-31",
       "checkedAt": "2026-11-26"
     },
@@ -10959,7 +11111,7 @@
     {
       "id": "trial-death-apr-video",
       "title": "死亡骑士神木攻略与藏品选择",
-      "kind": "玩家原片 · 2026-04-15",
+      "kind": "英雄试炼原片 · 2026-04-15",
       "url": "https://www.douyin.com/video/7628663050685451570",
       "note": "查看作者原片。部分三轮预览显示已切换孙悟空，未误写为死亡骑士独立奖单；死骑完整三轮仍缺失。",
       "publishedAt": "2026-04-15",
@@ -17811,7 +17963,7 @@
       "id": "trial-nezha-d40-time",
       "path": "assets/trial-nezha-d40-time.jpg",
       "sourceId": "trial-nezha-d40",
-      "caption": "哪吒 · D40任务倒计时",
+      "caption": "哪吒 · D40三轮奖励预览",
       "version": "2026-10-31",
       "role": "英雄试炼游戏截图"
     },
@@ -17819,7 +17971,7 @@
       "id": "trial-angel-d60-time",
       "path": "assets/trial-angel-d60-time.jpg",
       "sourceId": "training-angel-nov",
-      "caption": "天使 · D60招募剩余时间",
+      "caption": "天使 · D60试炼与英雄等级",
       "version": "2026-11-08",
       "role": "英雄试炼游戏截图"
     },
